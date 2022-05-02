@@ -1,0 +1,3736 @@
+THERE_BE_DRAGONS_HERE
+FileDoesNotExistException: 'C:\Users\Home\Documents\Pharo\images\Pharo Mooc\pharo-local\iceberg\TinyBlog\.git\HEAD'
+2 May 2022 3:52:13.282151 pm
+
+VM: Win32 - X64 - 6.2 - CoInterpreter VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+StackToRegisterMappingCogit VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+VM: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm Date: Wed Jul 3 16:41:39 2019 CommitHash: 4e4c5b5a0 Plugins: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm
+
+Image: Pharo8.0.0 [Build information: Pharo-8.0.0+build.1136.sha.a153e04ae4e325509ed78bfe25c9ce560afb24b0 (64 Bit)]
+
+File>>openForWrite:
+	Receiver: a File
+	Arguments and temporary variables: 
+		writeMode: 	false
+		fileHandle: 	ni
+	Receiver's instance variables: 
+		name: 	'C:\Users\Home\Documents\Pharo\images\Pharo Mooc\pharo-local\iceberg\Tiny...etc...
+
+
+File>>openForRead
+	Receiver: a File
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		name: 	'C:\Users\Home\Documents\Pharo\images\Pharo Mooc\pharo-local\iceberg\Tiny...etc...
+
+
+File>>readStream
+	Receiver: a File
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		name: 	'C:\Users\Home\Documents\Pharo\images\Pharo Mooc\pharo-local\iceberg\Tiny...etc...
+
+
+FileHandle>>binaryReadStream
+	Receiver: a FileHandle
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		reference: 	File @ C:\Users\Home\Documents\Pharo\images\Pharo Mooc\pharo-local\i...etc...
+		writable: 	false
+		id: 	nil
+
+
+FileSystem>>binaryReadStreamOn:
+	Receiver: a FileSystem
+	Arguments and temporary variables: 
+		aResolvable: 	Path / 'C:' / 'Users' / 'Home' / 'Documents' / 'Pharo' / 'images' ...etc..
+	Receiver's instance variables: 
+		store: 	a WindowsStore
+
+
+FileReference>>binaryReadStream
+	Receiver: File @ C:\Users\Home\Documents\Pharo\images\Pharo Mooc\pharo-local\iceberg\TinyBlog\.git\H...etc...
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		filesystem: 	a FileSystem
+		path: 	Path / 'C:' / 'Users' / 'Home' / 'Documents' / 'Pharo' / 'images' / 'Phar...etc...
+
+
+FileReference(AbstractFileReference)>>readStreamEncoded:
+	Receiver: File @ C:\Users\Home\Documents\Pharo\images\Pharo Mooc\pharo-local\iceberg\TinyBlog\.git\H...etc...
+	Arguments and temporary variables: 
+		anEncoding: 	'utf8
+	Receiver's instance variables: 
+		filesystem: 	a FileSystem
+		path: 	Path / 'C:' / 'Users' / 'Home' / 'Documents' / 'Pharo' / 'images' / 'Phar...etc...
+
+
+FileReference>>readStream
+	Receiver: File @ C:\Users\Home\Documents\Pharo\images\Pharo Mooc\pharo-local\iceberg\TinyBlog\.git\H...etc...
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		filesystem: 	a FileSystem
+		path: 	Path / 'C:' / 'Users' / 'Home' / 'Documents' / 'Pharo' / 'images' / 'Phar...etc...
+
+
+FileLocator>>readStream
+	Receiver: {localDirectory}\iceberg\TinyBlog\.git\HEAD
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		origin: 	#localDirectory
+		path: 	Path * 'iceberg' / 'TinyBlog' / '.git' / 'HEAD'
+
+
+FileLocator(AbstractFileReference)>>readStreamDo:
+	Receiver: {localDirectory}\iceberg\TinyBlog\.git\HEAD
+	Arguments and temporary variables: 
+		aBlock: 	[ :stream | ^ stream contents ]
+		stream: 	ni
+	Receiver's instance variables: 
+		origin: 	#localDirectory
+		path: 	Path * 'iceberg' / 'TinyBlog' / '.git' / 'HEAD'
+
+
+FileLocator(AbstractFileReference)>>contents
+	Receiver: {localDirectory}\iceberg\TinyBlog\.git\HEAD
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		origin: 	#localDirectory
+		path: 	Path * 'iceberg' / 'TinyBlog' / '.git' / 'HEAD'
+
+
+IceGitUnbornBranch>>gitRef
+	Receiver: an IceGitUnbornBranch
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		repository: 	IceLibgitRepository(TinyBlog)
+
+
+IceGitUnbornBranch>>name
+	Receiver: an IceGitUnbornBranch
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		repository: 	IceLibgitRepository(TinyBlog)
+
+
+IceGitUnbornBranch(IceUnbornBranch)>>description
+	Receiver: an IceGitUnbornBranch
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		repository: 	IceLibgitRepository(TinyBlog)
+
+
+IceTipRepositoryModel>>branchName
+	Receiver: an IceTipRepositoryModel
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		entity: 	IceLibgitRepository(TinyBlog)
+		repositoryModel: 	nil
+
+
+IceTipCachedModel>>forwardMessage:
+	Receiver: an IceTipCachedModel(an IceTipRepositoryModel)
+	Arguments and temporary variables: 
+		aMessage: 	branchNam
+	Receiver's instance variables: 
+		realObject: 	an IceTipRepositoryModel
+		cache: 	an IceTipCache
+
+
+IceTipCachedModel>>doesNotUnderstand: #branchName
+	Receiver: an IceTipCachedModel(an IceTipRepositoryModel)
+	Arguments and temporary variables: 
+		aMessage: 	branchName
+		method: 	IceTipRepositoryModel>>#branchNam
+	Receiver's instance variables: 
+		realObject: 	an IceTipRepositoryModel
+		cache: 	an IceTipCache
+
+
+IceTipWorkingCopyModel>>branchName
+	Receiver: an IceTipWorkingCopyModel
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		sortingStrategy: 	an IceSortingStrategy
+		repositoryModel: 	an IceTipCachedModel(an IceTipRepositoryModel)
+
+
+IceTipBranchWithCommitStatusBarItem>>newStatusBarItemOn:
+	Receiver: an IceTipBranchWithCommitStatusBarItem
+	Arguments and temporary variables: 
+		aStatusBar: 	an IceTipStatusBa
+	Receiver's instance variables: 
+		contents: 	nil
+		help: 	nil
+		position: 	nil
+		model: 	an IceTipWorkingCopyModel
+
+
+[ :each | each position addItem: (each newStatusBarItemOn: self) into: self ] in IceTipStatusBar>>refresh
+	Receiver: an IceTipStatusBar
+	Arguments and temporary variables: 
+		each: 	an IceTipBranchWithCommitStatusBarIte
+	Receiver's instance variables: 
+		dependents: 	a DependentsArray(a MorphicContainerAdapter a MorphicContainerAdapt...etc...
+		announcer: 	an Announcer
+		focusOrder: 	nil
+		owner: 	an IceTipWorkingCopyBrowser
+		window: 	a NewValueHolder[ nil ]
+		spec: 	a SpecWrapper
+		extentHolder: 	a NewValueHolder[ nil ]
+		needRebuild: 	a NewValueHolder[ true ]
+		additionalKeyBindings: 	a Dictionary()
+		keyStrokesForNextFocusHolder: 	a CollectionValueHolder[ an Array() ]
+		keyStrokesForPreviousFocusHolder: 	a CollectionValueHolder[ an Array() ]
+		windowIcon: 	a NewValueHolder[ nil ]
+		aboutText: 	a NewValueHolder[ nil ]
+		askOkToClose: 	a NewValueHolder[ false ]
+		titleHolder: 	a CollectionValueHolder[ 'Untitled window' ]
+		panel: 	a MorphicGenericAdapter
+		leftPanel: 	a PanelMorph(835933184)
+		rightPanel: 	a PanelMorph(691267072)
+		items: 	an OrderedCollection(an IceTipBranchWithCommitStatusBarItem an IceTipSta...etc...
+		color: 	nil
+
+
+OrderedCollection>>do:
+	Receiver: an OrderedCollection(an IceTipBranchWithCommitStatusBarItem an IceTipStatusBarTargetItem)
+	Arguments and temporary variables: 
+		aBlock: 	[ :each | each position addItem: (each newStatusBarItemOn: self) into: ...etc...
+		index: 	
+	Receiver's instance variables: 
+		array: 	an Array(an IceTipBranchWithCommitStatusBarItem an IceTipStatusBarTarget...etc...
+		firstIndex: 	1
+		lastIndex: 	2
+
+
+IceTipStatusBar>>refresh
+	Receiver: an IceTipStatusBar
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		dependents: 	a DependentsArray(a MorphicContainerAdapter a MorphicContainerAdapt...etc...
+		announcer: 	an Announcer
+		focusOrder: 	nil
+		owner: 	an IceTipWorkingCopyBrowser
+		window: 	a NewValueHolder[ nil ]
+		spec: 	a SpecWrapper
+		extentHolder: 	a NewValueHolder[ nil ]
+		needRebuild: 	a NewValueHolder[ true ]
+		additionalKeyBindings: 	a Dictionary()
+		keyStrokesForNextFocusHolder: 	a CollectionValueHolder[ an Array() ]
+		keyStrokesForPreviousFocusHolder: 	a CollectionValueHolder[ an Array() ]
+		windowIcon: 	a NewValueHolder[ nil ]
+		aboutText: 	a NewValueHolder[ nil ]
+		askOkToClose: 	a NewValueHolder[ false ]
+		titleHolder: 	a CollectionValueHolder[ 'Untitled window' ]
+		panel: 	a MorphicGenericAdapter
+		leftPanel: 	a PanelMorph(835933184)
+		rightPanel: 	a PanelMorph(691267072)
+		items: 	an OrderedCollection(an IceTipBranchWithCommitStatusBarItem an IceTipSta...etc...
+		color: 	nil
+
+
+IceTipWorkingCopyBrowser>>refresh
+	Receiver: an IceTipWorkingCopyBrowser
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		dependents: 	a DependentsArray(a MorphicContainerAdapter a MorphicContainerAdapt...etc...
+		announcer: 	an Announcer
+		focusOrder: 	an OrderedCollection(a MorphicGenericAdapter)
+		owner: 	nil
+		window: 	a NewValueHolder[ a WindowPresenter ]
+		spec: 	a SpecWrapper
+		extentHolder: 	a NewValueHolder[ nil ]
+		needRebuild: 	a NewValueHolder[ true ]
+		additionalKeyBindings: 	a Dictionary()
+		keyStrokesForNextFocusHolder: 	a CollectionValueHolder[ an Array() ]
+		keyStrokesForPreviousFocusHolder: 	a CollectionValueHolder[ an Array() ]
+		windowIcon: 	a NewValueHolder[ nil ]
+		aboutText: 	a NewValueHolder[ nil ]
+		askOkToClose: 	a NewValueHolder[ false ]
+		titleHolder: 	a CollectionValueHolder[ 'Untitled window' ]
+		model: 	an IceTipWorkingCopyModel
+		toolbar: 	an IceTipToolbar
+		packageList: 	a MorphicGenericAdapter
+		statusBar: 	an IceTipStatusBar
+
+
+IceTipWorkingCopyBrowser>>refreshWhenRepository:
+	Receiver: an IceTipWorkingCopyBrowser
+	Arguments and temporary variables: 
+		ann: 	an IceRepositoryModifie
+	Receiver's instance variables: 
+		dependents: 	a DependentsArray(a MorphicContainerAdapter a MorphicContainerAdapt...etc...
+		announcer: 	an Announcer
+		focusOrder: 	an OrderedCollection(a MorphicGenericAdapter)
+		owner: 	nil
+		window: 	a NewValueHolder[ a WindowPresenter ]
+		spec: 	a SpecWrapper
+		extentHolder: 	a NewValueHolder[ nil ]
+		needRebuild: 	a NewValueHolder[ true ]
+		additionalKeyBindings: 	a Dictionary()
+		keyStrokesForNextFocusHolder: 	a CollectionValueHolder[ an Array() ]
+		keyStrokesForPreviousFocusHolder: 	a CollectionValueHolder[ an Array() ]
+		windowIcon: 	a NewValueHolder[ nil ]
+		aboutText: 	a NewValueHolder[ nil ]
+		askOkToClose: 	a NewValueHolder[ false ]
+		titleHolder: 	a CollectionValueHolder[ 'Untitled window' ]
+		model: 	an IceTipWorkingCopyModel
+		toolbar: 	an IceTipToolbar
+		packageList: 	a MorphicGenericAdapter
+		statusBar: 	an IceTipStatusBar
+
+
+WeakMessageSend>>value:
+	Receiver: a WeakMessageSend(#refreshWhenRepository: -> an IceTipWorkingCopyBrowser)
+	Arguments and temporary variables: 
+		anObject: 	an IceRepositoryModified
+		strongReceiver: 	an IceTipWorkingCopyBrowse
+	Receiver's instance variables: 
+		selector: 	#refreshWhenRepository:
+		shouldBeNil: 	#()
+		arguments: 	a WeakArray()
+
+
+WeakMessageSend>>cull:
+	Receiver: a WeakMessageSend(#refreshWhenRepository: -> an IceTipWorkingCopyBrowser)
+	Arguments and temporary variables: 
+		arg: 	an IceRepositoryModifie
+	Receiver's instance variables: 
+		selector: 	#refreshWhenRepository:
+		shouldBeNil: 	#()
+		arguments: 	a WeakArray()
+
+
+WeakMessageSend>>cull:cull:
+	Receiver: a WeakMessageSend(#refreshWhenRepository: -> an IceTipWorkingCopyBrowser)
+	Arguments and temporary variables: 
+		arg1: 	an IceRepositoryModified
+		arg2: 	an IceAnnounce
+	Receiver's instance variables: 
+		selector: 	#refreshWhenRepository:
+		shouldBeNil: 	#()
+		arguments: 	a WeakArray()
+
+
+[ action cull: anAnnouncement cull: announcer ] in WeakAnnouncementSubscription>>deliver:
+	Receiver: a WeakAnnouncementSubscription(a WeakMessageSend(#refreshWhenRepository: -> an IceTipWorki...etc...
+	Arguments and temporary variables: 
+		anAnnouncement: 	an IceRepositoryModifie
+	Receiver's instance variables: 
+		list: 	a WeakFinalizationList
+		next: 	nil
+		announcer: 	an IceAnnouncer
+		announcementClass: 	IceRepositoryAnnouncement
+		action: 	a WeakMessageSend(#refreshWhenRepository: -> an IceTipWorkingCopyBrowse...etc...
+
+
+BlockClosure>>on:do:
+	Receiver: [ action cull: anAnnouncement cull: announcer ]
+	Arguments and temporary variables: 
+		exception: 	UnhandledError
+		handlerAction: 	[ :ex | 
+| copy onDoCtx process handler bottom thisCtx |
+onDoCtx...etc..
+	Receiver's instance variables: 
+		outerContext: 	WeakAnnouncementSubscription>>deliver:
+		startpc: 	83
+		numArgs: 	0
+
+
+BlockClosure>>on:fork:
+	Receiver: [ action cull: anAnnouncement cull: announcer ]
+	Arguments and temporary variables: 
+		exception: 	UnhandledError
+		handlerAction: 	[ :ex | ex pass 
+	Receiver's instance variables: 
+		outerContext: 	WeakAnnouncementSubscription>>deliver:
+		startpc: 	83
+		numArgs: 	0
+
+
+WeakAnnouncementSubscription>>deliver:
+	Receiver: a WeakAnnouncementSubscription(a WeakMessageSend(#refreshWhenRepository: -> an IceTipWorki...etc...
+	Arguments and temporary variables: 
+THERE_BE_DRAGONS_HERE
+LGit_GIT_ENOTFOUND: Object not found - no match for id (81083cc713c962cbec171821d96512708e579be8)
+2 May 2022 3:57:12.952151 pm
+
+VM: Win32 - X64 - 6.2 - CoInterpreter VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+StackToRegisterMappingCogit VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+VM: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm Date: Wed Jul 3 16:41:39 2019 CommitHash: 4e4c5b5a0 Plugins: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm
+
+Image: Pharo8.0.0 [Build information: Pharo-8.0.0+build.1136.sha.a153e04ae4e325509ed78bfe25c9ce560afb24b0 (64 Bit)]
+
+LGitReturnCodeEnum>>handleLGitReturnCode
+	Receiver: a LGitReturnCodeEnum(#git_enotfound [-3])
+	Arguments and temporary variables: 
+		handler: 	LGit_GIT_ENOTFOUN
+	Receiver's instance variables: 
+		value: 	-3
+
+
+LGitTreeEntry(LGitExternalObject)>>withReturnHandlerDo:
+	Receiver: a LGitTreeEntry ('.project')
+	Arguments and temporary variables: 
+		callBlock: 	[ self tree_entry_to_object: object repo: self repository entry: sel...etc..
+	Receiver's instance variables: 
+		handle: 	@ 16r04303FE0
+		repository: 	a LGitRepository (C:\Users\Home\Documents\Pharo\images\Pharo Mooc\p...etc...
+		parent: 	nil
+
+
+LGitTreeEntry>>object
+	Receiver: a LGitTreeEntry ('.project')
+	Arguments and temporary variables: 
+		object: 	a LGitBlob (<not initialized>
+	Receiver's instance variables: 
+		handle: 	@ 16r04303FE0
+		repository: 	a LGitRepository (C:\Users\Home\Documents\Pharo\images\Pharo Mooc\p...etc...
+		parent: 	nil
+
+
+LGitFileHandle>>readStream
+	Receiver: a LGitFileHandle
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		reference: 	git:///.project
+		writable: 	false
+		entry: 	a LGitTreeEntry ('.project')
+
+
+LGitFileHandle>>binaryReadStream
+	Receiver: a LGitFileHandle
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		reference: 	git:///.project
+		writable: 	false
+		entry: 	a LGitTreeEntry ('.project')
+
+
+FileSystem>>binaryReadStreamOn:
+	Receiver: a FileSystem
+	Arguments and temporary variables: 
+		aResolvable: 	Path / '.project
+	Receiver's instance variables: 
+		store: 	a LGitCommitStore
+
+
+FileReference>>binaryReadStream
+	Receiver: git:///.project
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		filesystem: 	a FileSystem
+		path: 	Path / '.project'
+
+
+FileReference(AbstractFileReference)>>binaryReadStreamDo:
+	Receiver: git:///.project
+	Arguments and temporary variables: 
+		aBlock: 	[ :stream | STON fromStream: (ZnCharacterReadStream on: stream encoding...etc...
+		stream: 	ni
+	Receiver's instance variables: 
+		filesystem: 	a FileSystem
+		path: 	Path / '.project'
+
+
+IceBasicProjectReader>>readProjectFromCommitish:
+	Receiver: an IceBasicProjectReader
+	Arguments and temporary variables: 
+		anIceCommitish: 	IceGitCommit(1bb2bedf017e63399f5834ab034caf6b5a5a3fe4)
+		properties: 	nil
+		projectFileReference: 	git:///.projec
+	Receiver's instance variables: 
+an IceBasicProjectReader
+
+IceProjectReader class>>readProjectFrom:
+	Receiver: IceProjectReader
+	Arguments and temporary variables: 
+		anIceCommitish: 	IceGitCommit(1bb2bedf017e63399f5834ab034caf6b5a5a3fe4)
+		readers: 	an OrderedCollection(an IceBasicProjectReader an IceUnbornProjectReade...etc..
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#canReadProjectFromCommitish:->IceProjectReader>...etc...
+		format: 	0
+		layout: 	a FixedLayout
+		organization: 	a ClassOrganization
+		subclasses: 	{IceBasicProjectReader. IceInvalidProjectReader. IceUnbornProjectRe...etc...
+		name: 	#IceProjectReader
+		classPool: 	a Dictionary()
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Iceberg-Project'
+
+
+[ IceProjectReader readProjectFrom: self ] in IceGitCommit>>project
+	Receiver: IceGitCommit(1bb2bedf017e63399f5834ab034caf6b5a5a3fe4)
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		repository: 	IceLibgitRepository(TinyBlog)
+		id: 	'1bb2bedf017e63399f5834ab034caf6b5a5a3fe4'
+		author: 	'Luka'
+		datetime: 	2022-05-02T15:48:48+02:00
+		ancestorIds: 	#()
+		comment: 	'Initial class commit from Iceberg'
+
+
+BlockClosure>>on:do:
+	Receiver: [ IceProjectReader readProjectFrom: self ]
+	Arguments and temporary variables: 
+		exception: 	NotFound
+		handlerAction: 	[ self repository fetch.
+IceProjectReader readProjectFrom: self ...etc..
+	Receiver's instance variables: 
+		outerContext: 	IceGitCommit>>project
+		startpc: 	97
+		numArgs: 	0
+
+
+IceGitCommit>>project
+	Receiver: IceGitCommit(1bb2bedf017e63399f5834ab034caf6b5a5a3fe4)
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		repository: 	IceLibgitRepository(TinyBlog)
+		id: 	'1bb2bedf017e63399f5834ab034caf6b5a5a3fe4'
+		author: 	'Luka'
+		datetime: 	2022-05-02T15:48:48+02:00
+		ancestorIds: 	#()
+		comment: 	'Initial class commit from Iceberg'
+
+
+IceBasicProject(IceAbstractProject)>>isDirty
+	Receiver: an IceBasicProject
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		commitish: 	IceGitCommit(1bb2bedf017e63399f5834ab034caf6b5a5a3fe4)
+		properties: 	a Dictionary('srcDirectory'->'src' )
+
+
+IceWorkingCopy>>isModified
+	Receiver: an IceWorkingCopy
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		repository: 	IceLibgitRepository(TinyBlog)
+		packages: 	a Dictionary(#TinyBlog->IcePackage(TinyBlog, loaded) )
+		referenceCommit: 	IceGitCommit(1bb2bedf017e63399f5834ab034caf6b5a5a3fe4)
+		shouldIgnoreNotifications: 	false
+		project: 	an IceBasicProject
+		properties: 	an IceRepositoryProperties
+
+
+IceLibgitRepository(IceRepository)>>isModified
+	Receiver: IceLibgitRepository(TinyBlog)
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		name: 	'TinyBlog'
+		workingCopy: 	an IceWorkingCopy
+		index: 	an IceGitIndex
+		commitsInPackageCache: 	a LRUCache(#1 1/30 [ 1 ] 75%)
+		location: 	{localDirectory}\iceberg\TinyBlog
+		commitCache: 	a LRUCache(#1 1/30 [ 1 ] 89%)
+		handle: 	a LGitRepository (C:\Users\Home\Documents\Pharo\images\Pharo Mooc\pharo...etc...
+
+
+IceLibgitRepository>>isModified
+	Receiver: IceLibgitRepository(TinyBlog)
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		name: 	'TinyBlog'
+		workingCopy: 	an IceWorkingCopy
+		index: 	an IceGitIndex
+		commitsInPackageCache: 	a LRUCache(#1 1/30 [ 1 ] 75%)
+		location: 	{localDirectory}\iceberg\TinyBlog
+		commitCache: 	a LRUCache(#1 1/30 [ 1 ] 89%)
+		handle: 	a LGitRepository (C:\Users\Home\Documents\Pharo\images\Pharo Mooc\pharo...etc...
+
+
+IceTipRepositoryModel>>descriptionWithDecoration
+	Receiver: an IceTipRepositoryModel
+	Arguments and temporary variables: 
+		text: 	a Text for 'TinyBlog
+	Receiver's instance variables: 
+		entity: 	IceLibgitRepository(TinyBlog)
+		repositoryModel: 	nil
+
+
+IceTipCachedModel>>forwardMessage:
+	Receiver: an IceTipCachedModel(an IceTipRepositoryModel)
+	Arguments and temporary variables: 
+		aMessage: 	descriptionWithDecoratio
+	Receiver's instance variables: 
+		realObject: 	an IceTipRepositoryModel
+		cache: 	an IceTipCache
+
+
+IceTipCachedModel>>doesNotUnderstand: #descriptionWithDecoration
+	Receiver: an IceTipCachedModel(an IceTipRepositoryModel)
+	Arguments and temporary variables: 
+		aMessage: 	descriptionWithDecoration
+		method: 	IceTipRepositoryModel>>#descriptionWithDecoratio
+	Receiver's instance variables: 
+		realObject: 	an IceTipRepositoryModel
+		cache: 	an IceTipCache
+
+
+ByteSymbol(Symbol)>>value:
+	Receiver: #descriptionWithDecoration
+	Arguments and temporary variables: 
+		anObject: 	an IceTipCachedModel(an IceTipRepositoryModel
+	Receiver's instance variables: 
+#descriptionWithDecoration
+
+IceTipTableColumn>>read:
+	Receiver: an IceTipTableColumn
+	Arguments and temporary variables: 
+		anObject: 	an IceTipCachedModel(an IceTipRepositoryModel
+	Receiver's instance variables: 
+		id: 	'Name'
+		width: 	200
+		sortingStrategy: 	a FTNullColumnSortingStrategy
+		action: 	#descriptionWithDecoration
+		icon: 	nil
+
+
+IceTipDataSource>>cellColumn:row:
+	Receiver: an IceTipDataSource
+	Arguments and temporary variables: 
+		column: 	an IceTipTableColumn
+		rowIndex: 	1
+		item: 	an IceTipCachedModel(an IceTipRepositoryModel)
+		cell: 	a FTCellMorph(505244672
+	Receiver's instance variables: 
+		table: 	a FTTableMorph(498740480)
+		elements: 	an OrderedCollection(an IceTipCachedModel(an IceTipRepositoryModel))
+		unsortedElements: 	nil
+		tool: 	an IceTipRepositoriesBrowser
+
+
+[ :columnIndex | 
+| cell |
+cell := self table dataSource
+	cellColumn: (columns at: columnIndex)
+	row: rowIndex.
+cell width: (columnWidths at: columnIndex).
+row addMorphBack: cell ] in FTTableContainerMorph>>updateExposedRows
+	Receiver: a FTTableContainerMorph(702838016)
+	Arguments and temporary variables: 
+<<error during printing>
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (37@40)
+		owner: 	a FTTableMorph(498740480)
+		submorphs: 	#()
+		fullBounds: 	nil
+		color: 	Color transparent
+		extension: 	nil
+		needsRefreshExposedRows: 	true
+		headerRow: 	nil
+		exposedRows: 	a SmallDictionary()
+		startColumnIndex: 	0
+
+
+Interval>>do:
+	Receiver: (1 to: 3)
+	Arguments and temporary variables: 
+		aBlock: 	[ :columnIndex | 
+| cell |
+cell := self table dataSource
+	cellColumn: (...etc...
+		aValue: 	1
+		index: 	1
+		size: 	
+	Receiver's instance variables: 
+		start: 	1
+		stop: 	3
+		step: 	1
+
+
+FTTableContainerMorph>>updateExposedRows
+	Receiver: a FTTableContainerMorph(702838016)
+	Arguments and temporary variables: 
+<<error during printing>
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (37@40)
+		owner: 	a FTTableMorph(498740480)
+		submorphs: 	#()
+		fullBounds: 	nil
+		color: 	Color transparent
+		extension: 	nil
+		needsRefreshExposedRows: 	true
+		headerRow: 	nil
+		exposedRows: 	a SmallDictionary()
+		startColumnIndex: 	0
+
+
+FTTableMorph>>resetPosition
+	Receiver: a FTTableMorph(498740480)
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (50@40)
+		owner: 	nil
+		submorphs: 	an Array(a FTTableContainerMorph(702838016) a ScrollBar(810343168))
+		fullBounds: 	nil
+		color: 	(Color r: 0.1300097751710655 g: 0.1300097751710655 b: 0.1300097751710655...etc...
+		extension: 	a MorphExtension (98211328) [other:  (announcer -> an Announcer) (km...etc...
+		container: 	a FTTableContainerMorph(702838016)
+		verticalScrollBar: 	a ScrollBar(810343168)
+		horizontalScrollBar: 	nil
+		selectionColor: 	nil
+		selectedIndexes: 	#()
+		highlightedIndexes: 	#()
+		showIndex: 	1
+		dataSource: 	an IceTipDataSource
+		intercellSpacing: 	nil
+		rowHeight: 	20.333333333333336
+		selectionStrategy: 	a FTSimpleSelection
+		columns: 	an Array(an IceTipTableColumn an IceTipTableColumn an IceTipTableColum...etc...
+		secondarySelectionColor: 	nil
+		headerColor: 	nil
+		showColumnHeaders: 	true
+		allowsDeselection: 	nil
+		needToggleAtMouseUp: 	false
+		function: 	a FTSearchFunction
+		resizable: 	true
+		selectionModeStrategy: 	a FTRowSelectionModeStrategy
+
+
+FTTableMorph>>dataSource:
+	Receiver: a FTTableMorph(498740480)
+	Arguments and temporary variables: 
+		anObject: 	an IceTipDataSourc
+	Receiver's instance variables: 
+		bounds: 	(0@0) corner: (50@40)
+		owner: 	nil
+		submorphs: 	an Array(a FTTableContainerMorph(702838016) a ScrollBar(810343168))
+		fullBounds: 	nil
+		color: 	(Color r: 0.1300097751710655 g: 0.1300097751710655 b: 0.1300097751710655...etc...
+		extension: 	a MorphExtension (98211328) [other:  (announcer -> an Announcer) (km...etc...
+		container: 	a FTTableContainerMorph(702838016)
+		verticalScrollBar: 	a ScrollBar(810343168)
+		horizontalScrollBar: 	nil
+		selectionColor: 	nil
+		selectedIndexes: 	#()
+		highlightedIndexes: 	#()
+		showIndex: 	1
+		dataSource: 	an IceTipDataSource
+		intercellSpacing: 	nil
+		rowHeight: 	20.333333333333336
+		selectionStrategy: 	a FTSimpleSelection
+		columns: 	an Array(an IceTipTableColumn an IceTipTableColumn an IceTipTableColum...etc...
+		secondarySelectionColor: 	nil
+		headerColor: 	nil
+		showColumnHeaders: 	true
+		allowsDeselection: 	nil
+		needToggleAtMouseUp: 	false
+		function: 	a FTSearchFunction
+		resizable: 	true
+		selectionModeStrategy: 	a FTRowSelectionModeStrategy
+
+
+IceTipRepositoriesBrowser>>initializeRepositoryList
+	Receiver: an IceTipRepositoriesBrowser
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		dependents: 	nil
+		announcer: 	an Announcer
+		focusOrder: 	nil
+		owner: 	nil
+		window: 	a NewValueHolder[ nil ]
+		spec: 	nil
+		extentHolder: 	a NewValueHolder[ nil ]
+		needRebuild: 	a NewValueHolder[ true ]
+		additionalKeyBindings: 	a Dictionary()
+		keyStrokesForNextFocusHolder: 	a CollectionValueHolder[ an Array() ]
+		keyStrokesForPreviousFocusHolder: 	a CollectionValueHolder[ an Array() ]
+		windowIcon: 	a NewValueHolder[ nil ]
+		aboutText: 	a NewValueHolder[ nil ]
+		askOkToClose: 	a NewValueHolder[ false ]
+		titleHolder: 	a CollectionValueHolder[ 'Untitled window' ]
+		model: 	an IceTipRepositoriesModel
+		toolbar: 	an IceTipToolbar
+		repositoryList: 	a MorphicGenericAdapter
+
+
+IceTipRepositoriesBrowser>>initializeWidgets
+	Receiver: an IceTipRepositoriesBrowser
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		dependents: 	nil
+		announcer: 	an Announcer
+		focusOrder: 	nil
+		owner: 	nil
+		window: 	a NewValueHolder[ nil ]
+		spec: 	nil
+		extentHolder: 	a NewValueHolder[ nil ]
+		needRebuild: 	a NewValueHolder[ true ]
+		additionalKeyBindings: 	a Dictionary()
+		keyStrokesForNextFocusHolder: 	a CollectionValueHolder[ an Array() ]
+		keyStrokesForPreviousFocusHolder: 	a CollectionValueHolder[ an Array() ]
+		windowIcon: 	a NewValueHolder[ nil ]
+		aboutText: 	a NewValueHolder[ nil ]
+		askOkToClose: 	a NewValueHolder[ false ]
+		titleHolder: 	a CollectionValueHolder[ 'Untitled window' ]
+		model: 	an IceTipRepositoriesModel
+		toolbar: 	an IceTipToolbar
+		repositoryList: 	a MorphicGenericAdapter
+
+
+IceTipRepositoriesBrowser(ComposablePresenter)>>initializePrivateHooks
+	Receiver: an IceTipRepositoriesBrowser
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		dependents: 	nil
+		announcer: 	an Announcer
+		focusOrder: 	nil
+		owner: 	nil
+		window: 	a NewValueHolder[ nil ]
+		spec: 	nil
+		extentHolder: 	a NewValueHolder[ nil ]
+		needRebuild: 	a NewValueHolder[ true ]
+		additionalKeyBindings: 	a Dictionary()
+		keyStrokesForNextFocusHolder: 	a CollectionValueHolder[ an Array() ]
+		keyStrokesForPreviousFocusHolder: 	a CollectionValueHolder[ an Array() ]
+		windowIcon: 	a NewValueHolder[ nil ]
+		aboutText: 	a NewValueHolder[ nil ]
+		askOkToClose: 	a NewValueHolder[ false ]
+		titleHolder: 	a CollectionValueHolder[ 'Untitled window' ]
+		model: 	an IceTipRepositoriesModel
+		toolbar: 	an IceTipToolbar
+		repositoryList: 	a MorphicGenericAdapter
+
+
+IceTipRepositoriesBrowser(ComposablePresenter)>>initialize
+	Receiver: an IceTipRepositoriesBrowser
+	Arguments and temporary variables: 
+THERE_BE_DRAGONS_HERE
+#isTemp was sent to nil
+2 May 2022 4:09:33.128151 pm
+
+VM: Win32 - X64 - 6.2 - CoInterpreter VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+StackToRegisterMappingCogit VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+VM: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm Date: Wed Jul 3 16:41:39 2019 CommitHash: 4e4c5b5a0 Plugins: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm
+
+Image: Pharo8.0.0 [Build information: Pharo-8.0.0+build.1136.sha.a153e04ae4e325509ed78bfe25c9ce560afb24b0 (64 Bit)]
+
+UndefinedObject(Object)>>doesNotUnderstand: #isTemp
+	Receiver: nil
+	Arguments and temporary variables: 
+		aMessage: 	isTemp
+		exception: 	MessageNotUnderstood: receiver of "isTemp" is nil
+		resumeValue: 	ni
+	Receiver's instance variables: 
+nil
+
+UndefinedObject>>doesNotUnderstand: #isTemp
+	Receiver: nil
+	Arguments and temporary variables: 
+		aMessage: 	isTemp
+		exception: 	nil
+		resumeValue: 	nil
+		node: 	ni
+	Receiver's instance variables: 
+nil
+
+OCASTSemanticAnalyzer>>visitVariableNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aVariableNode: 	RBVariableNode(testSize)
+		var: 	ni
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBVariableNode>>acceptVisitor:
+	Receiver: RBVariableNode(testSize)
+	Arguments and temporary variables: 
+		aProgramNodeVisitor: 	an OCASTSemanticAnalyze
+	Receiver's instance variables: 
+		parent: 	RBMessageNode(testSize self)
+		properties: 	nil
+		parentheses: 	nil
+		name: 	#testSize
+		start: 	1
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	RBVariableNode(testSize
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aMessageNode: 	RBMessageNode(testSize self
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBMessageNode>>acceptVisitor:
+	Receiver: RBMessageNode(testSize self)
+	Arguments and temporary variables: 
+		aProgramNodeVisitor: 	an OCASTSemanticAnalyze
+	Receiver's instance variables: 
+		parent: 	RBMessageNode(testSize self assert: blog size equals: 1)
+		properties: 	nil
+		parentheses: 	nil
+		receiver: 	RBVariableNode(testSize)
+		selector: 	#self
+		keywordsPositions: 	an IntegerArray(11)
+		arguments: 	#()
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	RBMessageNode(testSize self
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aMessageNode: 	RBMessageNode(testSize self assert: blog size equals: 1
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBMessageNode>>acceptVisitor:
+	Receiver: RBMessageNode(testSize self assert: blog size equals: 1)
+	Arguments and temporary variables: 
+		aProgramNodeVisitor: 	an OCASTSemanticAnalyze
+	Receiver's instance variables: 
+		parent: 	RBReturnNode(^ testSize self assert: blog size equals: 1)
+		properties: 	nil
+		parentheses: 	nil
+		receiver: 	RBMessageNode(testSize self)
+		selector: 	#assert:equals:
+		keywordsPositions: 	an IntegerArray(16 34)
+		arguments: 	an OrderedCollection(RBMessageNode(blog size) RBLiteralValueNode(1))...etc...
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	RBMessageNode(testSize self assert: blog size equals: 1
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitReturnNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aReturnNode: 	RBReturnNode(^ testSize self assert: blog size equals: 1
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBReturnNode>>acceptVisitor:
+	Receiver: RBReturnNode(^ testSize self assert: blog size equals: 1)
+	Arguments and temporary variables: 
+		aProgramNodeVisitor: 	an OCASTSemanticAnalyze
+	Receiver's instance variables: 
+		parent: 	RBSequenceNode(^ testSize self assert: blog size equals: 1)
+		properties: 	nil
+		return: 	0
+		value: 	RBMessageNode(testSize self assert: blog size equals: 1)
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	RBReturnNode(^ testSize self assert: blog size equals: 1
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+[ :each | self visitNode: each ] in OCASTSemanticAnalyzer>>visitSequenceNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aSequenceNode: 	RBSequenceNode(^ testSize self assert: blog size equals: 1)
+		each: 	RBReturnNode(^ testSize self assert: blog size equals: 1
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+Array(SequenceableCollection)>>do:
+	Receiver: an Array(RBReturnNode(^ testSize self assert: blog size equals: 1))
+	Arguments and temporary variables: 
+		aBlock: 	[ :each | self visitNode: each ]
+		index: 	
+	Receiver's instance variables: 
+an Array(RBReturnNode(^ testSize self assert: blog size equals: 1))
+
+OCASTSemanticAnalyzer>>visitSequenceNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aSequenceNode: 	RBSequenceNode(^ testSize self assert: blog size equals: 1
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBSequenceNode>>acceptVisitor:
+	Receiver: RBSequenceNode(^ testSize self assert: blog size equals: 1)
+	Arguments and temporary variables: 
+		aProgramNodeVisitor: 	an OCASTSemanticAnalyze
+	Receiver's instance variables: 
+		parent: 	DoIt
+	^ testSize self assert: blog size equals: 1
+		properties: 	nil
+		leftBar: 	nil
+		rightBar: 	nil
+		statements: 	an Array(RBReturnNode(^ testSize self assert: blog size equals: 1))...etc...
+		periods: 	#()
+		temporaries: 	#()
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	RBSequenceNode(^ testSize self assert: blog size equals: 1
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+OCASTSemanticAnalyzer>>visitMethodNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aMethodNode: 	DoIt
+	^ testSize self assert: blog size equals: 
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBMethodNode>>acceptVisitor:
+	Receiver: DoIt
+	^ testSize self assert: blog size equals: 1
+	Arguments and temporary variables: 
+		aProgramNodeVisitor: 	an OCASTSemanticAnalyze
+	Receiver's instance variables: 
+		parent: 	nil
+		properties: 	nil
+		scope: 	an OCMethodScope 4
+		selector: 	#DoIt
+		keywordsPositions: 	nil
+		body: 	RBSequenceNode(^ testSize self assert: blog size equals: 1)
+		source: 	nil
+		arguments: 	#()
+		pragmas: 	nil
+		replacements: 	a SortedCollection()
+		nodeReplacements: 	an IdentityDictionary()
+		compilationContext: 	a CompilationContext
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	DoIt
+	^ testSize self assert: blog size equals: 
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+OCASTSemanticAnalyzer>>analyze:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	DoIt
+	^ testSize self assert: blog size equals: 
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBMethodNode>>doSemanticAnalysis
+	Receiver: DoIt
+	^ testSize self assert: blog size equals: 1
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		parent: 	nil
+		properties: 	nil
+		scope: 	an OCMethodScope 4
+		selector: 	#DoIt
+		keywordsPositions: 	nil
+		body: 	RBSequenceNode(^ testSize self assert: blog size equals: 1)
+		source: 	nil
+		arguments: 	#()
+		pragmas: 	nil
+		replacements: 	a SortedCollection()
+		nodeReplacements: 	an IdentityDictionary()
+		compilationContext: 	a CompilationContext
+
+
+[ ast doSemanticAnalysis ] in OpalCompiler>>doSemanticAnalysis
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ testSize self assert: blog size equals: 1
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+BlockClosure>>on:do:
+	Receiver: [ ast doSemanticAnalysis ]
+	Arguments and temporary variables: 
+		exception: 	OCSemanticError
+		handlerAction: 	[ :ex | 
+ex defaultAction.
+^ self compilationContext failBlock v...etc..
+	Receiver's instance variables: 
+		outerContext: 	OpalCompiler>>doSemanticAnalysis
+		startpc: 	77
+		numArgs: 	0
+
+
+OpalCompiler>>doSemanticAnalysis
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ testSize self assert: blog size equals: 1
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+[ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ] in [ [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ]
+	on: ReparseAfterSourceEditing
+	do: [ :notification | 
+		self source: notification newSource.
+		notification retry ].
+cm := compilationContext optionEmbeddSources
+	ifTrue: [ ast generateWithSource ]
+	ifFalse: [ ast generate: self compilationContext compiledMethodTrailer ] ] in OpalCompiler>>compile
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		cm: 	ni
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ testSize self assert: blog size equals: 1
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+BlockClosure>>on:do:
+	Receiver: [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ]
+	Arguments and temporary variables: 
+		exception: 	ReparseAfterSourceEditing
+		handlerAction: 	[ :notification | 
+self source: notification newSource.
+notifica...etc..
+	Receiver's instance variables: 
+		outerContext: 	[ [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self...etc...
+		startpc: 	245
+		numArgs: 	0
+
+
+[ [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ]
+	on: ReparseAfterSourceEditing
+	do: [ :notification | 
+		self source: notification newSource.
+		notification retry ].
+cm := compilationContext optionEmbeddSources
+	ifTrue: [ ast generateWithSource ]
+	ifFalse: [ ast generate: self compilationContext compiledMethodTrailer ] ] in OpalCompiler>>compile
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		cm: 	ni
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ testSize self assert: blog size equals: 1
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+BlockClosure>>on:do:
+	Receiver: [ [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ]
+	on: Repar...etc...
+	Arguments and temporary variables: 
+		exception: 	SyntaxErrorNotification
+		handlerAction: 	[ :exception | 
+self compilationContext requestor
+	ifNotNil: [ s...etc..
+	Receiver's instance variables: 
+		outerContext: 	OpalCompiler>>compile
+		startpc: 	241
+		numArgs: 	0
+
+
+OpalCompiler>>compile
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		cm: 	ni
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ testSize self assert: blog size equals: 1
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	ni
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ testSize self assert: blog size equals: 1
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+ClySystemEnvironment>>compileANewClassFrom:notifying:startingFrom:
+	Receiver: a ClySystemEnvironment(current image)
+	Arguments and temporary variables: 
+		aString: 	'testSize
+	self assert: blog size equals: 1
+'
+		aController: 	a RubScrolledTextMorph(737210624)
+		aClass: 	TBBlogTest
+		oldClass: 	TBBlogTest
+		class: 	nil
+		newClassName: 	'testSize'
+		defTokens: 	an OrderedCollection('testSize' 'self' 'assert:' 'blog' 'size' 'equa...etc...
+		keywdIx: 	0
+		classCompiler: 	an OpalCompile
+	Receiver's instance variables: 
+		name: 	'current image'
+		globals: 	a SystemDictionary(lots of globals)
+		changesAnnouncer: 	a SystemAnnouncer
+		packageOrganizer: 	a RPackageOrganizer
+		projectManager: 	a ClyProjectManagerRegistry
+
+
+ClyFullBrowser>>compileANewClassFrom:notifying:startingFrom:
+	Receiver: a ClyFullBrowser(798388224)
+	Arguments and temporary variables: 
+THERE_BE_DRAGONS_HERE
+#isTemp was sent to nil
+2 May 2022 4:09:57.172151 pm
+
+VM: Win32 - X64 - 6.2 - CoInterpreter VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+StackToRegisterMappingCogit VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+VM: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm Date: Wed Jul 3 16:41:39 2019 CommitHash: 4e4c5b5a0 Plugins: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm
+
+Image: Pharo8.0.0 [Build information: Pharo-8.0.0+build.1136.sha.a153e04ae4e325509ed78bfe25c9ce560afb24b0 (64 Bit)]
+
+UndefinedObject(Object)>>doesNotUnderstand: #isTemp
+	Receiver: nil
+	Arguments and temporary variables: 
+		aMessage: 	isTemp
+		exception: 	MessageNotUnderstood: receiver of "isTemp" is nil
+		resumeValue: 	ni
+	Receiver's instance variables: 
+nil
+
+UndefinedObject>>doesNotUnderstand: #isTemp
+	Receiver: nil
+	Arguments and temporary variables: 
+		aMessage: 	isTemp
+		exception: 	nil
+		resumeValue: 	nil
+		node: 	ni
+	Receiver's instance variables: 
+nil
+
+OCASTSemanticAnalyzer>>visitVariableNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aVariableNode: 	RBVariableNode(testSize)
+		var: 	ni
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBVariableNode>>acceptVisitor:
+	Receiver: RBVariableNode(testSize)
+	Arguments and temporary variables: 
+		aProgramNodeVisitor: 	an OCASTSemanticAnalyze
+	Receiver's instance variables: 
+		parent: 	RBMessageNode(testSize self)
+		properties: 	nil
+		parentheses: 	nil
+		name: 	#testSize
+		start: 	1
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	RBVariableNode(testSize
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aMessageNode: 	RBMessageNode(testSize self
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBMessageNode>>acceptVisitor:
+	Receiver: RBMessageNode(testSize self)
+	Arguments and temporary variables: 
+		aProgramNodeVisitor: 	an OCASTSemanticAnalyze
+	Receiver's instance variables: 
+		parent: 	RBMessageNode(testSize self assert: blog size equals: 1)
+		properties: 	nil
+		parentheses: 	nil
+		receiver: 	RBVariableNode(testSize)
+		selector: 	#self
+		keywordsPositions: 	an IntegerArray(11)
+		arguments: 	#()
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	RBMessageNode(testSize self
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aMessageNode: 	RBMessageNode(testSize self assert: blog size equals: 1
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBMessageNode>>acceptVisitor:
+	Receiver: RBMessageNode(testSize self assert: blog size equals: 1)
+	Arguments and temporary variables: 
+		aProgramNodeVisitor: 	an OCASTSemanticAnalyze
+	Receiver's instance variables: 
+		parent: 	RBReturnNode(^ testSize self assert: blog size equals: 1)
+		properties: 	nil
+		parentheses: 	nil
+		receiver: 	RBMessageNode(testSize self)
+		selector: 	#assert:equals:
+		keywordsPositions: 	an IntegerArray(16 34)
+		arguments: 	an OrderedCollection(RBMessageNode(blog size) RBLiteralValueNode(1))...etc...
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	RBMessageNode(testSize self assert: blog size equals: 1
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitReturnNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aReturnNode: 	RBReturnNode(^ testSize self assert: blog size equals: 1
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBReturnNode>>acceptVisitor:
+	Receiver: RBReturnNode(^ testSize self assert: blog size equals: 1)
+	Arguments and temporary variables: 
+		aProgramNodeVisitor: 	an OCASTSemanticAnalyze
+	Receiver's instance variables: 
+		parent: 	RBSequenceNode(^ testSize self assert: blog size equals: 1)
+		properties: 	nil
+		return: 	0
+		value: 	RBMessageNode(testSize self assert: blog size equals: 1)
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	RBReturnNode(^ testSize self assert: blog size equals: 1
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+[ :each | self visitNode: each ] in OCASTSemanticAnalyzer>>visitSequenceNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aSequenceNode: 	RBSequenceNode(^ testSize self assert: blog size equals: 1)
+		each: 	RBReturnNode(^ testSize self assert: blog size equals: 1
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+Array(SequenceableCollection)>>do:
+	Receiver: an Array(RBReturnNode(^ testSize self assert: blog size equals: 1))
+	Arguments and temporary variables: 
+		aBlock: 	[ :each | self visitNode: each ]
+		index: 	
+	Receiver's instance variables: 
+an Array(RBReturnNode(^ testSize self assert: blog size equals: 1))
+
+OCASTSemanticAnalyzer>>visitSequenceNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aSequenceNode: 	RBSequenceNode(^ testSize self assert: blog size equals: 1
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBSequenceNode>>acceptVisitor:
+	Receiver: RBSequenceNode(^ testSize self assert: blog size equals: 1)
+	Arguments and temporary variables: 
+		aProgramNodeVisitor: 	an OCASTSemanticAnalyze
+	Receiver's instance variables: 
+		parent: 	DoIt
+	^ testSize self assert: blog size equals: 1
+		properties: 	nil
+		leftBar: 	nil
+		rightBar: 	nil
+		statements: 	an Array(RBReturnNode(^ testSize self assert: blog size equals: 1))...etc...
+		periods: 	#()
+		temporaries: 	#()
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	RBSequenceNode(^ testSize self assert: blog size equals: 1
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+OCASTSemanticAnalyzer>>visitMethodNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aMethodNode: 	DoIt
+	^ testSize self assert: blog size equals: 
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBMethodNode>>acceptVisitor:
+	Receiver: DoIt
+	^ testSize self assert: blog size equals: 1
+	Arguments and temporary variables: 
+		aProgramNodeVisitor: 	an OCASTSemanticAnalyze
+	Receiver's instance variables: 
+		parent: 	nil
+		properties: 	nil
+		scope: 	an OCMethodScope 4
+		selector: 	#DoIt
+		keywordsPositions: 	nil
+		body: 	RBSequenceNode(^ testSize self assert: blog size equals: 1)
+		source: 	nil
+		arguments: 	#()
+		pragmas: 	nil
+		replacements: 	a SortedCollection()
+		nodeReplacements: 	an IdentityDictionary()
+		compilationContext: 	a CompilationContext
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	DoIt
+	^ testSize self assert: blog size equals: 
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+OCASTSemanticAnalyzer>>analyze:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	DoIt
+	^ testSize self assert: blog size equals: 
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBMethodNode>>doSemanticAnalysis
+	Receiver: DoIt
+	^ testSize self assert: blog size equals: 1
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		parent: 	nil
+		properties: 	nil
+		scope: 	an OCMethodScope 4
+		selector: 	#DoIt
+		keywordsPositions: 	nil
+		body: 	RBSequenceNode(^ testSize self assert: blog size equals: 1)
+		source: 	nil
+		arguments: 	#()
+		pragmas: 	nil
+		replacements: 	a SortedCollection()
+		nodeReplacements: 	an IdentityDictionary()
+		compilationContext: 	a CompilationContext
+
+
+[ ast doSemanticAnalysis ] in OpalCompiler>>doSemanticAnalysis
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ testSize self assert: blog size equals: 1
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+BlockClosure>>on:do:
+	Receiver: [ ast doSemanticAnalysis ]
+	Arguments and temporary variables: 
+		exception: 	OCSemanticError
+		handlerAction: 	[ :ex | 
+ex defaultAction.
+^ self compilationContext failBlock v...etc..
+	Receiver's instance variables: 
+		outerContext: 	OpalCompiler>>doSemanticAnalysis
+		startpc: 	77
+		numArgs: 	0
+
+
+OpalCompiler>>doSemanticAnalysis
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ testSize self assert: blog size equals: 1
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+[ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ] in [ [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ]
+	on: ReparseAfterSourceEditing
+	do: [ :notification | 
+		self source: notification newSource.
+		notification retry ].
+cm := compilationContext optionEmbeddSources
+	ifTrue: [ ast generateWithSource ]
+	ifFalse: [ ast generate: self compilationContext compiledMethodTrailer ] ] in OpalCompiler>>compile
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		cm: 	ni
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ testSize self assert: blog size equals: 1
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+BlockClosure>>on:do:
+	Receiver: [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ]
+	Arguments and temporary variables: 
+		exception: 	ReparseAfterSourceEditing
+		handlerAction: 	[ :notification | 
+self source: notification newSource.
+notifica...etc..
+	Receiver's instance variables: 
+		outerContext: 	[ [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self...etc...
+		startpc: 	245
+		numArgs: 	0
+
+
+[ [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ]
+	on: ReparseAfterSourceEditing
+	do: [ :notification | 
+		self source: notification newSource.
+		notification retry ].
+cm := compilationContext optionEmbeddSources
+	ifTrue: [ ast generateWithSource ]
+	ifFalse: [ ast generate: self compilationContext compiledMethodTrailer ] ] in OpalCompiler>>compile
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		cm: 	ni
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ testSize self assert: blog size equals: 1
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+BlockClosure>>on:do:
+	Receiver: [ [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ]
+	on: Repar...etc...
+	Arguments and temporary variables: 
+		exception: 	SyntaxErrorNotification
+		handlerAction: 	[ :exception | 
+self compilationContext requestor
+	ifNotNil: [ s...etc..
+	Receiver's instance variables: 
+		outerContext: 	OpalCompiler>>compile
+		startpc: 	241
+		numArgs: 	0
+
+
+OpalCompiler>>compile
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		cm: 	ni
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ testSize self assert: blog size equals: 1
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	ni
+	Receiver's instance variables: 
+		ast: 	DoIt
+	^ testSize self assert: blog size equals: 1
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+ClySystemEnvironment>>compileANewClassFrom:notifying:startingFrom:
+	Receiver: a ClySystemEnvironment(current image)
+	Arguments and temporary variables: 
+		aString: 	'testSize
+	self assert: blog size equals: 1
+'
+		aController: 	a RubScrolledTextMorph(737210624)
+		aClass: 	TBBlogTest
+		oldClass: 	TBBlogTest
+		class: 	nil
+		newClassName: 	'testSize'
+		defTokens: 	an OrderedCollection('testSize' 'self' 'assert:' 'blog' 'size' 'equa...etc...
+		keywdIx: 	0
+		classCompiler: 	an OpalCompile
+	Receiver's instance variables: 
+		name: 	'current image'
+		globals: 	a SystemDictionary(lots of globals)
+		changesAnnouncer: 	a SystemAnnouncer
+		packageOrganizer: 	a RPackageOrganizer
+		projectManager: 	a ClyProjectManagerRegistry
+
+
+ClyFullBrowser>>compileANewClassFrom:notifying:startingFrom:
+	Receiver: a ClyFullBrowser(798388224)
+	Arguments and temporary variables: 
+		aString: 	'testSize
+	self assert: blog size equals: 1
+'
+		aController: 	a RubScrolledTextMorph(737210624)
+		aClass: 	TBBlogTes
+	Receiver's instance variables: 
+		bounds: 	(68.0@46.0) corner: (918.0@666.0)
+		owner: 	a SystemWindow(172461056) named: TBBlogTest
+		submorphs: 	an Array(a ProportionalSplitterMorph(621063936) a PanelMorph(8344340...etc...
+		fullBounds: 	(68@46) corner: (918@666)
+		color: 	Color veryDarkGray
+		extension: 	a MorphExtension (298812672) [sticky]  [other:  (announcer -> an Ann...etc...
+		borderWidth: 	0
+		borderColor: 	Color veryDarkGray
+		navigationPanel: 	a PanelMorph(834434048)
+		navigationViews: 	an OrderedCollection(a ClyQueryViewMorph(439078144) a ClyQuery...etc...
+		toolPanel: 	a PanelMorph(707551488)
+		toolbar: 	a ClyToolbarMorph(1031299328)
+		tabManager: 	a ClyTabManager
+		navigationHistory: 	a ClyNavigationHistory
+		navigationStarted: 	false
+		plugins: 	a SortedCollection(a ClyStandardBrowserPlugin a ClyInheritanceAnalysis...etc...
+		navigationEnvironment: 	a ClyNavigationEnvironment
+		systemScope: 	a ClySystemEnvironmentScope(current image)
+		packageView: 	a ClyQueryViewMorph(439078144)
+		classView: 	a ClyQueryViewMorph(408623360)
+		methodGroupView: 	a ClyQueryViewMorph(101218816)
+		methodView: 	a ClyQueryViewMorph(325452032)
+		metaLevelScope: 	ClyInstanceSideScope
+		methodGroupQuery: 	a ClyAllMethodGroupsQuery from inst. side: TBBlogTest
+
+
+ClyClassDefinitionEditorToolMorph>>applyChanges
+	Receiver: a ClyClassDefinitionEditorToolMorph(567284736)
+	Arguments and temporary variables: 
+		newClass: 	ni
+	Receiver's instance variables: 
+		bounds: 	(70.0@382.0) corner: (917.0@665.0)
+		owner: 	a Morph(702577152)
+		submorphs: 	an Array(a ProportionalSplitterMorph(506271744) a ClyQueryViewMorph(...etc...
+		fullBounds: 	(70@382) corner: (917@665)
+		color: 	Color transparent
+		extension: 	a MorphExtension (228417792) [other:  (kmDispatcher -> a CmdKMDispat...etc...
+		borderWidth: 	0
+		borderColor: 	Color black
+		browser: 	a ClyFullBrowser(798388224)
+		context: 	a ClyClassContextOfFullBrowser
+		decorators: 	an OrderedCollection(a ClyCriticDecorator)
+		containerTab: 	a TabMorph(570639104)
+		isDirty: 	true
+		isManagedByUser: 	false
+		statusBar: 	a ClyStatusBarMorph(392691712)
+		textModel: 	a RubScrolledTextModel
+		textMorph: 	a RubScrolledTextMorph(737210624)
+		changesCancelRequested: 	false
+		applyingChanges: 	true
+		editingClass: 	TBBlogTest
+
+
+THERE_BE_DRAGONS_HERE
+SubscriptOutOfBounds: 0
+2 May 2022 4:10:45.045151 pm
+
+VM: Win32 - X64 - 6.2 - CoInterpreter VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+StackToRegisterMappingCogit VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+VM: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm Date: Wed Jul 3 16:41:39 2019 CommitHash: 4e4c5b5a0 Plugins: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm
+
+Image: Pharo8.0.0 [Build information: Pharo-8.0.0+build.1136.sha.a153e04ae4e325509ed78bfe25c9ce560afb24b0 (64 Bit)]
+
+ByteString(Object)>>errorSubscriptBounds:
+	Receiver: 'testSize
+	self assert: blog size equals: 1'
+	Arguments and temporary variables: 
+		index: 	
+	Receiver's instance variables: 
+'testSize
+	self assert: blog size equals: 1'
+
+ByteString(Object)>>at:
+	Receiver: 'testSize
+	self assert: blog size equals: 1'
+	Arguments and temporary variables: 
+		index: 	
+	Receiver's instance variables: 
+'testSize
+	self assert: blog size equals: 1'
+
+ByteString>>at:
+	Receiver: 'testSize
+	self assert: blog size equals: 1'
+	Arguments and temporary variables: 
+		index: 	
+	Receiver's instance variables: 
+'testSize
+	self assert: blog size equals: 1'
+
+Text>>at:
+	Receiver: a Text for 'testSize
+	self assert: blog size equals: 1'
+	Arguments and temporary variables: 
+		index: 	
+	Receiver's instance variables: 
+		string: 	'testSize
+	self assert: blog size equals: 1'
+		runs: 	a RunArray runs: #(8 2 4 1 7 1 4 1 4 1 7 1 1) values: an Array(an Array(a...etc...
+
+
+OCUndeclaredVariableWarning>>declareTempAndPaste:
+	Receiver: OCUndeclaredVariableWarning: Undeclared temp: testSize
+	Arguments and temporary variables: 
+		name: 	#testSize
+		insertion: 	nil
+		delta: 	nil
+		theTextString: 	a Text for 'testSize
+	self assert: blog size equals: 1'
+		characterBeforeMark: 	Character space
+		tempsMark: 	0
+		newMethodNode: 	testSize
+	self assert: blog size equals: 
+	Receiver's instance variables: 
+		messageText: 	'Undeclared temp: testSize'
+		tag: 	nil
+		signaler: 	an OCASTSemanticAnalyzer
+		signalContext: 	OCUndeclaredVariableWarning(Exception)>>signal
+		handlerContext: 	nil
+		outerContext: 	nil
+		compilationContext: 	a CompilationContext
+		node: 	RBVariableNode(testSize)
+
+
+[ self declareTempAndPaste: name ] in OCUndeclaredVariableWarning>>openMenuIn:
+	Receiver: OCUndeclaredVariableWarning: Undeclared temp: testSize
+	Arguments and temporary variables: 
+		aBlock: 	[ :labels :lines :caption | UIManager default chooseFrom: labels lines:...etc...
+		alternatives: 	an OrderedCollection()
+		labels: 	an OrderedCollection('Declare new temporary variable' 'Declare new inst...etc...
+		actions: 	an OrderedCollection([ self declareTempAndPaste: name ] [ self declare...etc...
+		lines: 	an OrderedCollection(2 2)
+		caption: 	'Unknown variable: testSize please correct, or cancel:'
+		choice: 	1
+		name: 	#testSize
+		interval: 	(1 to: 8
+	Receiver's instance variables: 
+		messageText: 	'Undeclared temp: testSize'
+		tag: 	nil
+		signaler: 	an OCASTSemanticAnalyzer
+		signalContext: 	OCUndeclaredVariableWarning(Exception)>>signal
+		handlerContext: 	nil
+		outerContext: 	nil
+		compilationContext: 	a CompilationContext
+		node: 	RBVariableNode(testSize)
+
+
+OCUndeclaredVariableWarning>>openMenuIn:
+	Receiver: OCUndeclaredVariableWarning: Undeclared temp: testSize
+	Arguments and temporary variables: 
+		aBlock: 	[ :labels :lines :caption | UIManager default chooseFrom: labels lines:...etc...
+		alternatives: 	an OrderedCollection()
+		labels: 	an OrderedCollection('Declare new temporary variable' 'Declare new inst...etc...
+		actions: 	an OrderedCollection([ self declareTempAndPaste: name ] [ self declare...etc...
+		lines: 	an OrderedCollection(2 2)
+		caption: 	'Unknown variable: testSize please correct, or cancel:'
+		choice: 	1
+		name: 	#testSize
+		interval: 	(1 to: 8
+	Receiver's instance variables: 
+		messageText: 	'Undeclared temp: testSize'
+		tag: 	nil
+		signaler: 	an OCASTSemanticAnalyzer
+		signalContext: 	OCUndeclaredVariableWarning(Exception)>>signal
+		handlerContext: 	nil
+		outerContext: 	nil
+		compilationContext: 	a CompilationContext
+		node: 	RBVariableNode(testSize)
+
+
+OCUndeclaredVariableWarning(OCSemanticWarning)>>defaultAction
+	Receiver: OCUndeclaredVariableWarning: Undeclared temp: testSize
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		messageText: 	'Undeclared temp: testSize'
+		tag: 	nil
+		signaler: 	an OCASTSemanticAnalyzer
+		signalContext: 	OCUndeclaredVariableWarning(Exception)>>signal
+		handlerContext: 	nil
+		outerContext: 	nil
+		compilationContext: 	a CompilationContext
+		node: 	RBVariableNode(testSize)
+
+
+OCUndeclaredVariableWarning>>defaultAction
+	Receiver: OCUndeclaredVariableWarning: Undeclared temp: testSize
+	Arguments and temporary variables: 
+		varName: 	#testSize
+		className: 	#UndefinedObject
+		selector: 	#DoI
+	Receiver's instance variables: 
+		messageText: 	'Undeclared temp: testSize'
+		tag: 	nil
+		signaler: 	an OCASTSemanticAnalyzer
+		signalContext: 	OCUndeclaredVariableWarning(Exception)>>signal
+		handlerContext: 	nil
+		outerContext: 	nil
+		compilationContext: 	a CompilationContext
+		node: 	RBVariableNode(testSize)
+
+
+UndefinedObject>>handleSignal:
+	Receiver: nil
+	Arguments and temporary variables: 
+		exception: 	OCUndeclaredVariableWarning: Undeclared temp: testSiz
+	Receiver's instance variables: 
+nil
+
+Context>>handleSignal:
+	Receiver: BlockClosure>>on:do:
+	Arguments and temporary variables: 
+		exception: 	OCUndeclaredVariableWarning: Undeclared temp: testSiz
+	Receiver's instance variables: 
+		sender: 	WorldMorph>>becomeActiveDuring:
+		pc: 	30
+		stackp: 	2
+		method: 	BlockClosure>>#on:do:
+		closureOrNil: 	nil
+		receiver: 	[ ActiveHand := self.
+ActiveEvent := anEvent.
+result := focusHolder
+	...etc...
+
+
+Context>>handleSignal:
+	Receiver: BlockClosure>>on:do:
+	Arguments and temporary variables: 
+		exception: 	OCUndeclaredVariableWarning: Undeclared temp: testSiz
+	Receiver's instance variables: 
+		sender: 	BlockClosure>>on:fork:
+		pc: 	30
+		stackp: 	2
+		method: 	BlockClosure>>#on:do:
+		closureOrNil: 	nil
+		receiver: 	[ action cull: anAnnouncement cull: announcer ]
+
+
+Context>>handleSignal:
+	Receiver: BlockClosure>>on:do:
+	Arguments and temporary variables: 
+		exception: 	OCUndeclaredVariableWarning: Undeclared temp: testSiz
+	Receiver's instance variables: 
+		sender: 	BlockClosure>>on:fork:
+		pc: 	30
+		stackp: 	2
+		method: 	BlockClosure>>#on:do:
+		closureOrNil: 	nil
+		receiver: 	[ action cull: anAnnouncement cull: announcer ]
+
+
+Context>>handleSignal:
+	Receiver: BlockClosure>>on:do:
+	Arguments and temporary variables: 
+		exception: 	OCUndeclaredVariableWarning: Undeclared temp: testSiz
+	Receiver's instance variables: 
+		sender: 	[ textMorph hasUnacceptedEdits: true.
+[ self changesAreAboutApply.
+appl...etc...
+		pc: 	30
+		stackp: 	2
+		method: 	BlockClosure>>#on:do:
+		closureOrNil: 	nil
+		receiver: 	[ self changesAreAboutApply.
+applied := self applyChanges ]
+
+
+Context>>handleSignal:
+	Receiver: BlockClosure>>on:do:
+	Arguments and temporary variables: 
+		exception: 	OCUndeclaredVariableWarning: Undeclared temp: testSiz
+	Receiver's instance variables: 
+		sender: 	OpalCompiler>>compile
+		pc: 	30
+		stackp: 	2
+		method: 	BlockClosure>>#on:do:
+		closureOrNil: 	nil
+		receiver: 	[ [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self cal...etc...
+
+
+Context>>handleSignal:
+	Receiver: BlockClosure>>on:do:
+	Arguments and temporary variables: 
+		exception: 	OCUndeclaredVariableWarning: Undeclared temp: testSiz
+	Receiver's instance variables: 
+		sender: 	[ [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callP...etc...
+		pc: 	30
+		stackp: 	2
+		method: 	BlockClosure>>#on:do:
+		closureOrNil: 	nil
+		receiver: 	[ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callP...etc...
+
+
+Context>>handleSignal:
+	Receiver: BlockClosure>>on:do:
+	Arguments and temporary variables: 
+		exception: 	OCUndeclaredVariableWarning: Undeclared temp: testSiz
+	Receiver's instance variables: 
+		sender: 	OpalCompiler>>doSemanticAnalysis
+		pc: 	30
+		stackp: 	2
+		method: 	BlockClosure>>#on:do:
+		closureOrNil: 	nil
+		receiver: 	[ ast doSemanticAnalysis ]
+
+
+OCUndeclaredVariableWarning(Exception)>>signal
+	Receiver: OCUndeclaredVariableWarning: Undeclared temp: testSize
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		messageText: 	'Undeclared temp: testSize'
+		tag: 	nil
+		signaler: 	an OCASTSemanticAnalyzer
+		signalContext: 	OCUndeclaredVariableWarning(Exception)>>signal
+		handlerContext: 	nil
+		outerContext: 	nil
+		compilationContext: 	a CompilationContext
+		node: 	RBVariableNode(testSize)
+
+
+OCASTSemanticAnalyzer>>undeclaredVariable:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		variableNode: 	RBVariableNode(testSize
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+OCASTSemanticAnalyzer>>visitVariableNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aVariableNode: 	RBVariableNode(testSize)
+		var: 	ni
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBVariableNode>>acceptVisitor:
+	Receiver: RBVariableNode(testSize)
+	Arguments and temporary variables: 
+		aProgramNodeVisitor: 	an OCASTSemanticAnalyze
+	Receiver's instance variables: 
+		parent: 	RBMessageNode(testSize self)
+		properties: 	nil
+		parentheses: 	nil
+		name: 	#testSize
+		start: 	1
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	RBVariableNode(testSize
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aMessageNode: 	RBMessageNode(testSize self
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBMessageNode>>acceptVisitor:
+	Receiver: RBMessageNode(testSize self)
+	Arguments and temporary variables: 
+		aProgramNodeVisitor: 	an OCASTSemanticAnalyze
+	Receiver's instance variables: 
+		parent: 	RBMessageNode(testSize self assert: blog size equals: 1)
+		properties: 	nil
+		parentheses: 	nil
+		receiver: 	RBVariableNode(testSize)
+		selector: 	#self
+		keywordsPositions: 	an IntegerArray(11)
+		arguments: 	#()
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	RBMessageNode(testSize self
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aMessageNode: 	RBMessageNode(testSize self assert: blog size equals: 1
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBMessageNode>>acceptVisitor:
+	Receiver: RBMessageNode(testSize self assert: blog size equals: 1)
+	Arguments and temporary variables: 
+		aProgramNodeVisitor: 	an OCASTSemanticAnalyze
+	Receiver's instance variables: 
+		parent: 	RBReturnNode(^ testSize self assert: blog size equals: 1)
+		properties: 	nil
+		parentheses: 	nil
+		receiver: 	RBMessageNode(testSize self)
+		selector: 	#assert:equals:
+		keywordsPositions: 	an IntegerArray(16 34)
+		arguments: 	an OrderedCollection(RBMessageNode(blog size) RBLiteralValueNode(1))...etc...
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	RBMessageNode(testSize self assert: blog size equals: 1
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitReturnNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aReturnNode: 	RBReturnNode(^ testSize self assert: blog size equals: 1
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBReturnNode>>acceptVisitor:
+	Receiver: RBReturnNode(^ testSize self assert: blog size equals: 1)
+	Arguments and temporary variables: 
+		aProgramNodeVisitor: 	an OCASTSemanticAnalyze
+	Receiver's instance variables: 
+		parent: 	RBSequenceNode(^ testSize self assert: blog size equals: 1)
+		properties: 	nil
+		return: 	0
+		value: 	RBMessageNode(testSize self assert: blog size equals: 1)
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	RBReturnNode(^ testSize self assert: blog size equals: 1
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+[ :each | self visitNode: each ] in OCASTSemanticAnalyzer>>visitSequenceNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aSequenceNode: 	RBSequenceNode(^ testSize self assert: blog size equals: 1)
+		each: 	RBReturnNode(^ testSize self assert: blog size equals: 1
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+Array(SequenceableCollection)>>do:
+	Receiver: an Array(RBReturnNode(^ testSize self assert: blog size equals: 1))
+	Arguments and temporarTHERE_BE_DRAGONS_HERE
+#isTemp was sent to nil
+2 May 2022 4:10:59.700151 pm
+
+VM: Win32 - X64 - 6.2 - CoInterpreter VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+StackToRegisterMappingCogit VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+VM: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm Date: Wed Jul 3 16:41:39 2019 CommitHash: 4e4c5b5a0 Plugins: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm
+
+Image: Pharo8.0.0 [Build information: Pharo-8.0.0+build.1136.sha.a153e04ae4e325509ed78bfe25c9ce560afb24b0 (64 Bit)]
+
+UndefinedObject(Object)>>doesNotUnderstand: #isTemp
+	Receiver: nil
+	Arguments and temporary variables: 
+		aMessage: 	isTemp
+		exception: 	MessageNotUnderstood: receiver of "isTemp" is nil
+		resumeValue: 	ni
+	Receiver's instance variables: 
+nil
+
+UndefinedObject>>doesNotUnderstand: #isTemp
+	Receiver: nil
+	Arguments and temporary variables: 
+		aMessage: 	isTemp
+		exception: 	nil
+		resumeValue: 	nil
+		node: 	ni
+	Receiver's instance variables: 
+nil
+
+OCASTSemanticAnalyzer>>visitVariableNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aVariableNode: 	RBVariableNode(testRemoveAllBlogPosts)
+		var: 	ni
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBVariableNode>>acceptVisitor:
+	Receiver: RBVariableNode(testRemoveAllBlogPosts)
+	Arguments and temporary variables: 
+		aProgramNodeVisitor: 	an OCASTSemanticAnalyze
+	Receiver's instance variables: 
+		parent: 	RBMessageNode(testRemoveAllBlogPosts blog)
+		properties: 	nil
+		parentheses: 	nil
+		name: 	#testRemoveAllBlogPosts
+		start: 	1
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	RBVariableNode(testRemoveAllBlogPosts
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aMessageNode: 	RBMessageNode(testRemoveAllBlogPosts blog
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBMessageNode>>acceptVisitor:
+	Receiver: RBMessageNode(testRemoveAllBlogPosts blog)
+	Arguments and temporary variables: 
+		aProgramNodeVisitor: 	an OCASTSemanticAnalyze
+	Receiver's instance variables: 
+		parent: 	RBMessageNode(testRemoveAllBlogPosts blog removeAllPosts)
+		properties: 	nil
+		parentheses: 	nil
+		receiver: 	RBVariableNode(testRemoveAllBlogPosts)
+		selector: 	#blog
+		keywordsPositions: 	an IntegerArray(25)
+		arguments: 	#()
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	RBMessageNode(testRemoveAllBlogPosts blog
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aMessageNode: 	RBMessageNode(testRemoveAllBlogPosts blog removeAllPosts
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBMessageNode>>acceptVisitor:
+	Receiver: RBMessageNode(testRemoveAllBlogPosts blog removeAllPosts)
+	Arguments and temporary variables: 
+		aProgramNodeVisitor: 	an OCASTSemanticAnalyze
+	Receiver's instance variables: 
+		parent: 	RBSequenceNode(testRemoveAllBlogPosts blog removeAllPosts.
+^ self asser...etc...
+		properties: 	nil
+		parentheses: 	nil
+		receiver: 	RBMessageNode(testRemoveAllBlogPosts blog)
+		selector: 	#removeAllPosts
+		keywordsPositions: 	an IntegerArray(30)
+		arguments: 	#()
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	RBMessageNode(testRemoveAllBlogPosts blog removeAllPosts
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+[ :each | self visitNode: each ] in OCASTSemanticAnalyzer>>visitSequenceNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aSequenceNode: 	RBSequenceNode(testRemoveAllBlogPosts blog removeAllPosts.
+^ sel...etc...
+		each: 	RBMessageNode(testRemoveAllBlogPosts blog removeAllPosts
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+OrderedCollection>>do:
+	Receiver: an OrderedCollection(RBMessageNode(testRemoveAllBlogPosts blog removeAllPosts) RBReturnNod...etc...
+	Arguments and temporary variables: 
+		aBlock: 	[ :each | self visitNode: each ]
+		index: 	
+	Receiver's instance variables: 
+		array: 	an Array(RBMessageNode(testRemoveAllBlogPosts blog removeAllPosts) RBRet...etc...
+		firstIndex: 	1
+		lastIndex: 	2
+
+
+OCASTSemanticAnalyzer>>visitSequenceNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aSequenceNode: 	RBSequenceNode(testRemoveAllBlogPosts blog removeAllPosts.
+^ sel...etc..
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBSequenceNode>>acceptVisitor:
+	Receiver: RBSequenceNode(testRemoveAllBlogPosts blog removeAllPosts.
+^ self assert: blog size equals...etc...
+	Arguments and temporary variables: 
+		aProgramNodeVisitor: 	an OCASTSemanticAnalyze
+	Receiver's instance variables: 
+		parent: 	DoIt
+	testRemoveAllBlogPosts blog removeAllPosts.
+	^ self assert: blog ...etc...
+		properties: 	nil
+		leftBar: 	nil
+		rightBar: 	nil
+		statements: 	an OrderedCollection(RBMessageNode(testRemoveAllBlogPosts blog remo...etc...
+		periods: 	an OrderedCollection(44)
+		temporaries: 	#()
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	RBSequenceNode(testRemoveAllBlogPosts blog removeAllPosts.
+^ self assert...etc..
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+OCASTSemanticAnalyzer>>visitMethodNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aMethodNode: 	DoIt
+	testRemoveAllBlogPosts blog removeAllPosts.
+	^ self assert: ...etc..
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBMethodNode>>acceptVisitor:
+	Receiver: DoIt
+	testRemoveAllBlogPosts blog removeAllPosts.
+	^ self assert: blog size equals: 0
+	Arguments and temporary variables: 
+		aProgramNodeVisitor: 	an OCASTSemanticAnalyze
+	Receiver's instance variables: 
+		parent: 	nil
+		properties: 	nil
+		scope: 	an OCMethodScope 4
+		selector: 	#DoIt
+		keywordsPositions: 	nil
+		body: 	RBSequenceNode(testRemoveAllBlogPosts blog removeAllPosts.
+^ self assert:...etc...
+		source: 	nil
+		arguments: 	#()
+		pragmas: 	nil
+		replacements: 	a SortedCollection()
+		nodeReplacements: 	an IdentityDictionary()
+		compilationContext: 	a CompilationContext
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	DoIt
+	testRemoveAllBlogPosts blog removeAllPosts.
+	^ self assert: blog s...etc..
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+OCASTSemanticAnalyzer>>analyze:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	DoIt
+	testRemoveAllBlogPosts blog removeAllPosts.
+	^ self assert: blog s...etc..
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBMethodNode>>doSemanticAnalysis
+	Receiver: DoIt
+	testRemoveAllBlogPosts blog removeAllPosts.
+	^ self assert: blog size equals: 0
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		parent: 	nil
+		properties: 	nil
+		scope: 	an OCMethodScope 4
+		selector: 	#DoIt
+		keywordsPositions: 	nil
+		body: 	RBSequenceNode(testRemoveAllBlogPosts blog removeAllPosts.
+^ self assert:...etc...
+		source: 	nil
+		arguments: 	#()
+		pragmas: 	nil
+		replacements: 	a SortedCollection()
+		nodeReplacements: 	an IdentityDictionary()
+		compilationContext: 	a CompilationContext
+
+
+[ ast doSemanticAnalysis ] in OpalCompiler>>doSemanticAnalysis
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		ast: 	DoIt
+	testRemoveAllBlogPosts blog removeAllPosts.
+	^ self assert: blog siz...etc...
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+BlockClosure>>on:do:
+	Receiver: [ ast doSemanticAnalysis ]
+	Arguments and temporary variables: 
+		exception: 	OCSemanticError
+		handlerAction: 	[ :ex | 
+ex defaultAction.
+^ self compilationContext failBlock v...etc..
+	Receiver's instance variables: 
+		outerContext: 	OpalCompiler>>doSemanticAnalysis
+		startpc: 	77
+		numArgs: 	0
+
+
+OpalCompiler>>doSemanticAnalysis
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		ast: 	DoIt
+	testRemoveAllBlogPosts blog removeAllPosts.
+	^ self assert: blog siz...etc...
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+[ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ] in [ [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ]
+	on: ReparseAfterSourceEditing
+	do: [ :notification | 
+		self source: notification newSource.
+		notification retry ].
+cm := compilationContext optionEmbeddSources
+	ifTrue: [ ast generateWithSource ]
+	ifFalse: [ ast generate: self compilationContext compiledMethodTrailer ] ] in OpalCompiler>>compile
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		cm: 	ni
+	Receiver's instance variables: 
+		ast: 	DoIt
+	testRemoveAllBlogPosts blog removeAllPosts.
+	^ self assert: blog siz...etc...
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+BlockClosure>>on:do:
+	Receiver: [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ]
+	Arguments and temporary variables: 
+		exception: 	ReparseAfterSourceEditing
+		handlerAction: 	[ :notification | 
+self source: notification newSource.
+notifica...etc..
+	Receiver's instance variables: 
+		outerContext: 	[ [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self...etc...
+		startpc: 	245
+		numArgs: 	0
+
+
+[ [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ]
+	on: ReparseAfterSourceEditing
+	do: [ :notification | 
+		self source: notification newSource.
+		notification retry ].
+cm := compilationContext optionEmbeddSources
+	ifTrue: [ ast generateWithSource ]
+	ifFalse: [ ast generate: self compilationContext compiledMethodTrailer ] ] in OpalCompiler>>compile
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		cm: 	ni
+	Receiver's instance variables: 
+		ast: 	DoIt
+	testRemoveAllBlogPosts blog removeAllPosts.
+	^ self assert: blog siz...etc...
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+BlockClosure>>on:do:
+	Receiver: [ [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ]
+	on: Repar...etc...
+	Arguments and temporary variables: 
+		exception: 	SyntaxErrorNotification
+		handlerAction: 	[ :exception | 
+self compilationContext requestor
+	ifNotNil: [ s...etc..
+	Receiver's instance variables: 
+		outerContext: 	OpalCompiler>>compile
+		startpc: 	241
+		numArgs: 	0
+
+
+OpalCompiler>>compile
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		cm: 	ni
+	Receiver's instance variables: 
+		ast: 	DoIt
+	testRemoveAllBlogPosts blog removeAllPosts.
+	^ self assert: blog siz...etc...
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	ni
+	Receiver's instance variables: 
+		ast: 	DoIt
+	testRemoveAllBlogPosts blog removeAllPosts.
+	^ self assert: blog siz...etc...
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+ClySystemEnvironment>>compileANewClassFrom:notifying:startingFrom:
+	Receiver: a ClySystemEnvironment(current image)
+	Arguments and temporary variables: 
+		aString: 	'testRemoveAllBlogPosts
+	blog removeAllPosts.
+	self assert: blog size ...etc...
+		aController: 	a RubScrolledTextMorph(737210624)
+		aClass: 	TBBlogTest
+		oldClass: 	TBBlogTest
+		class: 	nil
+		newClassName: 	'testRemoveAllBlogPosts'
+		defTokens: 	an OrderedCollection('testRemoveAllBlogPosts' 'blog' 'removeAllPosts...etc...
+		keywdIx: 	0
+		classCompiler: 	an OpalCompile
+	Receiver's instance variables: 
+		name: 	'current image'
+		globals: 	a SystemDictionary(lots of globals)
+		changesAnnouncer: 	a SystemAnnouncer
+		packageOrganizer: 	a RPackageOrganizer
+		projectManager: 	a ClyProjectManagerRegistry
+
+
+ClyFullBrowser>>compileANewClassFrom:notifying:startingFrom:
+	Receiver: a ClyFullBrowser(798388224)
+	Arguments and temporary variables: 
+		aString: 	'testRemoveAllBlogPosts
+	blog removeAllPosts.
+	self assert: blog size ...etc...
+		aController: 	a RubScrolledTextMorph(737210624)
+		aClass: 	TBBlogTes
+	Receiver's instance variables: 
+		bounds: 	(68.0@46.0) corner: (918.0@666.0)
+		owner: 	a SystemWindow(172461056) named: TBBlogTest
+		submorphs: 	an Array(a ProportionalSplitterMorph(621063936) a PanelMorph(8344340...etc...
+		fullBounds: 	(68@46) corner: (918@666)
+		color: 	Color veryDarkGray
+		extension: 	a MorphExtension (298812672) [sticky]  [other:  (announcer -> an Ann...etc...
+		borderWidth: 	0
+		borderColor: 	Color veryDarkGray
+		navigationPanel: 	a PanelMorph(834434048)
+		navigationViews: 	an OrderedCollection(a ClyQueryViewMorph(439078144) a ClyQuery...etc...
+		toolPanel: 	a PanelMorph(707551488)
+		toolbar: 	a ClyToolbarMorph(1031299328)
+		tabManager: 	a ClyTabManager
+		navigationHistory: 	a ClyNavigationHistory
+		navigationStarted: 	false
+		plugins: 	a SortedCollection(a ClyStandardBrowserPlugin a ClyInheritanceAnalysis...etc...
+		navigationEnvironment: 	a ClyNavigationEnvironment
+		systemScope: 	a ClySystemEnvironmentScope(current image)
+		packageView: 	a ClyQueryViewMorph(439078144)
+		classView: 	a ClyQueryViewMorph(408623360)
+		methodGroupView: 	a ClyQueryViewMorph(101218816)
+		methodView: 	a ClyQueryViewMorph(325452032)
+		metaLevelScope: 	ClyInstanceSideScope
+		methodGroupQuery: 	a ClyAllMethodGroupsQuery from inst. side: TBBlogTest
+
+
+ClyClassDefinitionEditorToolMorph>>applyChanges
+	Receiver: a ClyClassDefinitionEditorToolMorph(567284736)
+	Arguments and temporary variables: 
+		newClass: 	ni
+	Receiver's instance variables: 
+		bounds: 	(70.0@382.0) corner: (917.0@665.0)
+		owner: 	a Morph(702577152)
+		submorphs: 	an Array(a ProportionalSplitterMorph(506271744) a ClyQueryViewMorph(...etc...
+		fullBounds: 	(70@382) corner: (917@665)
+		color: 	Color transparent
+		extension: 	a MorphExtension (228417792) [other:  (kmDispatcher -> a CmdKMDispat...etc...
+		borderWidth: 	0
+		borderColor: 	Color black
+		browser: 	a ClyFullBrowser(798388224)
+		context: 	a ClyClassContextOfFullBrowser
+		decorators: 	an OrderedCollection(a ClyCriticDecorator)
+		containerTab: 	a TabMorph(570639104)
+		isDirty: 	true
+		isManagedByUser: 	false
+		statusBar: 	a ClyStatusBarMorph(392691712)
+		textModel: 	a RubScrolledTextModel
+		textMorph: 	a RubScrolledTextMorph(737210624)
+		changesCancelRequested: 	false
+		applyingChanges: 	true
+		editingClass: 	TBBlogTest
+
+
+[ self changesAreAboutApply.
+applied := self applyChanges ] in [ textMorph hasUnacceptedEdits: true.
+[ self changesAreAboutApply.
+applied := self applyChanges ]
+	on: Error
+	do: [ :err | 
+		textModel text: self editingText.
+		textMorph hasUnacceptedEdits: true.
+		err pass ].
+applied
+	ifTrue: [ textMorph hasUnacceptedEdits: false.
+		self textUpdated.
+		browser focusActiveTab ]
+	ifFalse: [ textModel text: self editingText.
+		textMorph hasUnacceptedEdits: true ] ] in ClyClassDefinitionEditorToolMorph(ClyTextEditorToolMorph)>>changesAccepted
+	Receiver: a ClyClassDefinitionEditorToolMorph(567284736)
+	Arguments and temporary variables: 
+		applied: 	ni
+	Receiver's instance variables: 
+		bounds: 	(70.0@382.0) corner: (917.0@665.0)
+		owner: 	a Morph(702577152)
+		submorphs: 	an Array(a ProportionalSplitterMorph(506271744) a ClyQueryViewMorph(...etc...
+		fullBounds: 	(70@382) corner: (917@665)
+		color: 	Color transparent
+		extension: 	a MorphExtension (228417792) [other:  (kmDispatcher -> a CmdKMDispat...etc...
+		borderWidth: 	0
+		borderColor: 	Color black
+		browser: 	a ClyFullBrowser(798388224)
+		context: 	a ClyClassContextOfFullBrowser
+		decorators: 	an OrderedCollection(a ClyCriticDecorator)
+		containerTab: 	a TabMorph(570639104)
+		isDirty: 	true
+		isManagedByUser: 	false
+		statusBar: 	a ClyStatusBarMorph(392691712)
+		textModel: 	a RubScrolledTextModel
+		textMorph: 	a RubScrolledTextMorph(737210624)
+		changesCancelRequested: 	false
+		applyingChanges: 	true
+		editingClass: 	TBBlogTest
+
+
+BlockClosure>>on:do:
+	Receiver: [ self changesAreAboutApply.
+applied := self applyChanges ]
+	Arguments and temporary variables: 
+		exception: 	Error
+		handlerAction: 	[ :err | 
+textModel text: self editingText.
+textMorph hasUnaccep...etc..
+	Receiver's instance variables: 
+		outerContext: 	[ textMorph hasUnacceptedEdits: true.
+[ self changesAreAboutApply...etc...
+		startpc: 	140
+		numArgTHERE_BE_DRAGONS_HERE
+#isTemp was sent to nil
+2 May 2022 4:11:37.162151 pm
+
+VM: Win32 - X64 - 6.2 - CoInterpreter VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+StackToRegisterMappingCogit VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+VM: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm Date: Wed Jul 3 16:41:39 2019 CommitHash: 4e4c5b5a0 Plugins: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm
+
+Image: Pharo8.0.0 [Build information: Pharo-8.0.0+build.1136.sha.a153e04ae4e325509ed78bfe25c9ce560afb24b0 (64 Bit)]
+
+UndefinedObject(Object)>>doesNotUnderstand: #isTemp
+	Receiver: nil
+	Arguments and temporary variables: 
+		aMessage: 	isTemp
+		exception: 	MessageNotUnderstood: receiver of "isTemp" is nil
+		resumeValue: 	ni
+	Receiver's instance variables: 
+nil
+
+UndefinedObject>>doesNotUnderstand: #isTemp
+	Receiver: nil
+	Arguments and temporary variables: 
+		aMessage: 	isTemp
+		exception: 	nil
+		resumeValue: 	nil
+		node: 	ni
+	Receiver's instance variables: 
+nil
+
+OCASTSemanticAnalyzer>>visitVariableNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aVariableNode: 	RBVariableNode(testRemoveAllBlogPosts)
+		var: 	ni
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBVariableNode>>acceptVisitor:
+	Receiver: RBVariableNode(testRemoveAllBlogPosts)
+	Arguments and temporary variables: 
+		aProgramNodeVisitor: 	an OCASTSemanticAnalyze
+	Receiver's instance variables: 
+		parent: 	RBMessageNode(testRemoveAllBlogPosts blog)
+		properties: 	nil
+		parentheses: 	nil
+		name: 	#testRemoveAllBlogPosts
+		start: 	1
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	RBVariableNode(testRemoveAllBlogPosts
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aMessageNode: 	RBMessageNode(testRemoveAllBlogPosts blog
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBMessageNode>>acceptVisitor:
+	Receiver: RBMessageNode(testRemoveAllBlogPosts blog)
+	Arguments and temporary variables: 
+		aProgramNodeVisitor: 	an OCASTSemanticAnalyze
+	Receiver's instance variables: 
+		parent: 	RBMessageNode(testRemoveAllBlogPosts blog removeAllPosts)
+		properties: 	nil
+		parentheses: 	nil
+		receiver: 	RBVariableNode(testRemoveAllBlogPosts)
+		selector: 	#blog
+		keywordsPositions: 	an IntegerArray(25)
+		arguments: 	#()
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	RBMessageNode(testRemoveAllBlogPosts blog
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aMessageNode: 	RBMessageNode(testRemoveAllBlogPosts blog removeAllPosts
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBMessageNode>>acceptVisitor:
+	Receiver: RBMessageNode(testRemoveAllBlogPosts blog removeAllPosts)
+	Arguments and temporary variables: 
+		aProgramNodeVisitor: 	an OCASTSemanticAnalyze
+	Receiver's instance variables: 
+		parent: 	RBSequenceNode(testRemoveAllBlogPosts blog removeAllPosts.
+^ self asser...etc...
+		properties: 	nil
+		parentheses: 	nil
+		receiver: 	RBMessageNode(testRemoveAllBlogPosts blog)
+		selector: 	#removeAllPosts
+		keywordsPositions: 	an IntegerArray(30)
+		arguments: 	#()
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	RBMessageNode(testRemoveAllBlogPosts blog removeAllPosts
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+[ :each | self visitNode: each ] in OCASTSemanticAnalyzer>>visitSequenceNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aSequenceNode: 	RBSequenceNode(testRemoveAllBlogPosts blog removeAllPosts.
+^ sel...etc...
+		each: 	RBMessageNode(testRemoveAllBlogPosts blog removeAllPosts
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+OrderedCollection>>do:
+	Receiver: an OrderedCollection(RBMessageNode(testRemoveAllBlogPosts blog removeAllPosts) RBReturnNod...etc...
+	Arguments and temporary variables: 
+		aBlock: 	[ :each | self visitNode: each ]
+		index: 	
+	Receiver's instance variables: 
+		array: 	an Array(RBMessageNode(testRemoveAllBlogPosts blog removeAllPosts) RBRet...etc...
+		firstIndex: 	1
+		lastIndex: 	2
+
+
+OCASTSemanticAnalyzer>>visitSequenceNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aSequenceNode: 	RBSequenceNode(testRemoveAllBlogPosts blog removeAllPosts.
+^ sel...etc..
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBSequenceNode>>acceptVisitor:
+	Receiver: RBSequenceNode(testRemoveAllBlogPosts blog removeAllPosts.
+^ self assert: blog size equals...etc...
+	Arguments and temporary variables: 
+		aProgramNodeVisitor: 	an OCASTSemanticAnalyze
+	Receiver's instance variables: 
+		parent: 	DoIt
+	testRemoveAllBlogPosts blog removeAllPosts.
+	^ self assert: blog ...etc...
+		properties: 	nil
+		leftBar: 	nil
+		rightBar: 	nil
+		statements: 	an OrderedCollection(RBMessageNode(testRemoveAllBlogPosts blog remo...etc...
+		periods: 	an OrderedCollection(44)
+		temporaries: 	#()
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	RBSequenceNode(testRemoveAllBlogPosts blog removeAllPosts.
+^ self assert...etc..
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+OCASTSemanticAnalyzer>>visitMethodNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aMethodNode: 	DoIt
+	testRemoveAllBlogPosts blog removeAllPosts.
+	^ self assert: ...etc..
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBMethodNode>>acceptVisitor:
+	Receiver: DoIt
+	testRemoveAllBlogPosts blog removeAllPosts.
+	^ self assert: blog size equals: 0
+	Arguments and temporary variables: 
+		aProgramNodeVisitor: 	an OCASTSemanticAnalyze
+	Receiver's instance variables: 
+		parent: 	nil
+		properties: 	nil
+		scope: 	an OCMethodScope 4
+		selector: 	#DoIt
+		keywordsPositions: 	nil
+		body: 	RBSequenceNode(testRemoveAllBlogPosts blog removeAllPosts.
+^ self assert:...etc...
+		source: 	nil
+		arguments: 	#()
+		pragmas: 	nil
+		replacements: 	a SortedCollection()
+		nodeReplacements: 	an IdentityDictionary()
+		compilationContext: 	a CompilationContext
+
+
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	DoIt
+	testRemoveAllBlogPosts blog removeAllPosts.
+	^ self assert: blog s...etc..
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+OCASTSemanticAnalyzer>>analyze:
+	Receiver: an OCASTSemanticAnalyzer
+	Arguments and temporary variables: 
+		aNode: 	DoIt
+	testRemoveAllBlogPosts blog removeAllPosts.
+	^ self assert: blog s...etc..
+	Receiver's instance variables: 
+		scope: 	an OCMethodScope 4
+		blockcounter: 	nil
+		compilationContext: 	a CompilationContext
+
+
+RBMethodNode>>doSemanticAnalysis
+	Receiver: DoIt
+	testRemoveAllBlogPosts blog removeAllPosts.
+	^ self assert: blog size equals: 0
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		parent: 	nil
+		properties: 	nil
+		scope: 	an OCMethodScope 4
+		selector: 	#DoIt
+		keywordsPositions: 	nil
+		body: 	RBSequenceNode(testRemoveAllBlogPosts blog removeAllPosts.
+^ self assert:...etc...
+		source: 	nil
+		arguments: 	#()
+		pragmas: 	nil
+		replacements: 	a SortedCollection()
+		nodeReplacements: 	an IdentityDictionary()
+		compilationContext: 	a CompilationContext
+
+
+[ ast doSemanticAnalysis ] in OpalCompiler>>doSemanticAnalysis
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		ast: 	DoIt
+	testRemoveAllBlogPosts blog removeAllPosts.
+	^ self assert: blog siz...etc...
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+BlockClosure>>on:do:
+	Receiver: [ ast doSemanticAnalysis ]
+	Arguments and temporary variables: 
+		exception: 	OCSemanticError
+		handlerAction: 	[ :ex | 
+ex defaultAction.
+^ self compilationContext failBlock v...etc..
+	Receiver's instance variables: 
+		outerContext: 	OpalCompiler>>doSemanticAnalysis
+		startpc: 	77
+		numArgs: 	0
+
+
+OpalCompiler>>doSemanticAnalysis
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		ast: 	DoIt
+	testRemoveAllBlogPosts blog removeAllPosts.
+	^ self assert: blog siz...etc...
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+[ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ] in [ [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ]
+	on: ReparseAfterSourceEditing
+	do: [ :notification | 
+		self source: notification newSource.
+		notification retry ].
+cm := compilationContext optionEmbeddSources
+	ifTrue: [ ast generateWithSource ]
+	ifFalse: [ ast generate: self compilationContext compiledMethodTrailer ] ] in OpalCompiler>>compile
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		cm: 	ni
+	Receiver's instance variables: 
+		ast: 	DoIt
+	testRemoveAllBlogPosts blog removeAllPosts.
+	^ self assert: blog siz...etc...
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+BlockClosure>>on:do:
+	Receiver: [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ]
+	Arguments and temporary variables: 
+		exception: 	ReparseAfterSourceEditing
+		handlerAction: 	[ :notification | 
+self source: notification newSource.
+notifica...etc..
+	Receiver's instance variables: 
+		outerContext: 	[ [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self...etc...
+		startpc: 	245
+		numArgs: 	0
+
+
+[ [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ]
+	on: ReparseAfterSourceEditing
+	do: [ :notification | 
+		self source: notification newSource.
+		notification retry ].
+cm := compilationContext optionEmbeddSources
+	ifTrue: [ ast generateWithSource ]
+	ifFalse: [ ast generate: self compilationContext compiledMethodTrailer ] ] in OpalCompiler>>compile
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		cm: 	ni
+	Receiver's instance variables: 
+		ast: 	DoIt
+	testRemoveAllBlogPosts blog removeAllPosts.
+	^ self assert: blog siz...etc...
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+BlockClosure>>on:do:
+	Receiver: [ [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ]
+	on: Repar...etc...
+	Arguments and temporary variables: 
+		exception: 	SyntaxErrorNotification
+		handlerAction: 	[ :exception | 
+self compilationContext requestor
+	ifNotNil: [ s...etc..
+	Receiver's instance variables: 
+		outerContext: 	OpalCompiler>>compile
+		startpc: 	241
+		numArgs: 	0
+
+
+OpalCompiler>>compile
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		cm: 	ni
+	Receiver's instance variables: 
+		ast: 	DoIt
+	testRemoveAllBlogPosts blog removeAllPosts.
+	^ self assert: blog siz...etc...
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+OpalCompiler>>evaluate
+	Receiver: an OpalCompiler
+	Arguments and temporary variables: 
+		value: 	ni
+	Receiver's instance variables: 
+		ast: 	DoIt
+	testRemoveAllBlogPosts blog removeAllPosts.
+	^ self assert: blog siz...etc...
+		source: 	a ReadStream
+		context: 	nil
+		receiver: 	nil
+		compilationContext: 	a CompilationContext
+		compilationContextClass: 	nil
+
+
+ClySystemEnvironment>>compileANewClassFrom:notifying:startingFrom:
+	Receiver: a ClySystemEnvironment(current image)
+	Arguments and temporary variables: 
+		aString: 	'testRemoveAllBlogPosts
+	blog removeAllPosts.
+	self assert: blog size ...etc...
+		aController: 	a RubScrolledTextMorph(737210624)
+		aClass: 	TBBlogTest
+		oldClass: 	TBBlogTest
+		class: 	nil
+		newClassName: 	'testRemoveAllBlogPosts'
+		defTokens: 	an OrderedCollection('testRemoveAllBlogPosts' 'blog' 'removeAllPosts...etc...
+		keywdIx: 	0
+		classCompiler: 	an OpalCompile
+	Receiver's instance variables: 
+		name: 	'current image'
+		globals: 	a SystemDictionary(lots of globals)
+		changesAnnouncer: 	a SystemAnnouncer
+		packageOrganizer: 	a RPackageOrganizer
+		projectManager: 	a ClyProjectManagerRegistry
+
+
+ClyFullBrowser>>compileANewClassFrom:notifying:startingFrom:
+	Receiver: a ClyFullBrowser(798388224)
+	Arguments and temporary variables: 
+		aString: 	'testRemoveAllBlogPosts
+	blog removeAllPosts.
+	self assert: blog size ...etc...
+		aController: 	a RubScrolledTextMorph(737210624)
+		aClass: 	TBBlogTes
+	Receiver's instance variables: 
+		bounds: 	(68.0@46.0) corner: (918.0@666.0)
+		owner: 	a SystemWindow(172461056) named: TinyBlog-Tests
+		submorphs: 	an Array(a ProportionalSplitterMorph(621063936) a PanelMorph(8344340...etc...
+		fullBounds: 	(68@46) corner: (918@666)
+		color: 	Color veryDarkGray
+		extension: 	a MorphExtension (298812672) [sticky]  [other:  (announcer -> an Ann...etc...
+		borderWidth: 	0
+		borderColor: 	Color veryDarkGray
+		navigationPanel: 	a PanelMorph(834434048)
+		navigationViews: 	an OrderedCollection(a ClyQueryViewMorph(439078144) a ClyQuery...etc...
+		toolPanel: 	a PanelMorph(707551488)
+		toolbar: 	a ClyToolbarMorph(1031299328)
+		tabManager: 	a ClyTabManager
+		navigationHistory: 	a ClyNavigationHistory
+		navigationStarted: 	false
+		plugins: 	a SortedCollection(a ClyStandardBrowserPlugin a ClyInheritanceAnalysis...etc...
+		navigationEnvironment: 	a ClyNavigationEnvironment
+		systemScope: 	a ClySystemEnvironmentScope(current image)
+		packageView: 	a ClyQueryViewMorph(439078144)
+		classView: 	a ClyQueryViewMorph(408623360)
+		methodGroupView: 	a ClyQueryViewMorph(101218816)
+		methodView: 	a ClyQueryViewMorph(325452032)
+		metaLevelScope: 	ClyInstanceSideScope
+		methodGroupQuery: 	a ClyAllMethodGroupsQuery from empty scope
+
+
+ClyClassDefinitionEditorToolMorph>>applyChanges
+	Receiver: a ClyClassDefinitionEditorToolMorph(567284736)
+	Arguments and temporary variables: 
+		newClass: 	ni
+	Receiver's instance variables: 
+		bounds: 	(70.0@382.0) corner: (917.0@665.0)
+		owner: 	a Morph(702577152)
+		submorphs: 	an Array(a ProportionalSplitterMorph(506271744) a ClyQueryViewMorph(...etc...
+		fullBounds: 	(70@382) corner: (917@665)
+		color: 	Color transparent
+		extension: 	a MorphExtension (228417792) [other:  (kmDispatcher -> a CmdKMDispat...etc...
+		borderWidth: 	0
+		borderColor: 	Color black
+		browser: 	a ClyFullBrowser(798388224)
+		context: 	a ClyClassContextOfFullBrowser
+		decorators: 	an OrderedCollection(a ClyCriticDecorator)
+		containerTab: 	a TabMorph(570639104)
+		isDirty: 	true
+		isManagedByUser: 	false
+		statusBar: 	a ClyStatusBarMorph(392691712)
+		textModel: 	a RubScrolledTextModel
+		textMorph: 	a RubScrolledTextMorph(737210624)
+		changesCancelRequested: 	false
+		applyingChanges: 	true
+		editingClass: 	TBBlogTest
+
+
+[ self changesAreAboutApply.
+applied := self applyChanges ] in [ textMorph hasUnacceptedEdits: true.
+[ self changesAreAboutApply.
+applied := self applyChanges ]
+	on: Error
+	do: [ :err | 
+		textModel text: self editingText.
+		textMorph hasUnacceptedEdits: true.
+		err pass ].
+applied
+	ifTrue: [ textMorph hasUnacceptedEdits: false.
+		self textUpdated.
+		browser focusActiveTab ]
+	ifFalse: [ textModel text: self editingText.
+		textMorph hasUnacceptedEdits: true ] ] in ClyClassDefinitionEditorToolMorph(ClyTextEditorToolMorph)>>changesAccepted
+	Receiver: a ClyClassDefinitionEditorToolMorph(567284736)
+	Arguments and temporary variables: 
+		applied: 	ni
+	Receiver's instance variables: 
+		bounds: 	(70.0@382.0) corner: (917.0@665.0)
+		owner: 	a Morph(702577152)
+		submorphs: 	an Array(a ProportionalSplitterMorph(506271744) a ClyQueryViewMorph(...etc...
+		fullBounds: 	(70@382) corner: (917@665)
+		color: 	Color transparent
+		extension: 	a MorphExtension (228417792) [other:  (kmDispatcher -> a CmdKMDispat...etc...
+		borderWidth: 	0
+		borderColor: 	Color black
+		browser: 	a ClyFullBrowser(798388224)
+		context: 	a ClyClassContextOfFullBrowser
+		decorators: 	an OrderedCollection(a ClyCriticDecorator)
+		containerTab: 	a TabMorph(570639104)
+		isDirty: 	true
+		isManagedByUser: 	false
+		statusBar: 	a ClyStatusBarMorph(392691712)
+		textModel: 	a RubScrolledTextModel
+		textMorph: 	a RubScrolledTextMorph(737210624)
+		changesCancelRequested: 	false
+		applyingChanges: 	true
+		editingClass: 	TBBlogTest
+
+
+BlockClosure>>on:do:
+	Receiver: [ self changesAreAboutApply.
+applied := self applyChanges ]
+	Arguments and temporary variables: 
+		exception: 	Error
+		handlerAction: 	[ :err | 
+textModel text: self editingText.
+textMorph hasUnaccep...etc..
+	Receiver's instance variables: 
+		outerContext: 	[ textMorph hasUnacceptedEdits: true.
+[ self changesAreAboutApply...etc...
+		startpc: 	140
+		numArgs: 	0
+
+
+[ textMorph hasUnacceptedEdits: true.
+[ self changesAreAboutApply.
+applied := self applyChanges ]
+	on: Error
+	do: [ :err | 
+		textModel text: self editingText.
+		textMorph hasUnacceptedEdits: true.
+		err pass ].
+applied
+	ifTrue: [ textMorph hasUnacceptedEdits: false.
+		self textUpdated.
+		browser focusActiveTab ]
+	ifFalse: [ textModel text: self editingText.
+		textMorph hasUnacceptedEdits: true ] ] in ClyClassDefinitionEditorToolMorph(ClyTextEditorToolMorph)>>changesAccepted
+	Receiver: a ClyClassDefinitionEditorToolMorph(567284736)
+	Arguments and temporary variables: 
+		applied: 	ni
+	Receiver's instance variables: 
+		bounds: 	(70.0@382.0) corner: (917.0@665.0)
+		owner: 	a Morph(702577152)
+		submorphs: 	an ArraTHERE_BE_DRAGONS_HERE
+Instance of TBBlog did not understand #allCategories
+2 May 2022 4:17:37.951151 pm
+
+VM: Win32 - X64 - 6.2 - CoInterpreter VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+StackToRegisterMappingCogit VMMaker.oscog-eem.2509 uuid: 91e81f64-95de-4914-a960-8f842be3a194 Sep 13 2019
+VM: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm Date: Wed Jul 3 16:41:39 2019 CommitHash: 4e4c5b5a0 Plugins: 201907031441-pharo Guille@DESKTOP-MG6660L:projects/vm7/opensmalltalk-vm
+
+Image: Pharo8.0.0 [Build information: Pharo-8.0.0+build.1136.sha.a153e04ae4e325509ed78bfe25c9ce560afb24b0 (64 Bit)]
+
+TBBlog(Object)>>doesNotUnderstand: #allCategories
+	Receiver: a TBBlog
+	Arguments and temporary variables: 
+		aMessage: 	allCategories
+		exception: 	MessageNotUnderstood: TBBlog>> #allCategories
+		resumeValue: 	ni
+	Receiver's instance variables: 
+		posts: 	an OrderedCollection(a TBPost a TBPost)
+
+
+TBBlogTest>>testAllCategories
+	Receiver: TBBlogTest>>#testAllCategories
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		testSelector: 	#testAllCategories
+		expectedFails: 	nil
+		blog: 	a TBBlog
+		post: 	a TBPost
+		first: 	a TBPost
+
+
+TBBlogTest(TestCase)>>performTest
+	Receiver: TBBlogTest>>#testAllCategories
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		testSelector: 	#testAllCategories
+		expectedFails: 	nil
+		blog: 	a TBBlog
+		post: 	a TBPost
+		first: 	a TBPost
+
+
+[ self setUp.
+self performTest ] in TBBlogTest(TestCase)>>runCase
+	Receiver: TBBlogTest>>#testAllCategories
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		testSelector: 	#testAllCategories
+		expectedFails: 	nil
+		blog: 	a TBBlog
+		post: 	a TBPost
+		first: 	a TBPost
+
+
+BlockClosure>>ensure:
+	Receiver: [ self setUp.
+self performTest ]
+	Arguments and temporary variables: 
+		aBlock: 	[ self tearDown.
+self cleanUpInstanceVariables ]
+		complete: 	nil
+		returnValue: 	ni
+	Receiver's instance variables: 
+		outerContext: 	TBBlogTest(TestCase)>>runCase
+		startpc: 	97
+		numArgs: 	0
+
+
+TBBlogTest(TestCase)>>runCase
+	Receiver: TBBlogTest>>#testAllCategories
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		testSelector: 	#testAllCategories
+		expectedFails: 	nil
+		blog: 	a TBBlog
+		post: 	a TBPost
+		first: 	a TBPost
+
+
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly:
+	Receiver: a TestExecutionEnvironment
+	Arguments and temporary variables: 
+		aTestCase: 	TBBlogTest>>#testAllCategorie
+	Receiver's instance variables: 
+		watchDogProcess: 	a Process in [ self schedule.
+"It is critical that the followi...etc...
+		watchDogSemaphore: 	a Semaphore(a Process in [ self schedule.
+"It is critical th...etc...
+		testCase: 	TBBlogTest>>#testAllCategories
+		maxTimeForTest: 	0:00:00:10
+		forkedProcesses: 	a WeakSet(a Process in [ delaySemaphore wait ] in Delay>>wait)...etc...
+		failedProcesses: 	an OrderedIdentityDictionary()
+		testCompleted: 	false
+
+
+BlockClosure>>on:do:
+	Receiver: [ aTestCase runCase ]
+	Arguments and temporary variables: 
+		exception: 	Halt
+		handlerAction: 	[ :halt | 
+"if test was halted we should resume all background f...etc..
+	Receiver's instance variables: 
+		outerContext: 	[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was ...etc...
+		startpc: 	115
+		numArgs: 	0
+
+
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly:
+	Receiver: a TestExecutionEnvironment
+	Arguments and temporary variables: 
+		aTestCase: 	TBBlogTest>>#testAllCategorie
+	Receiver's instance variables: 
+		watchDogProcess: 	a Process in [ self schedule.
+"It is critical that the followi...etc...
+		watchDogSemaphore: 	a Semaphore(a Process in [ self schedule.
+"It is critical th...etc...
+		testCase: 	TBBlogTest>>#testAllCategories
+		maxTimeForTest: 	0:00:00:10
+		forkedProcesses: 	a WeakSet(a Process in [ delaySemaphore wait ] in Delay>>wait)...etc...
+		failedProcesses: 	an OrderedIdentityDictionary()
+		testCompleted: 	false
+
+
+BlockClosure>>on:do:
+	Receiver: [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume a...etc...
+	Arguments and temporary variables: 
+		exception: 	an ExceptionSet
+		handlerAction: 	[ :err | 
+"error here means that test is failed. So we should ch...etc..
+	Receiver's instance variables: 
+		outerContext: 	TestExecutionEnvironment>>runTestCaseSafelly:
+		startpc: 	110
+		numArgs: 	0
+
+
+TestExecutionEnvironment>>runTestCaseSafelly:
+	Receiver: a TestExecutionEnvironment
+	Arguments and temporary variables: 
+		aTestCase: 	TBBlogTest>>#testAllCategorie
+	Receiver's instance variables: 
+		watchDogProcess: 	a Process in [ self schedule.
+"It is critical that the followi...etc...
+		watchDogSemaphore: 	a Semaphore(a Process in [ self schedule.
+"It is critical th...etc...
+		testCase: 	TBBlogTest>>#testAllCategories
+		maxTimeForTest: 	0:00:00:10
+		forkedProcesses: 	a WeakSet(a Process in [ delaySemaphore wait ] in Delay>>wait)...etc...
+		failedProcesses: 	an OrderedIdentityDictionary()
+		testCompleted: 	false
+
+
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase:
+	Receiver: a TestExecutionEnvironment
+	Arguments and temporary variables: 
+		aTestCase: 	TBBlogTest>>#testAllCategorie
+	Receiver's instance variables: 
+		watchDogProcess: 	a Process in [ self schedule.
+"It is critical that the followi...etc...
+		watchDogSemaphore: 	a Semaphore(a Process in [ self schedule.
+"It is critical th...etc...
+		testCase: 	TBBlogTest>>#testAllCategories
+		maxTimeForTest: 	0:00:00:10
+		forkedProcesses: 	a WeakSet(a Process in [ delaySemaphore wait ] in Delay>>wait)...etc...
+		failedProcesses: 	an OrderedIdentityDictionary()
+		testCompleted: 	false
+
+
+BlockClosure>>ensure:
+	Receiver: [ self runTestCaseSafelly: aTestCase ]
+	Arguments and temporary variables: 
+		aBlock: 	[ testCompleted := true.
+watchDogSemaphore signal ]
+		complete: 	nil
+		returnValue: 	ni
+	Receiver's instance variables: 
+		outerContext: 	[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted...etc...
+		startpc: 	101
+		numArgs: 	0
+
+
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase:
+	Receiver: a TestExecutionEnvironment
+	Arguments and temporary variables: 
+		aTestCase: 	TBBlogTest>>#testAllCategorie
+	Receiver's instance variables: 
+		watchDogProcess: 	a Process in [ self schedule.
+"It is critical that the followi...etc...
+		watchDogSemaphore: 	a Semaphore(a Process in [ self schedule.
+"It is critical th...etc...
+		testCase: 	TBBlogTest>>#testAllCategories
+		maxTimeForTest: 	0:00:00:10
+		forkedProcesses: 	a WeakSet(a Process in [ delaySemaphore wait ] in Delay>>wait)...etc...
+		failedProcesses: 	an OrderedIdentityDictionary()
+		testCompleted: 	false
+
+
+BlockClosure>>ifCurtailed:
+	Receiver: [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemap...etc...
+	Arguments and temporary variables: 
+		aBlock: 	[ forkedProcesses removeAll.
+failedProcesses removeAll ]
+		complete: 	nil
+		result: 	ni
+	Receiver's instance variables: 
+		outerContext: 	TestExecutionEnvironment>>runTestCase:
+		startpc: 	96
+		numArgs: 	0
+
+
+TestExecutionEnvironment>>runTestCase:
+	Receiver: a TestExecutionEnvironment
+	Arguments and temporary variables: 
+		aTestCase: 	TBBlogTest>>#testAllCategorie
+	Receiver's instance variables: 
+		watchDogProcess: 	a Process in [ self schedule.
+"It is critical that the followi...etc...
+		watchDogSemaphore: 	a Semaphore(a Process in [ self schedule.
+"It is critical th...etc...
+		testCase: 	TBBlogTest>>#testAllCategories
+		maxTimeForTest: 	0:00:00:10
+		forkedProcesses: 	a WeakSet(a Process in [ delaySemaphore wait ] in Delay>>wait)...etc...
+		failedProcesses: 	an OrderedIdentityDictionary()
+		testCompleted: 	false
+
+
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase:
+	Receiver: a DefaultExecutionEnvironment
+	Arguments and temporary variables: 
+		aTestCase: 	TBBlogTest>>#testAllCategories
+		testEnv: 	a TestExecutionEnvironmen
+	Receiver's instance variables: 
+a DefaultExecutionEnvironment
+
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for:
+	Receiver: CurrentExecutionEnvironment
+	Arguments and temporary variables: 
+		anExecutionEnvironment: 	a TestExecutionEnvironment
+		aBlock: 	[ testEnv runTestCase: aTestCase ]
+		current: 	ni
+	Receiver's instance variables: 
+		superclass: 	ProcessLocalVariable
+		methodDict: 	a MethodDictionary(#default->CurrentExecutionEnvironment>>#default ...etc...
+		format: 	65537
+		layout: 	a FixedLayout
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#CurrentExecutionEnvironment
+		classPool: 	a Dictionary()
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Kernel-Processes'
+		soleInstance: 	a CurrentExecutionEnvironment
+
+
+BlockClosure>>ensure:
+	Receiver: [ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ]
+	Arguments and temporary variables: 
+		aBlock: 	[ self value: current.
+anExecutionEnvironment deactivated ]
+		complete: 	nil
+		returnValue: 	ni
+	Receiver's instance variables: 
+		outerContext: 	CurrentExecutionEnvironment class>>activate:for:
+		startpc: 	91
+		numArgs: 	0
+
+
+CurrentExecutionEnvironment class>>activate:for:
+	Receiver: CurrentExecutionEnvironment
+	Arguments and temporary variables: 
+		anExecutionEnvironment: 	a TestExecutionEnvironment
+		aBlock: 	[ testEnv runTestCase: aTestCase ]
+		current: 	ni
+	Receiver's instance variables: 
+		superclass

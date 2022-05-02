@@ -1,1 +1,374 @@
-SmalltalkImageInstanceID class>>startUp
+SmalltalkImageInstanceID class>>startUp[31mFileDoesNotExistException: 'C:\Users\Home\Documents\Pharo\images\Pharo Mooc\pharo-local\iceberg\TinyBlog\.git\HEAD'
+[0mFile>>openForWrite:
+File>>openForRead
+File>>readStream
+FileHandle>>binaryReadStream
+FileSystem>>binaryReadStreamOn:
+FileReference>>binaryReadStream
+FileReference(AbstractFileReference)>>readStreamEncoded:
+FileReference>>readStream
+FileLocator>>readStream
+FileLocator(AbstractFileReference)>>readStreamDo:
+FileLocator(AbstractFileReference)>>contents
+IceGitUnbornBranch>>gitRef
+IceGitUnbornBranch>>name
+IceGitUnbornBranch(IceUnbornBranch)>>description
+IceTipRepositoryModel>>branchName
+IceTipCachedModel>>forwardMessage:
+IceTipCachedModel>>doesNotUnderstand: #branchName
+IceTipWorkingCopyModel>>branchName
+IceTipBranchWithCommitStatusBarItem>>newStatusBarItemOn:
+[ :each | each position addItem: (each newStatusBarItemOn: self) into: self ] in IceTipStatusBar>>refresh in Block: [ :each | each position addItem: (each newStatusBa...etc...
+OrderedCollection>>do:
+IceTipStatusBar>>refresh
+IceTipWorkingCopyBrowser>>refresh
+IceTipWorkingCopyBrowser>>refreshWhenRepository:
+WeakMessageSend>>value:
+WeakMessageSend>>cull:
+WeakMessageSend>>cull:cull:
+[ action cull: anAnnouncement cull: announcer ] in WeakAnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
+BlockClosure>>on:do:
+BlockClosure>>on:fork:
+[0m[31mLGit_GIT_ENOTFOUND: Object not found - no match for id (81083cc713c962cbec171821d96512708e579be8)
+[0mLGitReturnCodeEnum>>handleLGitReturnCode
+LGitTreeEntry(LGitExternalObject)>>withReturnHandlerDo:
+LGitTreeEntry>>object
+LGitFileHandle>>readStream
+LGitFileHandle>>binaryReadStream
+FileSystem>>binaryReadStreamOn:
+FileReference>>binaryReadStream
+FileReference(AbstractFileReference)>>binaryReadStreamDo:
+IceBasicProjectReader>>readProjectFromCommitish:
+IceProjectReader class>>readProjectFrom:
+[ IceProjectReader readProjectFrom: self ] in IceGitCommit>>project in Block: [ IceProjectReader readProjectFrom: self ]
+BlockClosure>>on:do:
+IceGitCommit>>project
+IceBasicProject(IceAbstractProject)>>isDirty
+IceWorkingCopy>>isModified
+IceLibgitRepository(IceRepository)>>isModified
+IceLibgitRepository>>isModified
+IceTipRepositoryModel>>descriptionWithDecoration
+IceTipCachedModel>>forwardMessage:
+IceTipCachedModel>>doesNotUnderstand: #descriptionWithDecoration
+ByteSymbol(Symbol)>>value:
+IceTipTableColumn>>read:
+IceTipDataSource>>cellColumn:row:
+[ :columnIndex | 
+| cell |
+cell := self table dataSource
+	cellColumn: (columns at: columnIndex)
+	row: rowIndex.
+cell width: (columnWidths at: columnIndex).
+row addMorphBack: cell ] in FTTableContainerMorph>>updateExposedRows in Block: [ :columnIndex | ...
+Interval>>do:
+FTTableContainerMorph>>updateExposedRows
+FTTableMorph>>resetPosition
+FTTableMorph>>dataSource:
+IceTipRepositoriesBrowser>>initializeRepositoryList
+IceTipRepositoriesBrowser>>initializeWidgets
+[0m[31m#isTemp was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #isTemp
+UndefinedObject>>doesNotUnderstand: #isTemp
+OCASTSemanticAnalyzer>>visitVariableNode:
+RBVariableNode>>acceptVisitor:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
+RBMessageNode>>acceptVisitor:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
+RBMessageNode>>acceptVisitor:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitReturnNode:
+RBReturnNode>>acceptVisitor:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+[ :each | self visitNode: each ] in OCASTSemanticAnalyzer>>visitSequenceNode: in Block: [ :each | self visitNode: each ]
+Array(SequenceableCollection)>>do:
+OCASTSemanticAnalyzer>>visitSequenceNode:
+RBSequenceNode>>acceptVisitor:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+OCASTSemanticAnalyzer>>visitMethodNode:
+RBMethodNode>>acceptVisitor:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+OCASTSemanticAnalyzer>>analyze:
+RBMethodNode>>doSemanticAnalysis
+[ ast doSemanticAnalysis ] in OpalCompiler>>doSemanticAnalysis in Block: [ ast doSemanticAnalysis ]
+BlockClosure>>on:do:
+OpalCompiler>>doSemanticAnalysis
+[ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ] in [ [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ]
+	on: ReparseAfterSourceEditing
+	do: [ :notification | 
+		self source: notification newSource.
+		notification retry ].
+cm := compilationContext optionEmbeddSources
+	ifTrue: [ ast generateWithSource ]
+	ifFalse: [ ast generate: self compilationContext compiledMethodTrailer ] ] in OpalCompiler>>compile in Block: [ self parse....
+BlockClosure>>on:do:
+[ [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ]
+	on: ReparseAfterSourceEditing
+	do: [ :notification | 
+		self source: notification newSource.
+		notification retry ].
+cm := compilationContext optionEmbeddSources
+	ifTrue: [ ast generateWithSource ]
+	ifFalse: [ ast generate: self compilationContext compiledMethodTrailer ] ] in OpalCompiler>>compile in Block: [ [ self parse....
+[0m[31m#isTemp was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #isTemp
+UndefinedObject>>doesNotUnderstand: #isTemp
+OCASTSemanticAnalyzer>>visitVariableNode:
+RBVariableNode>>acceptVisitor:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
+RBMessageNode>>acceptVisitor:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
+RBMessageNode>>acceptVisitor:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitReturnNode:
+RBReturnNode>>acceptVisitor:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+[ :each | self visitNode: each ] in OCASTSemanticAnalyzer>>visitSequenceNode: in Block: [ :each | self visitNode: each ]
+Array(SequenceableCollection)>>do:
+OCASTSemanticAnalyzer>>visitSequenceNode:
+RBSequenceNode>>acceptVisitor:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+OCASTSemanticAnalyzer>>visitMethodNode:
+RBMethodNode>>acceptVisitor:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+OCASTSemanticAnalyzer>>analyze:
+RBMethodNode>>doSemanticAnalysis
+[ ast doSemanticAnalysis ] in OpalCompiler>>doSemanticAnalysis in Block: [ ast doSemanticAnalysis ]
+BlockClosure>>on:do:
+OpalCompiler>>doSemanticAnalysis
+[ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ] in [ [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ]
+	on: ReparseAfterSourceEditing
+	do: [ :notification | 
+		self source: notification newSource.
+		notification retry ].
+cm := compilationContext optionEmbeddSources
+	ifTrue: [ ast generateWithSource ]
+	ifFalse: [ ast generate: self compilationContext compiledMethodTrailer ] ] in OpalCompiler>>compile in Block: [ self parse....
+BlockClosure>>on:do:
+[ [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ]
+	on: ReparseAfterSourceEditing
+	do: [ :notification | 
+		self source: notification newSource.
+		notification retry ].
+cm := compilationContext optionEmbeddSources
+	ifTrue: [ ast generateWithSource ]
+	ifFalse: [ ast generate: self compilationContext compiledMethodTrailer ] ] in OpalCompiler>>compile in Block: [ [ self parse....
+[0m[31mSubscriptOutOfBounds: 0
+[0mByteString(Object)>>errorSubscriptBounds:
+ByteString(Object)>>at:
+ByteString>>at:
+Text>>at:
+OCUndeclaredVariableWarning>>declareTempAndPaste:
+[ self declareTempAndPaste: name ] in OCUndeclaredVariableWarning>>openMenuIn: in Block: [ self declareTempAndPaste: name ]
+OCUndeclaredVariableWarning>>openMenuIn:
+OCUndeclaredVariableWarning(OCSemanticWarning)>>defaultAction
+OCUndeclaredVariableWarning>>defaultAction
+UndefinedObject>>handleSignal:
+Context>>handleSignal:
+Context>>handleSignal:
+Context>>handleSignal:
+Context>>handleSignal:
+Context>>handleSignal:
+Context>>handleSignal:
+Context>>handleSignal:
+OCUndeclaredVariableWarning(Exception)>>signal
+OCASTSemanticAnalyzer>>undeclaredVariable:
+OCASTSemanticAnalyzer>>visitVariableNode:
+RBVariableNode>>acceptVisitor:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
+RBMessageNode>>acceptVisitor:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
+RBMessageNode>>acceptVisitor:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitReturnNode:
+RBReturnNode>>acceptVisitor:
+[0m[31m#isTemp was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #isTemp
+UndefinedObject>>doesNotUnderstand: #isTemp
+OCASTSemanticAnalyzer>>visitVariableNode:
+RBVariableNode>>acceptVisitor:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
+RBMessageNode>>acceptVisitor:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
+RBMessageNode>>acceptVisitor:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+[ :each | self visitNode: each ] in OCASTSemanticAnalyzer>>visitSequenceNode: in Block: [ :each | self visitNode: each ]
+OrderedCollection>>do:
+OCASTSemanticAnalyzer>>visitSequenceNode:
+RBSequenceNode>>acceptVisitor:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+OCASTSemanticAnalyzer>>visitMethodNode:
+RBMethodNode>>acceptVisitor:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+OCASTSemanticAnalyzer>>analyze:
+RBMethodNode>>doSemanticAnalysis
+[ ast doSemanticAnalysis ] in OpalCompiler>>doSemanticAnalysis in Block: [ ast doSemanticAnalysis ]
+BlockClosure>>on:do:
+OpalCompiler>>doSemanticAnalysis
+[ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ] in [ [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ]
+	on: ReparseAfterSourceEditing
+	do: [ :notification | 
+		self source: notification newSource.
+		notification retry ].
+cm := compilationContext optionEmbeddSources
+	ifTrue: [ ast generateWithSource ]
+	ifFalse: [ ast generate: self compilationContext compiledMethodTrailer ] ] in OpalCompiler>>compile in Block: [ self parse....
+BlockClosure>>on:do:
+[ [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ]
+	on: ReparseAfterSourceEditing
+	do: [ :notification | 
+		self source: notification newSource.
+		notification retry ].
+cm := compilationContext optionEmbeddSources
+	ifTrue: [ ast generateWithSource ]
+	ifFalse: [ ast generate: self compilationContext compiledMethodTrailer ] ] in OpalCompiler>>compile in Block: [ [ self parse....
+BlockClosure>>on:do:
+OpalCompiler>>compile
+OpalCompiler>>evaluate
+[0m[31m#isTemp was sent to nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #isTemp
+UndefinedObject>>doesNotUnderstand: #isTemp
+OCASTSemanticAnalyzer>>visitVariableNode:
+RBVariableNode>>acceptVisitor:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
+RBMessageNode>>acceptVisitor:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
+RBMessageNode>>acceptVisitor:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+[ :each | self visitNode: each ] in OCASTSemanticAnalyzer>>visitSequenceNode: in Block: [ :each | self visitNode: each ]
+OrderedCollection>>do:
+OCASTSemanticAnalyzer>>visitSequenceNode:
+RBSequenceNode>>acceptVisitor:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+OCASTSemanticAnalyzer>>visitMethodNode:
+RBMethodNode>>acceptVisitor:
+OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
+OCASTSemanticAnalyzer>>analyze:
+RBMethodNode>>doSemanticAnalysis
+[ ast doSemanticAnalysis ] in OpalCompiler>>doSemanticAnalysis in Block: [ ast doSemanticAnalysis ]
+BlockClosure>>on:do:
+OpalCompiler>>doSemanticAnalysis
+[ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ] in [ [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ]
+	on: ReparseAfterSourceEditing
+	do: [ :notification | 
+		self source: notification newSource.
+		notification retry ].
+cm := compilationContext optionEmbeddSources
+	ifTrue: [ ast generateWithSource ]
+	ifFalse: [ ast generate: self compilationContext compiledMethodTrailer ] ] in OpalCompiler>>compile in Block: [ self parse....
+BlockClosure>>on:do:
+[ [ self parse.
+self transformDoit.
+self doSemanticAnalysis.
+self callPlugins ]
+	on: ReparseAfterSourceEditing
+	do: [ :notification | 
+		self source: notification newSource.
+		notification retry ].
+cm := compilationContext optionEmbeddSources
+	ifTrue: [ ast generateWithSource ]
+	ifFalse: [ ast generate: self compilationContext compiledMethodTrailer ] ] in OpalCompiler>>compile in Block: [ [ self parse....
+BlockClosure>>on:do:
+OpalCompiler>>compile
+OpalCompiler>>evaluate
+[0m[31mInstance of TBBlog did not understand #allCategories
+[0mTBBlog(Object)>>doesNotUnderstand: #allCategories
+TBBlogTest>>testAllCategories
+TBBlogTest(TestCase)>>performTest
+[ self setUp.
+self performTest ] in TBBlogTest(TestCase)>>runCase in Block: [ self setUp....
+BlockClosure>>ensure:
+TBBlogTest(TestCase)>>runCase
+[ aTestCase runCase ] in [ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
+BlockClosure>>on:do:
+[ [ aTestCase runCase ]
+	on: Halt
+	do: [ :halt | 
+		"if test was halted we should resume all background failures 
+			to debug all of them together with test process"
+		failedProcesses keysDo: #resume.
+		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
+BlockClosure>>on:do:
+TestExecutionEnvironment>>runTestCaseSafelly:
+[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+BlockClosure>>ensure:
+[ [ self runTestCaseSafelly: aTestCase ]
+	ensure: [ testCompleted := true.
+		watchDogSemaphore signal ].	"signal that test case completes"
+self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
+BlockClosure>>ifCurtailed:
+TestExecutionEnvironment>>runTestCase:
+[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
+[ self value: anExecutionEnvironment.
+anExecutionEnvironment activated.
+aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+BlockClosure>>ensure:
+CurrentExecutionEnvironment class>>activate:for:
+TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
+DefaultExecutionEnvironment>>runTestCase:
+CurrentExecutionEnvironment class>>runTestCase:
+TBBlogTest(TestCase)>>runCaseManaged
+[ aTestCase announce: TestCaseStarted withResult: self.
+aTestCase runCaseManaged.
+aTestCase announce: TestCaseEnded withResult: self.
+"To not affect performance of big test suites following logic is not inside addPass: method"
+errors remove: aTestCase ifAbsent: [  ].
+failures remove: aTestCase ifAbsent: [  ].
+self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
+BlockClosure>>on:do:
+TestResult>>runCaseForDebug:
+[ result runCaseForDebug: self ] in TBBlogTest(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
+BlockClosure>>ensure:
+TBBlogTest(TestCase)>>debug
+[0m

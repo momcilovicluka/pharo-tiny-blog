@@ -1,0 +1,1 @@
+TBPosttitle: 'Welcome in TinyBlog'text: 'TinyBlog is a small blog engine made with Pharo.'category: 'TinyBlog'
