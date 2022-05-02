@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 1bb2bedf017e63399f5834ab034caf6b5a5a3fe4 Luka <l.momcilovic61@gmail.com> 1651499328 +0200	commit (initial): Initial class commit from Iceberg
+1bb2bedf017e63399f5834ab034caf6b5a5a3fe4 de9b4c181437bab6df0cad5fd476cbd7035c1f82 Luka <l.momcilovic61@gmail.com> 1651499947 +0200	commit: added tests
+de9b4c181437bab6df0cad5fd476cbd7035c1f82 f56d345b6f2ed6a8d9726a68e414fe5326e6ccff Luka <l.momcilovic61@gmail.com> 1651500232 +0200	commit: Zavrsen 2. deo: core model
+f56d345b6f2ed6a8d9726a68e414fe5326e6ccff 14bc1415d79277174ac80959220f4d695b4f6eec Luka <l.momcilovic61@gmail.com> 1651501304 +0200	commit: Zavrsen 3. deo: testiranje
