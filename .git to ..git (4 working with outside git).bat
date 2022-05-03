@@ -1,0 +1,1 @@
+powershell -command "ren pharo-local\iceberg\TinyBlog\.git ..git"
