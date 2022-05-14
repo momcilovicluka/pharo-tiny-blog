@@ -1,374 +1,1521 @@
-SmalltalkImageInstanceID class>>startUp[31mFileDoesNotExistException: 'C:\Users\Home\Documents\Pharo\images\Pharo Mooc\pharo-local\iceberg\TinyBlog\.git\HEAD'
-[0mFile>>openForWrite:
-File>>openForRead
-File>>readStream
-FileHandle>>binaryReadStream
-FileSystem>>binaryReadStreamOn:
-FileReference>>binaryReadStream
-FileReference(AbstractFileReference)>>readStreamEncoded:
-FileReference>>readStream
-FileLocator>>readStream
-FileLocator(AbstractFileReference)>>readStreamDo:
-FileLocator(AbstractFileReference)>>contents
-IceGitUnbornBranch>>gitRef
-IceGitUnbornBranch>>name
-IceGitUnbornBranch(IceUnbornBranch)>>description
-IceTipRepositoryModel>>branchName
-IceTipCachedModel>>forwardMessage:
-IceTipCachedModel>>doesNotUnderstand: #branchName
-IceTipWorkingCopyModel>>branchName
-IceTipBranchWithCommitStatusBarItem>>newStatusBarItemOn:
-[ :each | each position addItem: (each newStatusBarItemOn: self) into: self ] in IceTipStatusBar>>refresh in Block: [ :each | each position addItem: (each newStatusBa...etc...
+[31mMessageNotUnderstood: TBPostComponent>> #post:
+[0mTBPostComponent(Object)>>doesNotUnderstand: #post:
+[ :p | html render: (TBPostComponent new post: p) ] in TBPostsListComponent>>renderContentOn: in Block: [ :p | html render: (TBPostComponent new post: p) ...etc...
 OrderedCollection>>do:
-IceTipStatusBar>>refresh
-IceTipWorkingCopyBrowser>>refresh
-IceTipWorkingCopyBrowser>>refreshWhenRepository:
-WeakMessageSend>>value:
-WeakMessageSend>>cull:
-WeakMessageSend>>cull:cull:
-[ action cull: anAnnouncement cull: announcer ] in WeakAnnouncementSubscription>>deliver: in Block: [ action cull: anAnnouncement cull: announcer ]
-BlockClosure>>on:do:
-BlockClosure>>on:fork:
-[0m[31mLGit_GIT_ENOTFOUND: Object not found - no match for id (81083cc713c962cbec171821d96512708e579be8)
-[0mLGitReturnCodeEnum>>handleLGitReturnCode
-LGitTreeEntry(LGitExternalObject)>>withReturnHandlerDo:
-LGitTreeEntry>>object
-LGitFileHandle>>readStream
-LGitFileHandle>>binaryReadStream
-FileSystem>>binaryReadStreamOn:
-FileReference>>binaryReadStream
-FileReference(AbstractFileReference)>>binaryReadStreamDo:
-IceBasicProjectReader>>readProjectFromCommitish:
-IceProjectReader class>>readProjectFrom:
-[ IceProjectReader readProjectFrom: self ] in IceGitCommit>>project in Block: [ IceProjectReader readProjectFrom: self ]
-BlockClosure>>on:do:
-IceGitCommit>>project
-IceBasicProject(IceAbstractProject)>>isDirty
-IceWorkingCopy>>isModified
-IceLibgitRepository(IceRepository)>>isModified
-IceLibgitRepository>>isModified
-IceTipRepositoryModel>>descriptionWithDecoration
-IceTipCachedModel>>forwardMessage:
-IceTipCachedModel>>doesNotUnderstand: #descriptionWithDecoration
-ByteSymbol(Symbol)>>value:
-IceTipTableColumn>>read:
-IceTipDataSource>>cellColumn:row:
-[ :columnIndex | 
-| cell |
-cell := self table dataSource
-	cellColumn: (columns at: columnIndex)
-	row: rowIndex.
-cell width: (columnWidths at: columnIndex).
-row addMorphBack: cell ] in FTTableContainerMorph>>updateExposedRows in Block: [ :columnIndex | ...
-Interval>>do:
-FTTableContainerMorph>>updateExposedRows
-FTTableMorph>>resetPosition
-FTTableMorph>>dataSource:
-IceTipRepositoriesBrowser>>initializeRepositoryList
-IceTipRepositoriesBrowser>>initializeWidgets
-[0m[31m#isTemp was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #isTemp
-UndefinedObject>>doesNotUnderstand: #isTemp
-OCASTSemanticAnalyzer>>visitVariableNode:
-RBVariableNode>>acceptVisitor:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
-RBMessageNode>>acceptVisitor:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
-RBMessageNode>>acceptVisitor:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitReturnNode:
-RBReturnNode>>acceptVisitor:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
-[ :each | self visitNode: each ] in OCASTSemanticAnalyzer>>visitSequenceNode: in Block: [ :each | self visitNode: each ]
+TBPostsListComponent>>renderContentOn:
+WARenderVisitor>>visitPainter:
+WARenderVisitor(WAPainterVisitor)>>visitPresenter:
+WARenderVisitor(WAPainterVisitor)>>visitComponent:
+TBPostsListComponent(WAComponent)>>accept:
+WARenderVisitor(WAVisitor)>>visit:
+WARenderingGuide(WAPresenterGuide)>>visitPainter:
+WARenderingGuide(WAPainterVisitor)>>visitPresenter:
+WARenderingGuide(WAPainterVisitor)>>visitComponent:
+TBPostsListComponent(WAComponent)>>accept:
+WARenderingGuide(WAPainterVisitor)>>visitDecorationsOfComponent:
+TBPostsListComponent(WAComponent)>>acceptDecorated:
+WARenderingGuide(WAPresenterGuide)>>visit:
+TBPostsListComponent(WAPainter)>>renderWithContext:
+TBPostsListComponent(WAPainter)>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+TBApplicationRootComponent>>renderContentOn:
+WARenderVisitor>>visitPainter:
+WARenderVisitor(WAPainterVisitor)>>visitPresenter:
+WARenderVisitor(WAPainterVisitor)>>visitComponent:
+TBApplicationRootComponent(WAComponent)>>accept:
+WARenderVisitor(WAVisitor)>>visit:
+WARenderingGuide(WAPresenterGuide)>>visitPainter:
+WARenderingGuide(WAPainterVisitor)>>visitPresenter:
+WARenderingGuide(WAPainterVisitor)>>visitComponent:
+TBApplicationRootComponent(WAComponent)>>accept:
+[0m[31mMessageNotUnderstood: TBPostComponent>> #post:
+[0mTBPostComponent(Object)>>doesNotUnderstand: #post:
+[ :p | html render: (TBPostComponent new post: p) ] in TBPostsListComponent>>renderContentOn: in Block: [ :p | html render: (TBPostComponent new post: p) ...etc...
+OrderedCollection>>do:
+TBPostsListComponent>>renderContentOn:
+WARenderVisitor>>visitPainter:
+WARenderVisitor(WAPainterVisitor)>>visitPresenter:
+WARenderVisitor(WAPainterVisitor)>>visitComponent:
+TBPostsListComponent(WAComponent)>>accept:
+WARenderVisitor(WAVisitor)>>visit:
+WARenderingGuide(WAPresenterGuide)>>visitPainter:
+WARenderingGuide(WAPainterVisitor)>>visitPresenter:
+WARenderingGuide(WAPainterVisitor)>>visitComponent:
+TBPostsListComponent(WAComponent)>>accept:
+WARenderingGuide(WAPainterVisitor)>>visitDecorationsOfComponent:
+TBPostsListComponent(WAComponent)>>acceptDecorated:
+WARenderingGuide(WAPresenterGuide)>>visit:
+TBPostsListComponent(WAPainter)>>renderWithContext:
+TBPostsListComponent(WAPainter)>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+TBApplicationRootComponent>>renderContentOn:
+WARenderVisitor>>visitPainter:
+WARenderVisitor(WAPainterVisitor)>>visitPresenter:
+WARenderVisitor(WAPainterVisitor)>>visitComponent:
+TBApplicationRootComponent(WAComponent)>>accept:
+WARenderVisitor(WAVisitor)>>visit:
+WARenderingGuide(WAPresenterGuide)>>visitPainter:
+WARenderingGuide(WAPainterVisitor)>>visitPresenter:
+WARenderingGuide(WAPainterVisitor)>>visitComponent:
+TBApplicationRootComponent(WAComponent)>>accept:
+[0m[31mMessageNotUnderstood: TBPostComponent>> #post:
+[0mTBPostComponent(Object)>>doesNotUnderstand: #post:
+[ :p | html render: (TBPostComponent new post: p) ] in TBPostsListComponent>>renderContentOn: in Block: [ :p | html render: (TBPostComponent new post: p) ...etc...
+OrderedCollection>>do:
+TBPostsListComponent>>renderContentOn:
+WARenderVisitor>>visitPainter:
+WARenderVisitor(WAPainterVisitor)>>visitPresenter:
+WARenderVisitor(WAPainterVisitor)>>visitComponent:
+TBPostsListComponent(WAComponent)>>accept:
+WARenderVisitor(WAVisitor)>>visit:
+WARenderingGuide(WAPresenterGuide)>>visitPainter:
+WARenderingGuide(WAPainterVisitor)>>visitPresenter:
+WARenderingGuide(WAPainterVisitor)>>visitComponent:
+TBPostsListComponent(WAComponent)>>accept:
+WARenderingGuide(WAPainterVisitor)>>visitDecorationsOfComponent:
+TBPostsListComponent(WAComponent)>>acceptDecorated:
+WARenderingGuide(WAPresenterGuide)>>visit:
+TBPostsListComponent(WAPainter)>>renderWithContext:
+TBPostsListComponent(WAPainter)>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+TBApplicationRootComponent>>renderContentOn:
+WARenderVisitor>>visitPainter:
+WARenderVisitor(WAPainterVisitor)>>visitPresenter:
+WARenderVisitor(WAPainterVisitor)>>visitComponent:
+TBApplicationRootComponent(WAComponent)>>accept:
+WARenderVisitor(WAVisitor)>>visit:
+WARenderingGuide(WAPresenterGuide)>>visitPainter:
+WARenderingGuide(WAPainterVisitor)>>visitPresenter:
+WARenderingGuide(WAPainterVisitor)>>visitComponent:
+TBApplicationRootComponent(WAComponent)>>accept:
+[0m[31mMessageNotUnderstood: TBPostsListComponent>> #readSelectedPosts
+[0mTBPostsListComponent(Object)>>doesNotUnderstand: #readSelectedPosts
+TBPostsListComponent>>postComponents
+TBPostsListComponent>>children
+TBPostsListComponent(WAPresenter)>>childrenDo:
+WAAllPresenterGuide(WAVisiblePresenterGuide)>>visitPresenter:
+WAAllPresenterGuide(WAPainterVisitor)>>visitComponent:
+TBPostsListComponent(WAComponent)>>accept:
+WAAllPresenterGuide(WAPainterVisitor)>>visitDecorationsOfComponent:
+TBPostsListComponent(WAComponent)>>acceptDecorated:
+WAAllPresenterGuide(WAPresenterGuide)>>visit:
+[ :each | self visit: each ] in WAAllPresenterGuide(WAVisiblePresenterGuide)>>visitPresenter: in Block: [ :each | self visit: each ]
+[ :each | 
+each == self
+	ifTrue: [ "fix for http://code.google.com/p/seaside/issues/detail?id=697"
+		WAChildComponentShouldNotBeSelfError
+			signal:
+				self class name greaseString
+					,
+						' >> #children - the returned collection contains a reference to self. Exception raised to avoid infinite recursion.' ].
+each isNil
+	ifFalse: [ aBlock value: each ] ] in TBApplicationRootComponent(WAPresenter)>>childrenDo: in Block: [ :each | ...
 Array(SequenceableCollection)>>do:
-OCASTSemanticAnalyzer>>visitSequenceNode:
-RBSequenceNode>>acceptVisitor:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
-OCASTSemanticAnalyzer>>visitMethodNode:
-RBMethodNode>>acceptVisitor:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
-OCASTSemanticAnalyzer>>analyze:
-RBMethodNode>>doSemanticAnalysis
-[ ast doSemanticAnalysis ] in OpalCompiler>>doSemanticAnalysis in Block: [ ast doSemanticAnalysis ]
+TBApplicationRootComponent(WAPresenter)>>childrenDo:
+WAAllPresenterGuide(WAVisiblePresenterGuide)>>visitPresenter:
+WAAllPresenterGuide(WAPainterVisitor)>>visitComponent:
+TBApplicationRootComponent(WAComponent)>>accept:
+WAAllPresenterGuide(WAPainterVisitor)>>visitDecorationsOfComponent:
+TBApplicationRootComponent(WAComponent)>>acceptDecorated:
+WAAllPresenterGuide(WAPresenterGuide)>>visit:
+WAAllPresenterGuide(WAVisitor)>>start:
+WAInitialRenderLoopContinuation>>prepareRoot:
+WAInitialRenderLoopContinuation>>basicPerformAction
+[ self basicPerformAction ] in WAInitialRenderLoopContinuation(WAActionPhaseContinuation)>>performAction in Block: [ self basicPerformAction ]
 BlockClosure>>on:do:
-OpalCompiler>>doSemanticAnalysis
-[ self parse.
-self transformDoit.
-self doSemanticAnalysis.
-self callPlugins ] in [ [ self parse.
-self transformDoit.
-self doSemanticAnalysis.
-self callPlugins ]
-	on: ReparseAfterSourceEditing
-	do: [ :notification | 
-		self source: notification newSource.
-		notification retry ].
-cm := compilationContext optionEmbeddSources
-	ifTrue: [ ast generateWithSource ]
-	ifFalse: [ ast generate: self compilationContext compiledMethodTrailer ] ] in OpalCompiler>>compile in Block: [ self parse....
+WADebugErrorHandler(WAExceptionHandler)>>handleExceptionsDuring:
+[ currentHandler handleExceptionsDuring: aBlock ] in WAInitialRenderLoopContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo: in Block: [ currentHandler handleExceptionsDuring: aBlock ]
 BlockClosure>>on:do:
-[ [ self parse.
-self transformDoit.
-self doSemanticAnalysis.
-self callPlugins ]
-	on: ReparseAfterSourceEditing
-	do: [ :notification | 
-		self source: notification newSource.
-		notification retry ].
-cm := compilationContext optionEmbeddSources
-	ifTrue: [ ast generateWithSource ]
-	ifFalse: [ ast generate: self compilationContext compiledMethodTrailer ] ] in OpalCompiler>>compile in Block: [ [ self parse....
-[0m[31m#isTemp was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #isTemp
-UndefinedObject>>doesNotUnderstand: #isTemp
-OCASTSemanticAnalyzer>>visitVariableNode:
-RBVariableNode>>acceptVisitor:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
-RBMessageNode>>acceptVisitor:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
-RBMessageNode>>acceptVisitor:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitReturnNode:
-RBReturnNode>>acceptVisitor:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
-[ :each | self visitNode: each ] in OCASTSemanticAnalyzer>>visitSequenceNode: in Block: [ :each | self visitNode: each ]
+WAInitialRenderLoopContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo:
+WAInitialRenderLoopContinuation(WAActionPhaseContinuation)>>performAction
+[0m[31mMessageNotUnderstood: TBPostsListComponent>> #readSelectedPosts
+[0mTBPostsListComponent(Object)>>doesNotUnderstand: #readSelectedPosts
+TBPostsListComponent>>postComponents
+TBPostsListComponent>>children
+TBPostsListComponent(WAPresenter)>>childrenDo:
+WAAllPresenterGuide(WAVisiblePresenterGuide)>>visitPresenter:
+WAAllPresenterGuide(WAPainterVisitor)>>visitComponent:
+TBPostsListComponent(WAComponent)>>accept:
+WAAllPresenterGuide(WAPainterVisitor)>>visitDecorationsOfComponent:
+TBPostsListComponent(WAComponent)>>acceptDecorated:
+WAAllPresenterGuide(WAPresenterGuide)>>visit:
+[ :each | self visit: each ] in WAAllPresenterGuide(WAVisiblePresenterGuide)>>visitPresenter: in Block: [ :each | self visit: each ]
+[ :each | 
+each == self
+	ifTrue: [ "fix for http://code.google.com/p/seaside/issues/detail?id=697"
+		WAChildComponentShouldNotBeSelfError
+			signal:
+				self class name greaseString
+					,
+						' >> #children - the returned collection contains a reference to self. Exception raised to avoid infinite recursion.' ].
+each isNil
+	ifFalse: [ aBlock value: each ] ] in TBApplicationRootComponent(WAPresenter)>>childrenDo: in Block: [ :each | ...
 Array(SequenceableCollection)>>do:
-OCASTSemanticAnalyzer>>visitSequenceNode:
-RBSequenceNode>>acceptVisitor:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
-OCASTSemanticAnalyzer>>visitMethodNode:
-RBMethodNode>>acceptVisitor:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
-OCASTSemanticAnalyzer>>analyze:
-RBMethodNode>>doSemanticAnalysis
-[ ast doSemanticAnalysis ] in OpalCompiler>>doSemanticAnalysis in Block: [ ast doSemanticAnalysis ]
+TBApplicationRootComponent(WAPresenter)>>childrenDo:
+WAAllPresenterGuide(WAVisiblePresenterGuide)>>visitPresenter:
+WAAllPresenterGuide(WAPainterVisitor)>>visitComponent:
+TBApplicationRootComponent(WAComponent)>>accept:
+WAAllPresenterGuide(WAPainterVisitor)>>visitDecorationsOfComponent:
+TBApplicationRootComponent(WAComponent)>>acceptDecorated:
+WAAllPresenterGuide(WAPresenterGuide)>>visit:
+WAAllPresenterGuide(WAVisitor)>>start:
+WAInitialRenderLoopContinuation>>prepareRoot:
+WAInitialRenderLoopContinuation>>basicPerformAction
+[ self basicPerformAction ] in WAInitialRenderLoopContinuation(WAActionPhaseContinuation)>>performAction in Block: [ self basicPerformAction ]
 BlockClosure>>on:do:
-OpalCompiler>>doSemanticAnalysis
-[ self parse.
-self transformDoit.
-self doSemanticAnalysis.
-self callPlugins ] in [ [ self parse.
-self transformDoit.
-self doSemanticAnalysis.
-self callPlugins ]
-	on: ReparseAfterSourceEditing
-	do: [ :notification | 
-		self source: notification newSource.
-		notification retry ].
-cm := compilationContext optionEmbeddSources
-	ifTrue: [ ast generateWithSource ]
-	ifFalse: [ ast generate: self compilationContext compiledMethodTrailer ] ] in OpalCompiler>>compile in Block: [ self parse....
+WADebugErrorHandler(WAExceptionHandler)>>handleExceptionsDuring:
+[ currentHandler handleExceptionsDuring: aBlock ] in WAInitialRenderLoopContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo: in Block: [ currentHandler handleExceptionsDuring: aBlock ]
 BlockClosure>>on:do:
-[ [ self parse.
-self transformDoit.
-self doSemanticAnalysis.
-self callPlugins ]
-	on: ReparseAfterSourceEditing
-	do: [ :notification | 
-		self source: notification newSource.
-		notification retry ].
-cm := compilationContext optionEmbeddSources
-	ifTrue: [ ast generateWithSource ]
-	ifFalse: [ ast generate: self compilationContext compiledMethodTrailer ] ] in OpalCompiler>>compile in Block: [ [ self parse....
-[0m[31mSubscriptOutOfBounds: 0
-[0mByteString(Object)>>errorSubscriptBounds:
-ByteString(Object)>>at:
-ByteString>>at:
-Text>>at:
-OCUndeclaredVariableWarning>>declareTempAndPaste:
-[ self declareTempAndPaste: name ] in OCUndeclaredVariableWarning>>openMenuIn: in Block: [ self declareTempAndPaste: name ]
-OCUndeclaredVariableWarning>>openMenuIn:
-OCUndeclaredVariableWarning(OCSemanticWarning)>>defaultAction
-OCUndeclaredVariableWarning>>defaultAction
-UndefinedObject>>handleSignal:
-Context>>handleSignal:
-Context>>handleSignal:
-Context>>handleSignal:
-Context>>handleSignal:
-Context>>handleSignal:
-Context>>handleSignal:
-Context>>handleSignal:
-OCUndeclaredVariableWarning(Exception)>>signal
-OCASTSemanticAnalyzer>>undeclaredVariable:
-OCASTSemanticAnalyzer>>visitVariableNode:
-RBVariableNode>>acceptVisitor:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
-RBMessageNode>>acceptVisitor:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
-RBMessageNode>>acceptVisitor:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitReturnNode:
-RBReturnNode>>acceptVisitor:
-[0m[31m#isTemp was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #isTemp
-UndefinedObject>>doesNotUnderstand: #isTemp
-OCASTSemanticAnalyzer>>visitVariableNode:
-RBVariableNode>>acceptVisitor:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
-RBMessageNode>>acceptVisitor:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
-RBMessageNode>>acceptVisitor:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
-[ :each | self visitNode: each ] in OCASTSemanticAnalyzer>>visitSequenceNode: in Block: [ :each | self visitNode: each ]
-OrderedCollection>>do:
-OCASTSemanticAnalyzer>>visitSequenceNode:
-RBSequenceNode>>acceptVisitor:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
-OCASTSemanticAnalyzer>>visitMethodNode:
-RBMethodNode>>acceptVisitor:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
-OCASTSemanticAnalyzer>>analyze:
-RBMethodNode>>doSemanticAnalysis
-[ ast doSemanticAnalysis ] in OpalCompiler>>doSemanticAnalysis in Block: [ ast doSemanticAnalysis ]
+WAInitialRenderLoopContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo:
+WAInitialRenderLoopContinuation(WAActionPhaseContinuation)>>performAction
+[0m[31mMessageNotUnderstood: TBPostsListComponent>> #readSelectedPosts
+[0mTBPostsListComponent(Object)>>doesNotUnderstand: #readSelectedPosts
+TBPostsListComponent>>postComponents
+TBPostsListComponent>>children
+TBPostsListComponent(WAPresenter)>>childrenDo:
+WAAllPresenterGuide(WAVisiblePresenterGuide)>>visitPresenter:
+WAAllPresenterGuide(WAPainterVisitor)>>visitComponent:
+TBPostsListComponent(WAComponent)>>accept:
+WAAllPresenterGuide(WAPainterVisitor)>>visitDecorationsOfComponent:
+TBPostsListComponent(WAComponent)>>acceptDecorated:
+WAAllPresenterGuide(WAPresenterGuide)>>visit:
+[ :each | self visit: each ] in WAAllPresenterGuide(WAVisiblePresenterGuide)>>visitPresenter: in Block: [ :each | self visit: each ]
+[ :each | 
+each == self
+	ifTrue: [ "fix for http://code.google.com/p/seaside/issues/detail?id=697"
+		WAChildComponentShouldNotBeSelfError
+			signal:
+				self class name greaseString
+					,
+						' >> #children - the returned collection contains a reference to self. Exception raised to avoid infinite recursion.' ].
+each isNil
+	ifFalse: [ aBlock value: each ] ] in TBApplicationRootComponent(WAPresenter)>>childrenDo: in Block: [ :each | ...
+Array(SequenceableCollection)>>do:
+TBApplicationRootComponent(WAPresenter)>>childrenDo:
+WAAllPresenterGuide(WAVisiblePresenterGuide)>>visitPresenter:
+WAAllPresenterGuide(WAPainterVisitor)>>visitComponent:
+TBApplicationRootComponent(WAComponent)>>accept:
+WAAllPresenterGuide(WAPainterVisitor)>>visitDecorationsOfComponent:
+TBApplicationRootComponent(WAComponent)>>acceptDecorated:
+WAAllPresenterGuide(WAPresenterGuide)>>visit:
+WAAllPresenterGuide(WAVisitor)>>start:
+WAInitialRenderLoopContinuation>>prepareRoot:
+WAInitialRenderLoopContinuation>>basicPerformAction
+[ self basicPerformAction ] in WAInitialRenderLoopContinuation(WAActionPhaseContinuation)>>performAction in Block: [ self basicPerformAction ]
 BlockClosure>>on:do:
-OpalCompiler>>doSemanticAnalysis
-[ self parse.
-self transformDoit.
-self doSemanticAnalysis.
-self callPlugins ] in [ [ self parse.
-self transformDoit.
-self doSemanticAnalysis.
-self callPlugins ]
-	on: ReparseAfterSourceEditing
-	do: [ :notification | 
-		self source: notification newSource.
-		notification retry ].
-cm := compilationContext optionEmbeddSources
-	ifTrue: [ ast generateWithSource ]
-	ifFalse: [ ast generate: self compilationContext compiledMethodTrailer ] ] in OpalCompiler>>compile in Block: [ self parse....
+WADebugErrorHandler(WAExceptionHandler)>>handleExceptionsDuring:
+[ currentHandler handleExceptionsDuring: aBlock ] in WAInitialRenderLoopContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo: in Block: [ currentHandler handleExceptionsDuring: aBlock ]
 BlockClosure>>on:do:
-[ [ self parse.
-self transformDoit.
-self doSemanticAnalysis.
-self callPlugins ]
-	on: ReparseAfterSourceEditing
-	do: [ :notification | 
-		self source: notification newSource.
-		notification retry ].
-cm := compilationContext optionEmbeddSources
-	ifTrue: [ ast generateWithSource ]
-	ifFalse: [ ast generate: self compilationContext compiledMethodTrailer ] ] in OpalCompiler>>compile in Block: [ [ self parse....
+WAInitialRenderLoopContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo:
+WAInitialRenderLoopContinuation(WAActionPhaseContinuation)>>performAction
+[0m[31mMessageNotUnderstood: TBPostsListComponent>> #readSelectedPosts
+[0mTBPostsListComponent(Object)>>doesNotUnderstand: #readSelectedPosts
+TBPostsListComponent>>postComponents
+TBPostsListComponent>>children
+TBPostsListComponent(WAPresenter)>>childrenDo:
+WAAllPresenterGuide(WAVisiblePresenterGuide)>>visitPresenter:
+WAAllPresenterGuide(WAPainterVisitor)>>visitComponent:
+TBPostsListComponent(WAComponent)>>accept:
+WAAllPresenterGuide(WAPainterVisitor)>>visitDecorationsOfComponent:
+TBPostsListComponent(WAComponent)>>acceptDecorated:
+WAAllPresenterGuide(WAPresenterGuide)>>visit:
+[ :each | self visit: each ] in WAAllPresenterGuide(WAVisiblePresenterGuide)>>visitPresenter: in Block: [ :each | self visit: each ]
+[ :each | 
+each == self
+	ifTrue: [ "fix for http://code.google.com/p/seaside/issues/detail?id=697"
+		WAChildComponentShouldNotBeSelfError
+			signal:
+				self class name greaseString
+					,
+						' >> #children - the returned collection contains a reference to self. Exception raised to avoid infinite recursion.' ].
+each isNil
+	ifFalse: [ aBlock value: each ] ] in TBApplicationRootComponent(WAPresenter)>>childrenDo: in Block: [ :each | ...
+Array(SequenceableCollection)>>do:
+TBApplicationRootComponent(WAPresenter)>>childrenDo:
+WAAllPresenterGuide(WAVisiblePresenterGuide)>>visitPresenter:
+WAAllPresenterGuide(WAPainterVisitor)>>visitComponent:
+TBApplicationRootComponent(WAComponent)>>accept:
+WAAllPresenterGuide(WAPainterVisitor)>>visitDecorationsOfComponent:
+TBApplicationRootComponent(WAComponent)>>acceptDecorated:
+WAAllPresenterGuide(WAPresenterGuide)>>visit:
+WAAllPresenterGuide(WAVisitor)>>start:
+WAInitialRenderLoopContinuation>>prepareRoot:
+WAInitialRenderLoopContinuation>>basicPerformAction
+[ self basicPerformAction ] in WAInitialRenderLoopContinuation(WAActionPhaseContinuation)>>performAction in Block: [ self basicPerformAction ]
 BlockClosure>>on:do:
-OpalCompiler>>compile
+WADebugErrorHandler(WAExceptionHandler)>>handleExceptionsDuring:
+[ currentHandler handleExceptionsDuring: aBlock ] in WAInitialRenderLoopContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo: in Block: [ currentHandler handleExceptionsDuring: aBlock ]
+BlockClosure>>on:do:
+WAInitialRenderLoopContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo:
+WAInitialRenderLoopContinuation(WAActionPhaseContinuation)>>performAction
+[0m[31mBreak
+[0mTBCategoriesComponent>>selectCategory:
+[ self selectCategory: aCategory ] in TBCategoriesComponent>>renderCategoryLinkOn:with: in Block: [ self selectCategory: aCategory ]
+BlockClosure>>valueWithPossibleArguments:
+WAActionCallback>>evaluateWithArgument:
+WAActionCallback(WACallback)>>evaluateWithFieldValues:
+[ :callback | callback evaluateWithFieldValues: (fields allAt: callback key) ] in WACallbackRegistry>>handle: in Block: [ :callback | callback evaluateWithFieldValues: (f...etc...
+Array(SequenceableCollection)>>do:
+WACallbackRegistry>>handle:
+WACallbackProcessingActionContinuation>>basicPerformAction
+[ self basicPerformAction ] in WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction in Block: [ self basicPerformAction ]
+BlockClosure>>on:do:
+WADebugErrorHandler(WAExceptionHandler)>>handleExceptionsDuring:
+[ currentHandler handleExceptionsDuring: aBlock ] in WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo: in Block: [ currentHandler handleExceptionsDuring: aBlock ]
+BlockClosure>>on:do:
+WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo:
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction
+[ super performAction ] in WACallbackProcessingActionContinuation>>performAction in Block: [ super performAction ]
+BlockClosure>>ensure:
+WACallbackProcessingActionContinuation>>performAction
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>handleFiltered:
+[ self filter handleFiltered: aRequestContext ] in WACallbackProcessingActionContinuation(WARequestHandler)>>handle: in Block: [ self filter handleFiltered: aRequestContext ]
+[ activeProcess psValueAt: index put: anObject.
+aBlock value ] in WACurrentRequestContext(DynamicVariable)>>value:during: in Block: [ activeProcess psValueAt: index put: anObject....
+BlockClosure>>ensure:
+WACurrentRequestContext(DynamicVariable)>>value:during:
+WACurrentRequestContext class(DynamicVariable class)>>value:during:
+WACurrentRequestContext class(GRDynamicVariable class)>>use:during:
+[ WACurrentRequestContext use: self during: aBlock ] in WARequestContext>>push:during: in Block: [ WACurrentRequestContext use: self during: aBlock...etc...
+BlockClosure>>ensure:
+WARequestContext>>push:during:
+WACallbackProcessingActionContinuation(WARequestHandler)>>handle:
+[0m[31mBreak
+[0mTBCategoriesComponent>>selectCategory:
+[ self selectCategory: aCategory ] in TBCategoriesComponent>>renderCategoryLinkOn:with: in Block: [ self selectCategory: aCategory ]
+BlockClosure>>valueWithPossibleArguments:
+WAActionCallback>>evaluateWithArgument:
+WAActionCallback(WACallback)>>evaluateWithFieldValues:
+[ :callback | callback evaluateWithFieldValues: (fields allAt: callback key) ] in WACallbackRegistry>>handle: in Block: [ :callback | callback evaluateWithFieldValues: (f...etc...
+Array(SequenceableCollection)>>do:
+WACallbackRegistry>>handle:
+WACallbackProcessingActionContinuation>>basicPerformAction
+[ self basicPerformAction ] in WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction in Block: [ self basicPerformAction ]
+BlockClosure>>on:do:
+WADebugErrorHandler(WAExceptionHandler)>>handleExceptionsDuring:
+[ currentHandler handleExceptionsDuring: aBlock ] in WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo: in Block: [ currentHandler handleExceptionsDuring: aBlock ]
+BlockClosure>>on:do:
+WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo:
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction
+[ super performAction ] in WACallbackProcessingActionContinuation>>performAction in Block: [ super performAction ]
+BlockClosure>>ensure:
+WACallbackProcessingActionContinuation>>performAction
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>handleFiltered:
+[ self filter handleFiltered: aRequestContext ] in WACallbackProcessingActionContinuation(WARequestHandler)>>handle: in Block: [ self filter handleFiltered: aRequestContext ]
+[ activeProcess psValueAt: index put: anObject.
+aBlock value ] in WACurrentRequestContext(DynamicVariable)>>value:during: in Block: [ activeProcess psValueAt: index put: anObject....
+BlockClosure>>ensure:
+WACurrentRequestContext(DynamicVariable)>>value:during:
+WACurrentRequestContext class(DynamicVariable class)>>value:during:
+WACurrentRequestContext class(GRDynamicVariable class)>>use:during:
+[ WACurrentRequestContext use: self during: aBlock ] in WARequestContext>>push:during: in Block: [ WACurrentRequestContext use: self during: aBlock...etc...
+BlockClosure>>ensure:
+WARequestContext>>push:during:
+WACallbackProcessingActionContinuation(WARequestHandler)>>handle:
+[0m[31mBreak
+[0mTBCategoriesComponent>>selectCategory:
+[ self selectCategory: aCategory ] in TBCategoriesComponent>>renderCategoryLinkOn:with: in Block: [ self selectCategory: aCategory ]
+BlockClosure>>valueWithPossibleArguments:
+WAActionCallback>>evaluateWithArgument:
+WAActionCallback(WACallback)>>evaluateWithFieldValues:
+[ :callback | callback evaluateWithFieldValues: (fields allAt: callback key) ] in WACallbackRegistry>>handle: in Block: [ :callback | callback evaluateWithFieldValues: (f...etc...
+Array(SequenceableCollection)>>do:
+WACallbackRegistry>>handle:
+WACallbackProcessingActionContinuation>>basicPerformAction
+[ self basicPerformAction ] in WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction in Block: [ self basicPerformAction ]
+BlockClosure>>on:do:
+WADebugErrorHandler(WAExceptionHandler)>>handleExceptionsDuring:
+[ currentHandler handleExceptionsDuring: aBlock ] in WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo: in Block: [ currentHandler handleExceptionsDuring: aBlock ]
+BlockClosure>>on:do:
+WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo:
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction
+[ super performAction ] in WACallbackProcessingActionContinuation>>performAction in Block: [ super performAction ]
+BlockClosure>>ensure:
+WACallbackProcessingActionContinuation>>performAction
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>handleFiltered:
+[ self filter handleFiltered: aRequestContext ] in WACallbackProcessingActionContinuation(WARequestHandler)>>handle: in Block: [ self filter handleFiltered: aRequestContext ]
+[ activeProcess psValueAt: index put: anObject.
+aBlock value ] in WACurrentRequestContext(DynamicVariable)>>value:during: in Block: [ activeProcess psValueAt: index put: anObject....
+BlockClosure>>ensure:
+WACurrentRequestContext(DynamicVariable)>>value:during:
+WACurrentRequestContext class(DynamicVariable class)>>value:during:
+WACurrentRequestContext class(GRDynamicVariable class)>>use:during:
+[ WACurrentRequestContext use: self during: aBlock ] in WARequestContext>>push:during: in Block: [ WACurrentRequestContext use: self during: aBlock...etc...
+BlockClosure>>ensure:
+WARequestContext>>push:during:
+WACallbackProcessingActionContinuation(WARequestHandler)>>handle:
+[0m[31mBreak
+[0mTBCategoriesComponent>>selectCategory:
+[ self selectCategory: aCategory ] in TBCategoriesComponent>>renderCategoryLinkOn:with: in Block: [ self selectCategory: aCategory ]
+BlockClosure>>valueWithPossibleArguments:
+WAActionCallback>>evaluateWithArgument:
+WAActionCallback(WACallback)>>evaluateWithFieldValues:
+[ :callback | callback evaluateWithFieldValues: (fields allAt: callback key) ] in WACallbackRegistry>>handle: in Block: [ :callback | callback evaluateWithFieldValues: (f...etc...
+Array(SequenceableCollection)>>do:
+WACallbackRegistry>>handle:
+WACallbackProcessingActionContinuation>>basicPerformAction
+[ self basicPerformAction ] in WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction in Block: [ self basicPerformAction ]
+BlockClosure>>on:do:
+WADebugErrorHandler(WAExceptionHandler)>>handleExceptionsDuring:
+[ currentHandler handleExceptionsDuring: aBlock ] in WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo: in Block: [ currentHandler handleExceptionsDuring: aBlock ]
+BlockClosure>>on:do:
+WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo:
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction
+[ super performAction ] in WACallbackProcessingActionContinuation>>performAction in Block: [ super performAction ]
+BlockClosure>>ensure:
+WACallbackProcessingActionContinuation>>performAction
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>handleFiltered:
+[ self filter handleFiltered: aRequestContext ] in WACallbackProcessingActionContinuation(WARequestHandler)>>handle: in Block: [ self filter handleFiltered: aRequestContext ]
+[ activeProcess psValueAt: index put: anObject.
+aBlock value ] in WACurrentRequestContext(DynamicVariable)>>value:during: in Block: [ activeProcess psValueAt: index put: anObject....
+BlockClosure>>ensure:
+WACurrentRequestContext(DynamicVariable)>>value:during:
+WACurrentRequestContext class(DynamicVariable class)>>value:during:
+WACurrentRequestContext class(GRDynamicVariable class)>>use:during:
+[ WACurrentRequestContext use: self during: aBlock ] in WARequestContext>>push:during: in Block: [ WACurrentRequestContext use: self during: aBlock...etc...
+BlockClosure>>ensure:
+WARequestContext>>push:during:
+WACallbackProcessingActionContinuation(WARequestHandler)>>handle:
+[0m[31mBreak
+[0mTBCategoriesComponent>>selectCategory:
+[ self selectCategory: aCategory ] in TBCategoriesComponent>>renderCategoryLinkOn:with: in Block: [ self selectCategory: aCategory ]
+BlockClosure>>valueWithPossibleArguments:
+WAActionCallback>>evaluateWithArgument:
+WAActionCallback(WACallback)>>evaluateWithFieldValues:
+[ :callback | callback evaluateWithFieldValues: (fields allAt: callback key) ] in WACallbackRegistry>>handle: in Block: [ :callback | callback evaluateWithFieldValues: (f...etc...
+Array(SequenceableCollection)>>do:
+WACallbackRegistry>>handle:
+WACallbackProcessingActionContinuation>>basicPerformAction
+[ self basicPerformAction ] in WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction in Block: [ self basicPerformAction ]
+BlockClosure>>on:do:
+WADebugErrorHandler(WAExceptionHandler)>>handleExceptionsDuring:
+[ currentHandler handleExceptionsDuring: aBlock ] in WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo: in Block: [ currentHandler handleExceptionsDuring: aBlock ]
+BlockClosure>>on:do:
+WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo:
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction
+[ super performAction ] in WACallbackProcessingActionContinuation>>performAction in Block: [ super performAction ]
+BlockClosure>>ensure:
+WACallbackProcessingActionContinuation>>performAction
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>handleFiltered:
+[ self filter handleFiltered: aRequestContext ] in WACallbackProcessingActionContinuation(WARequestHandler)>>handle: in Block: [ self filter handleFiltered: aRequestContext ]
+[ activeProcess psValueAt: index put: anObject.
+aBlock value ] in WACurrentRequestContext(DynamicVariable)>>value:during: in Block: [ activeProcess psValueAt: index put: anObject....
+BlockClosure>>ensure:
+WACurrentRequestContext(DynamicVariable)>>value:during:
+WACurrentRequestContext class(DynamicVariable class)>>value:during:
+WACurrentRequestContext class(GRDynamicVariable class)>>use:during:
+[ WACurrentRequestContext use: self during: aBlock ] in WARequestContext>>push:during: in Block: [ WACurrentRequestContext use: self during: aBlock...etc...
+BlockClosure>>ensure:
+WARequestContext>>push:during:
+WACallbackProcessingActionContinuation(WARequestHandler)>>handle:
+[0m[31mMessageNotUnderstood: TBPostsListComponent>> #renderPostColumnOn:
+[0mTBPostsListComponent(Object)>>doesNotUnderstand: #renderPostColumnOn:
+[ self renderCategoryColumnOn: html.
+self renderPostColumnOn: html ] in [ html tbsRow
+	showGrid;
+	with: [ self renderCategoryColumnOn: html.
+		self renderPostColumnOn: html ] ] in TBPostsListComponent>>renderContentOn: in Block: [ self renderCategoryColumnOn: html....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in TBSLayoutRowTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+TBSLayoutRowTag(WABrush)>>with:
+TBSLayoutRowTag(WATagBrush)>>with:
+[ html tbsRow
+	showGrid;
+	with: [ self renderCategoryColumnOn: html.
+		self renderPostColumnOn: html ] ] in TBPostsListComponent>>renderContentOn: in Block: [ html tbsRow...
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in WAGenericTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+WAGenericTag(WABrush)>>with:
+WAGenericTag(WATagBrush)>>with:
+WAHtmlCanvas>>tbsContainer:
+TBPostsListComponent>>renderContentOn:
+WARenderVisitor>>visitPainter:
+WARenderVisitor(WAPainterVisitor)>>visitPresenter:
+WARenderVisitor(WAPainterVisitor)>>visitComponent:
+TBPostsListComponent(WAComponent)>>accept:
+WARenderVisitor(WAVisitor)>>visit:
+[0m[31mMessageNotUnderstood: TBHeaderComponent class>> #from:
+[0mTBHeaderComponent class(Object)>>doesNotUnderstand: #from:
+TBPostsListComponent(TBScreenComponent)>>createHeaderComponent
+TBPostsListComponent(TBScreenComponent)>>initialize
+TBPostsListComponent>>initialize
+TBPostsListComponent class(GRObject class)>>new
+TBApplicationRootComponent>>initialize
+TBApplicationRootComponent class(GRObject class)>>new
+[ self rootClass new ] in WAInitialRenderLoopContinuation>>createRoot in Block: [ self rootClass new ]
+GRSmallDictionary2>>at:ifAbsent:
+WARequestContext>>rootComponentIfAbsent:
+WAInitialRenderLoopContinuation>>createRoot
+WAInitialRenderLoopContinuation>>basicPerformAction
+[ self basicPerformAction ] in WAInitialRenderLoopContinuation(WAActionPhaseContinuation)>>performAction in Block: [ self basicPerformAction ]
+BlockClosure>>on:do:
+WADebugErrorHandler(WAExceptionHandler)>>handleExceptionsDuring:
+[ currentHandler handleExceptionsDuring: aBlock ] in WAInitialRenderLoopContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo: in Block: [ currentHandler handleExceptionsDuring: aBlock ]
+BlockClosure>>on:do:
+WAInitialRenderLoopContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo:
+WAInitialRenderLoopContinuation(WAActionPhaseContinuation)>>performAction
+WAInitialRenderLoopContinuation(WAActionPhaseContinuation)>>handleFiltered:
+[ self filter handleFiltered: aRequestContext ] in WAInitialRenderLoopContinuation(WARequestHandler)>>handle: in Block: [ self filter handleFiltered: aRequestContext ]
+[ activeProcess psValueAt: index put: anObject.
+aBlock value ] in WACurrentRequestContext(DynamicVariable)>>value:during: in Block: [ activeProcess psValueAt: index put: anObject....
+BlockClosure>>ensure:
+WACurrentRequestContext(DynamicVariable)>>value:during:
+WACurrentRequestContext class(DynamicVariable class)>>value:during:
+WACurrentRequestContext class(GRDynamicVariable class)>>use:during:
+[ WACurrentRequestContext use: self during: aBlock ] in WARequestContext>>push:during: in Block: [ WACurrentRequestContext use: self during: aBlock...etc...
+BlockClosure>>ensure:
+WARequestContext>>push:during:
+WAInitialRenderLoopContinuation(WARequestHandler)>>handle:
+[0m[31mMessageNotUnderstood: TBHeaderComponent class>> #from:
+[0mTBHeaderComponent class(Object)>>doesNotUnderstand: #from:
+TBPostsListComponent(TBScreenComponent)>>createHeaderComponent
+TBPostsListComponent(TBScreenComponent)>>initialize
+TBPostsListComponent>>initialize
+TBPostsListComponent class(GRObject class)>>new
+TBApplicationRootComponent>>initialize
+TBApplicationRootComponent class(GRObject class)>>new
+[ self rootClass new ] in WAInitialRenderLoopContinuation>>createRoot in Block: [ self rootClass new ]
+GRSmallDictionary2>>at:ifAbsent:
+WARequestContext>>rootComponentIfAbsent:
+WAInitialRenderLoopContinuation>>createRoot
+WAInitialRenderLoopContinuation>>basicPerformAction
+[ self basicPerformAction ] in WAInitialRenderLoopContinuation(WAActionPhaseContinuation)>>performAction in Block: [ self basicPerformAction ]
+BlockClosure>>on:do:
+WADebugErrorHandler(WAExceptionHandler)>>handleExceptionsDuring:
+[ currentHandler handleExceptionsDuring: aBlock ] in WAInitialRenderLoopContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo: in Block: [ currentHandler handleExceptionsDuring: aBlock ]
+BlockClosure>>on:do:
+WAInitialRenderLoopContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo:
+WAInitialRenderLoopContinuation(WAActionPhaseContinuation)>>performAction
+WAInitialRenderLoopContinuation(WAActionPhaseContinuation)>>handleFiltered:
+[ self filter handleFiltered: aRequestContext ] in WAInitialRenderLoopContinuation(WARequestHandler)>>handle: in Block: [ self filter handleFiltered: aRequestContext ]
+[ activeProcess psValueAt: index put: anObject.
+aBlock value ] in WACurrentRequestContext(DynamicVariable)>>value:during: in Block: [ activeProcess psValueAt: index put: anObject....
+BlockClosure>>ensure:
+WACurrentRequestContext(DynamicVariable)>>value:during:
+WACurrentRequestContext class(DynamicVariable class)>>value:during:
+WACurrentRequestContext class(GRDynamicVariable class)>>use:during:
+[ WACurrentRequestContext use: self during: aBlock ] in WARequestContext>>push:during: in Block: [ WACurrentRequestContext use: self during: aBlock...etc...
+BlockClosure>>ensure:
+WARequestContext>>push:during:
+WAInitialRenderLoopContinuation(WARequestHandler)>>handle:
+[0m[31mMessageNotUnderstood: TBHeaderComponent class>> #from:
+[0mTBHeaderComponent class(Object)>>doesNotUnderstand: #from:
+TBPostsListComponent(TBScreenComponent)>>createHeaderComponent
+TBPostsListComponent(TBScreenComponent)>>initialize
+TBPostsListComponent>>initialize
+TBPostsListComponent class(GRObject class)>>new
+TBApplicationRootComponent>>initialize
+TBApplicationRootComponent class(GRObject class)>>new
+[ self rootClass new ] in WAInitialRenderLoopContinuation>>createRoot in Block: [ self rootClass new ]
+GRSmallDictionary2>>at:ifAbsent:
+WARequestContext>>rootComponentIfAbsent:
+WAInitialRenderLoopContinuation>>createRoot
+WAInitialRenderLoopContinuation>>basicPerformAction
+[ self basicPerformAction ] in WAInitialRenderLoopContinuation(WAActionPhaseContinuation)>>performAction in Block: [ self basicPerformAction ]
+BlockClosure>>on:do:
+WADebugErrorHandler(WAExceptionHandler)>>handleExceptionsDuring:
+[ currentHandler handleExceptionsDuring: aBlock ] in WAInitialRenderLoopContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo: in Block: [ currentHandler handleExceptionsDuring: aBlock ]
+BlockClosure>>on:do:
+WAInitialRenderLoopContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo:
+WAInitialRenderLoopContinuation(WAActionPhaseContinuation)>>performAction
+WAInitialRenderLoopContinuation(WAActionPhaseContinuation)>>handleFiltered:
+[ self filter handleFiltered: aRequestContext ] in WAInitialRenderLoopContinuation(WARequestHandler)>>handle: in Block: [ self filter handleFiltered: aRequestContext ]
+[ activeProcess psValueAt: index put: anObject.
+aBlock value ] in WACurrentRequestContext(DynamicVariable)>>value:during: in Block: [ activeProcess psValueAt: index put: anObject....
+BlockClosure>>ensure:
+WACurrentRequestContext(DynamicVariable)>>value:during:
+WACurrentRequestContext class(DynamicVariable class)>>value:during:
+WACurrentRequestContext class(GRDynamicVariable class)>>use:during:
+[ WACurrentRequestContext use: self during: aBlock ] in WARequestContext>>push:during: in Block: [ WACurrentRequestContext use: self during: aBlock...etc...
+BlockClosure>>ensure:
+WARequestContext>>push:during:
+WAInitialRenderLoopContinuation(WARequestHandler)>>handle:
+[0m[31mMessageNotUnderstood: TBHeaderComponent class>> #from:
+[0mTBHeaderComponent class(Object)>>doesNotUnderstand: #from:
+TBPostsListComponent(TBScreenComponent)>>createHeaderComponent
+TBPostsListComponent(TBScreenComponent)>>initialize
+TBPostsListComponent>>initialize
+TBPostsListComponent class(GRObject class)>>new
+TBApplicationRootComponent>>initialize
+TBApplicationRootComponent class(GRObject class)>>new
+[ self rootClass new ] in WAInitialRenderLoopContinuation>>createRoot in Block: [ self rootClass new ]
+GRSmallDictionary2>>at:ifAbsent:
+WARequestContext>>rootComponentIfAbsent:
+WAInitialRenderLoopContinuation>>createRoot
+WAInitialRenderLoopContinuation>>basicPerformAction
+[ self basicPerformAction ] in WAInitialRenderLoopContinuation(WAActionPhaseContinuation)>>performAction in Block: [ self basicPerformAction ]
+BlockClosure>>on:do:
+WADebugErrorHandler(WAExceptionHandler)>>handleExceptionsDuring:
+[ currentHandler handleExceptionsDuring: aBlock ] in WAInitialRenderLoopContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo: in Block: [ currentHandler handleExceptionsDuring: aBlock ]
+BlockClosure>>on:do:
+WAInitialRenderLoopContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo:
+WAInitialRenderLoopContinuation(WAActionPhaseContinuation)>>performAction
+WAInitialRenderLoopContinuation(WAActionPhaseContinuation)>>handleFiltered:
+[ self filter handleFiltered: aRequestContext ] in WAInitialRenderLoopContinuation(WARequestHandler)>>handle: in Block: [ self filter handleFiltered: aRequestContext ]
+[ activeProcess psValueAt: index put: anObject.
+aBlock value ] in WACurrentRequestContext(DynamicVariable)>>value:during: in Block: [ activeProcess psValueAt: index put: anObject....
+BlockClosure>>ensure:
+WACurrentRequestContext(DynamicVariable)>>value:during:
+WACurrentRequestContext class(DynamicVariable class)>>value:during:
+WACurrentRequestContext class(GRDynamicVariable class)>>use:during:
+[ WACurrentRequestContext use: self during: aBlock ] in WARequestContext>>push:during: in Block: [ WACurrentRequestContext use: self during: aBlock...etc...
+BlockClosure>>ensure:
+WARequestContext>>push:during:
+WAInitialRenderLoopContinuation(WARequestHandler)>>handle:
+[0m[31mMessageNotUnderstood: TBAdminComponent>> #goToAdministrationView
+[0mTBAdminComponent(Object)>>doesNotUnderstand: #goToAdministrationView
+[ component goToAdministrationView ] in [ html tbsNavbarButton
+	tbsPullRight;
+	callback: [ component goToAdministrationView ];
+	with: [ html tbsGlyphIcon iconListAlt.
+		html text: ' Admin View' ] ] in TBHeaderComponent>>renderSimpleAdminButtonOn: in Block: [ component goToAdministrationView ]
+BlockClosure>>valueWithPossibleArguments:
+WAActionCallback>>evaluateWithArgument:
+WAActionCallback(WACallback)>>evaluateWithFieldValues:
+[ :callback | callback evaluateWithFieldValues: (fields allAt: callback key) ] in WACallbackRegistry>>handle: in Block: [ :callback | callback evaluateWithFieldValues: (f...etc...
+Array(SequenceableCollection)>>do:
+WACallbackRegistry>>handle:
+WACallbackProcessingActionContinuation>>basicPerformAction
+[ self basicPerformAction ] in WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction in Block: [ self basicPerformAction ]
+BlockClosure>>on:do:
+WADebugErrorHandler(WAExceptionHandler)>>handleExceptionsDuring:
+[ currentHandler handleExceptionsDuring: aBlock ] in WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo: in Block: [ currentHandler handleExceptionsDuring: aBlock ]
+BlockClosure>>on:do:
+WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo:
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction
+[ super performAction ] in WACallbackProcessingActionContinuation>>performAction in Block: [ super performAction ]
+BlockClosure>>ensure:
+WACallbackProcessingActionContinuation>>performAction
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>handleFiltered:
+[ self filter handleFiltered: aRequestContext ] in WACallbackProcessingActionContinuation(WARequestHandler)>>handle: in Block: [ self filter handleFiltered: aRequestContext ]
+[ activeProcess psValueAt: index put: anObject.
+aBlock value ] in WACurrentRequestContext(DynamicVariable)>>value:during: in Block: [ activeProcess psValueAt: index put: anObject....
+BlockClosure>>ensure:
+WACurrentRequestContext(DynamicVariable)>>value:during:
+WACurrentRequestContext class(DynamicVariable class)>>value:during:
+WACurrentRequestContext class(GRDynamicVariable class)>>use:during:
+[ WACurrentRequestContext use: self during: aBlock ] in WARequestContext>>push:during: in Block: [ WACurrentRequestContext use: self during: aBlock...etc...
+BlockClosure>>ensure:
+WARequestContext>>push:during:
+WACallbackProcessingActionContinuation(WARequestHandler)>>handle:
+[0m[31mMessageNotUnderstood: TBAdminComponent>> #goToAdministrationView
+[0mTBAdminComponent(Object)>>doesNotUnderstand: #goToAdministrationView
+[ component goToAdministrationView ] in [ html tbsNavbarButton
+	tbsPullRight;
+	callback: [ component goToAdministrationView ];
+	with: [ html tbsGlyphIcon iconListAlt.
+		html text: ' Admin View' ] ] in TBHeaderComponent>>renderSimpleAdminButtonOn: in Block: [ component goToAdministrationView ]
+BlockClosure>>valueWithPossibleArguments:
+WAActionCallback>>evaluateWithArgument:
+WAActionCallback(WACallback)>>evaluateWithFieldValues:
+[ :callback | callback evaluateWithFieldValues: (fields allAt: callback key) ] in WACallbackRegistry>>handle: in Block: [ :callback | callback evaluateWithFieldValues: (f...etc...
+Array(SequenceableCollection)>>do:
+WACallbackRegistry>>handle:
+WACallbackProcessingActionContinuation>>basicPerformAction
+[ self basicPerformAction ] in WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction in Block: [ self basicPerformAction ]
+BlockClosure>>on:do:
+WADebugErrorHandler(WAExceptionHandler)>>handleExceptionsDuring:
+[ currentHandler handleExceptionsDuring: aBlock ] in WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo: in Block: [ currentHandler handleExceptionsDuring: aBlock ]
+BlockClosure>>on:do:
+WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo:
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction
+[ super performAction ] in WACallbackProcessingActionContinuation>>performAction in Block: [ super performAction ]
+BlockClosure>>ensure:
+WACallbackProcessingActionContinuation>>performAction
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>handleFiltered:
+[ self filter handleFiltered: aRequestContext ] in WACallbackProcessingActionContinuation(WARequestHandler)>>handle: in Block: [ self filter handleFiltered: aRequestContext ]
+[ activeProcess psValueAt: index put: anObject.
+aBlock value ] in WACurrentRequestContext(DynamicVariable)>>value:during: in Block: [ activeProcess psValueAt: index put: anObject....
+BlockClosure>>ensure:
+WACurrentRequestContext(DynamicVariable)>>value:during:
+WACurrentRequestContext class(DynamicVariable class)>>value:during:
+WACurrentRequestContext class(GRDynamicVariable class)>>use:during:
+[ WACurrentRequestContext use: self during: aBlock ] in WARequestContext>>push:during: in Block: [ WACurrentRequestContext use: self during: aBlock...etc...
+BlockClosure>>ensure:
+WARequestContext>>push:during:
+WACallbackProcessingActionContinuation(WARequestHandler)>>handle:
+[0m[31mMessageNotUnderstood: TBAdminComponent>> #goToAdministrationView
+[0mTBAdminComponent(Object)>>doesNotUnderstand: #goToAdministrationView
+[ component goToAdministrationView ] in [ html tbsNavbarButton
+	tbsPullRight;
+	callback: [ component goToAdministrationView ];
+	with: [ html tbsGlyphIcon iconListAlt.
+		html text: ' Admin View' ] ] in TBHeaderComponent>>renderSimpleAdminButtonOn: in Block: [ component goToAdministrationView ]
+BlockClosure>>valueWithPossibleArguments:
+WAActionCallback>>evaluateWithArgument:
+WAActionCallback(WACallback)>>evaluateWithFieldValues:
+[ :callback | callback evaluateWithFieldValues: (fields allAt: callback key) ] in WACallbackRegistry>>handle: in Block: [ :callback | callback evaluateWithFieldValues: (f...etc...
+Array(SequenceableCollection)>>do:
+WACallbackRegistry>>handle:
+WACallbackProcessingActionContinuation>>basicPerformAction
+[ self basicPerformAction ] in WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction in Block: [ self basicPerformAction ]
+BlockClosure>>on:do:
+WADebugErrorHandler(WAExceptionHandler)>>handleExceptionsDuring:
+[ currentHandler handleExceptionsDuring: aBlock ] in WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo: in Block: [ currentHandler handleExceptionsDuring: aBlock ]
+BlockClosure>>on:do:
+WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo:
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction
+[ super performAction ] in WACallbackProcessingActionContinuation>>performAction in Block: [ super performAction ]
+BlockClosure>>ensure:
+WACallbackProcessingActionContinuation>>performAction
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>handleFiltered:
+[ self filter handleFiltered: aRequestContext ] in WACallbackProcessingActionContinuation(WARequestHandler)>>handle: in Block: [ self filter handleFiltered: aRequestContext ]
+[ activeProcess psValueAt: index put: anObject.
+aBlock value ] in WACurrentRequestContext(DynamicVariable)>>value:during: in Block: [ activeProcess psValueAt: index put: anObject....
+BlockClosure>>ensure:
+WACurrentRequestContext(DynamicVariable)>>value:during:
+WACurrentRequestContext class(DynamicVariable class)>>value:during:
+WACurrentRequestContext class(GRDynamicVariable class)>>use:during:
+[ WACurrentRequestContext use: self during: aBlock ] in WARequestContext>>push:during: in Block: [ WACurrentRequestContext use: self during: aBlock...etc...
+BlockClosure>>ensure:
+WARequestContext>>push:during:
+WACallbackProcessingActionContinuation(WARequestHandler)>>handle:
+[0m[31mMessageNotUnderstood: TBAdminComponent>> #goToAdministrationView
+[0mTBAdminComponent(Object)>>doesNotUnderstand: #goToAdministrationView
+[ component goToAdministrationView ] in [ html tbsNavbarButton
+	tbsPullRight;
+	callback: [ component goToAdministrationView ];
+	with: [ html tbsGlyphIcon iconListAlt.
+		html text: ' Admin View' ] ] in TBHeaderComponent>>renderSimpleAdminButtonOn: in Block: [ component goToAdministrationView ]
+BlockClosure>>valueWithPossibleArguments:
+WAActionCallback>>evaluateWithArgument:
+WAActionCallback(WACallback)>>evaluateWithFieldValues:
+[ :callback | callback evaluateWithFieldValues: (fields allAt: callback key) ] in WACallbackRegistry>>handle: in Block: [ :callback | callback evaluateWithFieldValues: (f...etc...
+Array(SequenceableCollection)>>do:
+WACallbackRegistry>>handle:
+WACallbackProcessingActionContinuation>>basicPerformAction
+[ self basicPerformAction ] in WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction in Block: [ self basicPerformAction ]
+BlockClosure>>on:do:
+WADebugErrorHandler(WAExceptionHandler)>>handleExceptionsDuring:
+[ currentHandler handleExceptionsDuring: aBlock ] in WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo: in Block: [ currentHandler handleExceptionsDuring: aBlock ]
+BlockClosure>>on:do:
+WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo:
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction
+[ super performAction ] in WACallbackProcessingActionContinuation>>performAction in Block: [ super performAction ]
+BlockClosure>>ensure:
+WACallbackProcessingActionContinuation>>performAction
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>handleFiltered:
+[ self filter handleFiltered: aRequestContext ] in WACallbackProcessingActionContinuation(WARequestHandler)>>handle: in Block: [ self filter handleFiltered: aRequestContext ]
+[ activeProcess psValueAt: index put: anObject.
+aBlock value ] in WACurrentRequestContext(DynamicVariable)>>value:during: in Block: [ activeProcess psValueAt: index put: anObject....
+BlockClosure>>ensure:
+WACurrentRequestContext(DynamicVariable)>>value:during:
+WACurrentRequestContext class(DynamicVariable class)>>value:during:
+WACurrentRequestContext class(GRDynamicVariable class)>>use:during:
+[ WACurrentRequestContext use: self during: aBlock ] in WARequestContext>>push:during: in Block: [ WACurrentRequestContext use: self during: aBlock...etc...
+BlockClosure>>ensure:
+WARequestContext>>push:during:
+WACallbackProcessingActionContinuation(WARequestHandler)>>handle:
+[0m[31mMessageNotUnderstood: TBAdminComponent>> #goToAdministrationView
+[0mTBAdminComponent(Object)>>doesNotUnderstand: #goToAdministrationView
+[ component goToAdministrationView ] in [ html tbsNavbarButton
+	tbsPullRight;
+	callback: [ component goToAdministrationView ];
+	with: [ html tbsGlyphIcon iconListAlt.
+		html text: ' Admin View' ] ] in TBHeaderComponent>>renderSimpleAdminButtonOn: in Block: [ component goToAdministrationView ]
+BlockClosure>>valueWithPossibleArguments:
+WAActionCallback>>evaluateWithArgument:
+WAActionCallback(WACallback)>>evaluateWithFieldValues:
+[ :callback | callback evaluateWithFieldValues: (fields allAt: callback key) ] in WACallbackRegistry>>handle: in Block: [ :callback | callback evaluateWithFieldValues: (f...etc...
+Array(SequenceableCollection)>>do:
+WACallbackRegistry>>handle:
+WACallbackProcessingActionContinuation>>basicPerformAction
+[ self basicPerformAction ] in WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction in Block: [ self basicPerformAction ]
+BlockClosure>>on:do:
+WADebugErrorHandler(WAExceptionHandler)>>handleExceptionsDuring:
+[ currentHandler handleExceptionsDuring: aBlock ] in WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo: in Block: [ currentHandler handleExceptionsDuring: aBlock ]
+BlockClosure>>on:do:
+WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo:
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction
+[ super performAction ] in WACallbackProcessingActionContinuation>>performAction in Block: [ super performAction ]
+BlockClosure>>ensure:
+WACallbackProcessingActionContinuation>>performAction
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>handleFiltered:
+[ self filter handleFiltered: aRequestContext ] in WACallbackProcessingActionContinuation(WARequestHandler)>>handle: in Block: [ self filter handleFiltered: aRequestContext ]
+[ activeProcess psValueAt: index put: anObject.
+aBlock value ] in WACurrentRequestContext(DynamicVariable)>>value:during: in Block: [ activeProcess psValueAt: index put: anObject....
+BlockClosure>>ensure:
+WACurrentRequestContext(DynamicVariable)>>value:during:
+WACurrentRequestContext class(DynamicVariable class)>>value:during:
+WACurrentRequestContext class(GRDynamicVariable class)>>use:during:
+[ WACurrentRequestContext use: self during: aBlock ] in WARequestContext>>push:during: in Block: [ WACurrentRequestContext use: self during: aBlock...etc...
+BlockClosure>>ensure:
+WARequestContext>>push:during:
+WACallbackProcessingActionContinuation(WARequestHandler)>>handle:
+[0m[31mBreak
+[0m[ html
+	tbsModalDialog: [ html
+			tbsModalContent: [ self renderHeaderOn: html.
+				self renderBodyOn: html ] ] ] in TBAuthentificationComponent>>renderContentOn: in Block: [ html...
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in TBSModalTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+TBSModalTag(WABrush)>>with:
+TBSModalTag(WATagBrush)>>with:
+TBAuthentificationComponent>>renderContentOn:
+WARenderVisitor>>visitPainter:
+WARenderVisitor(WAPainterVisitor)>>visitPresenter:
+WARenderVisitor(WAPainterVisitor)>>visitComponent:
+TBAuthentificationComponent(WAComponent)>>accept:
+WARenderVisitor(WAVisitor)>>visit:
+WARenderingGuide(WAPresenterGuide)>>visitPainter:
+WARenderingGuide(WAPainterVisitor)>>visitPresenter:
+WARenderingGuide(WAPainterVisitor)>>visitComponent:
+TBAuthentificationComponent(WAComponent)>>accept:
+WARenderingGuide(WAPainterVisitor)>>visitDecorationsOfComponent:
+TBAuthentificationComponent(WAComponent)>>acceptDecorated:
+WARenderingGuide(WAPresenterGuide)>>visit:
+TBAuthentificationComponent(WAPainter)>>renderWithContext:
+TBAuthentificationComponent(WAPainter)>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+TBHeaderComponent>>renderModalLoginButtonOn:
+TBHeaderComponent>>renderButtonsOn:
+[0m[31mBreak
+[0mTBAuthentificationComponent>>renderButtonsOn:
+[ self renderButtonsOn: html ] in [ self renderAccountFieldOn: html.
+self renderPasswordFieldOn: html.
+html tbsModalFooter: [ self renderButtonsOn: html ] ] in [ html
+	tbsForm: [ self renderAccountFieldOn: html.
+		self renderPasswordFieldOn: html.
+		html tbsModalFooter: [ self renderButtonsOn: html ] ] ] in TBAuthentificationComponent>>renderBodyOn: in Block: [ self renderButtonsOn: html ]
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in WAGenericTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+WAGenericTag(WABrush)>>with:
+WAGenericTag(WATagBrush)>>with:
+WAHtmlCanvas>>tbsModalFooter:
+[ self renderAccountFieldOn: html.
+self renderPasswordFieldOn: html.
+html tbsModalFooter: [ self renderButtonsOn: html ] ] in [ html
+	tbsForm: [ self renderAccountFieldOn: html.
+		self renderPasswordFieldOn: html.
+		html tbsModalFooter: [ self renderButtonsOn: html ] ] ] in TBAuthentificationComponent>>renderBodyOn: in Block: [ self renderAccountFieldOn: html....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in TBSFormTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+TBSFormTag(WABrush)>>with:
+TBSFormTag(WATagBrush)>>with:
+WAHtmlCanvas>>tbsForm:
+[ html
+	tbsForm: [ self renderAccountFieldOn: html.
+		self renderPasswordFieldOn: html.
+		html tbsModalFooter: [ self renderButtonsOn: html ] ] ] in TBAuthentificationComponent>>renderBodyOn: in Block: [ html...
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in WAGenericTag(WATagBrush)>>with: in Block: [ self before....
+[0m[31mBreak
+[0mTBAuthentificationComponent>>password
+TBAuthentificationComponent>>validate
+[ self validate ] in TBAuthentificationComponent>>renderButtonsOn: in Block: [ self validate ]
+BlockClosure>>valueWithPossibleArguments:
+WAActionCallback>>evaluateWithArgument:
+WAActionCallback(WACallback)>>evaluateWithFieldValues:
+[ :callback | callback evaluateWithFieldValues: (fields allAt: callback key) ] in WACallbackRegistry>>handle: in Block: [ :callback | callback evaluateWithFieldValues: (f...etc...
+Array(SequenceableCollection)>>do:
+WACallbackRegistry>>handle:
+WACallbackProcessingActionContinuation>>basicPerformAction
+[ self basicPerformAction ] in WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction in Block: [ self basicPerformAction ]
+BlockClosure>>on:do:
+WADebugErrorHandler(WAExceptionHandler)>>handleExceptionsDuring:
+[ currentHandler handleExceptionsDuring: aBlock ] in WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo: in Block: [ currentHandler handleExceptionsDuring: aBlock ]
+BlockClosure>>on:do:
+WACallbackProcessingActionContinuation(WARenderLoopContinuation)>>withNotificationHandlerDo:
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>performAction
+[ super performAction ] in WACallbackProcessingActionContinuation>>performAction in Block: [ super performAction ]
+BlockClosure>>ensure:
+WACallbackProcessingActionContinuation>>performAction
+WACallbackProcessingActionContinuation(WAActionPhaseContinuation)>>handleFiltered:
+[ self filter handleFiltered: aRequestContext ] in WACallbackProcessingActionContinuation(WARequestHandler)>>handle: in Block: [ self filter handleFiltered: aRequestContext ]
+[ activeProcess psValueAt: index put: anObject.
+aBlock value ] in WACurrentRequestContext(DynamicVariable)>>value:during: in Block: [ activeProcess psValueAt: index put: anObject....
+BlockClosure>>ensure:
+WACurrentRequestContext(DynamicVariable)>>value:during:
+WACurrentRequestContext class(DynamicVariable class)>>value:during:
+WACurrentRequestContext class(GRDynamicVariable class)>>use:during:
+[ WACurrentRequestContext use: self during: aBlock ] in WARequestContext>>push:during: in Block: [ WACurrentRequestContext use: self during: aBlock...etc...
+BlockClosure>>ensure:
+WARequestContext>>push:during:
+[0m[31mMessageNotUnderstood: WASession>> #isLogged
+[0mWASession(Object)>>doesNotUnderstand: #isLogged
+TBHeaderComponent>>renderButtonsOn:
+[ self renderBrandOn: html.
+self renderButtonsOn: html ] in [ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ self renderBrandOn: html....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in WAGenericTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+WAGenericTag(WABrush)>>with:
+WAGenericTag(WATagBrush)>>with:
+WAHtmlCanvas>>tbsContainer:
+[ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ html...
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in TBSNavbarTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+TBSNavbarTag(WABrush)>>with:
+TBSNavbarTag(WATagBrush)>>with:
+TBHeaderComponent>>renderContentOn:
+WARenderVisitor>>visitPainter:
+WARenderVisitor(WAPainterVisitor)>>visitPresenter:
+WARenderVisitor(WAPainterVisitor)>>visitComponent:
+TBHeaderComponent(WAComponent)>>accept:
+[0m[31mMessageNotUnderstood: WASession>> #isLogged
+[0mWASession(Object)>>doesNotUnderstand: #isLogged
+TBHeaderComponent>>renderButtonsOn:
+[ self renderBrandOn: html.
+self renderButtonsOn: html ] in [ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ self renderBrandOn: html....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in WAGenericTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+WAGenericTag(WABrush)>>with:
+WAGenericTag(WATagBrush)>>with:
+WAHtmlCanvas>>tbsContainer:
+[ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ html...
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in TBSNavbarTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+TBSNavbarTag(WABrush)>>with:
+TBSNavbarTag(WATagBrush)>>with:
+TBHeaderComponent>>renderContentOn:
+WARenderVisitor>>visitPainter:
+WARenderVisitor(WAPainterVisitor)>>visitPresenter:
+WARenderVisitor(WAPainterVisitor)>>visitComponent:
+TBHeaderComponent(WAComponent)>>accept:
+[0m[31mMessageNotUnderstood: WASession>> #isLogged
+[0mWASession(Object)>>doesNotUnderstand: #isLogged
+TBHeaderComponent>>DoItIn:
+UndefinedObject(ProtoObject)>>mustBeBooleanDeOptimizeIn:
+UndefinedObject(ProtoObject)>>mustBeBoolean
+TBHeaderComponent>>renderButtonsOn:
+[ self renderBrandOn: html.
+self renderButtonsOn: html ] in [ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ self renderBrandOn: html....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in WAGenericTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+WAGenericTag(WABrush)>>with:
+WAGenericTag(WATagBrush)>>with:
+WAHtmlCanvas>>tbsContainer:
+[ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ html...
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in TBSNavbarTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+TBSNavbarTag(WABrush)>>with:
+TBSNavbarTag(WATagBrush)>>with:
+TBHeaderComponent>>renderContentOn:
+WARenderVisitor>>visitPainter:
+[0m[31mMessageNotUnderstood: WASession>> #isLogged
+[0mWASession(Object)>>doesNotUnderstand: #isLogged
+TBHeaderComponent>>DoItIn:
+UndefinedObject(ProtoObject)>>mustBeBooleanDeOptimizeIn:
+UndefinedObject(ProtoObject)>>mustBeBoolean
+TBHeaderComponent>>renderButtonsOn:
+[ self renderBrandOn: html.
+self renderButtonsOn: html ] in [ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ self renderBrandOn: html....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in WAGenericTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+WAGenericTag(WABrush)>>with:
+WAGenericTag(WATagBrush)>>with:
+WAHtmlCanvas>>tbsContainer:
+[ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ html...
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in TBSNavbarTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+TBSNavbarTag(WABrush)>>with:
+TBSNavbarTag(WATagBrush)>>with:
+TBHeaderComponent>>renderContentOn:
+WARenderVisitor>>visitPainter:
+[0m[31mMessageNotUnderstood: receiver of "ifTrue:ifFalse:" is nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #ifTrue:ifFalse:
+UndefinedObject>>doesNotUnderstand: #ifTrue:ifFalse:
+TBHeaderComponent>>DoItIn:
+UndefinedObject(ProtoObject)>>mustBeBooleanDeOptimizeIn:
+UndefinedObject(ProtoObject)>>mustBeBoolean
+TBHeaderComponent>>renderButtonsOn:
+[ self renderBrandOn: html.
+self renderButtonsOn: html ] in [ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ self renderBrandOn: html....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in WAGenericTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+WAGenericTag(WABrush)>>with:
+WAGenericTag(WATagBrush)>>with:
+WAHtmlCanvas>>tbsContainer:
+[ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ html...
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in TBSNavbarTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+TBSNavbarTag(WABrush)>>with:
+TBSNavbarTag(WATagBrush)>>with:
+TBHeaderComponent>>renderContentOn:
+[0m[31mMessageNotUnderstood: receiver of "ifTrue:ifFalse:" is nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #ifTrue:ifFalse:
+UndefinedObject>>doesNotUnderstand: #ifTrue:ifFalse:
+TBHeaderComponent>>DoItIn:
+UndefinedObject(ProtoObject)>>mustBeBooleanDeOptimizeIn:
+UndefinedObject(ProtoObject)>>mustBeBoolean
+TBHeaderComponent>>renderButtonsOn:
+[ self renderBrandOn: html.
+self renderButtonsOn: html ] in [ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ self renderBrandOn: html....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in WAGenericTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+WAGenericTag(WABrush)>>with:
+WAGenericTag(WATagBrush)>>with:
+WAHtmlCanvas>>tbsContainer:
+[ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ html...
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in TBSNavbarTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+TBSNavbarTag(WABrush)>>with:
+TBSNavbarTag(WATagBrush)>>with:
+TBHeaderComponent>>renderContentOn:
+[0m[31mMessageNotUnderstood: WASession>> #isLogged
+[0mWASession(Object)>>doesNotUnderstand: #isLogged
+TBHeaderComponent>>renderButtonsOn:
+[ self renderBrandOn: html.
+self renderButtonsOn: html ] in [ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ self renderBrandOn: html....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in WAGenericTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+WAGenericTag(WABrush)>>with:
+WAGenericTag(WATagBrush)>>with:
+WAHtmlCanvas>>tbsContainer:
+[ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ html...
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in TBSNavbarTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+TBSNavbarTag(WABrush)>>with:
+TBSNavbarTag(WATagBrush)>>with:
+TBHeaderComponent>>renderContentOn:
+WARenderVisitor>>visitPainter:
+WARenderVisitor(WAPainterVisitor)>>visitPresenter:
+WARenderVisitor(WAPainterVisitor)>>visitComponent:
+TBHeaderComponent(WAComponent)>>accept:
+[0m[31mMessageNotUnderstood: WASession>> #isLogged
+[0mWASession(Object)>>doesNotUnderstand: #isLogged
+TBHeaderComponent>>renderButtonsOn:
+[ self renderBrandOn: html.
+self renderButtonsOn: html ] in [ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ self renderBrandOn: html....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in WAGenericTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+WAGenericTag(WABrush)>>with:
+WAGenericTag(WATagBrush)>>with:
+WAHtmlCanvas>>tbsContainer:
+[ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ html...
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in TBSNavbarTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+TBSNavbarTag(WABrush)>>with:
+TBSNavbarTag(WATagBrush)>>with:
+TBHeaderComponent>>renderContentOn:
+WARenderVisitor>>visitPainter:
+WARenderVisitor(WAPainterVisitor)>>visitPresenter:
+WARenderVisitor(WAPainterVisitor)>>visitComponent:
+TBHeaderComponent(WAComponent)>>accept:
+[0m[31mMessageNotUnderstood: WASession>> #isLogged
+[0mWASession(Object)>>doesNotUnderstand: #isLogged
+TBHeaderComponent>>renderButtonsOn:
+[ self renderBrandOn: html.
+self renderButtonsOn: html ] in [ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ self renderBrandOn: html....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in WAGenericTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+WAGenericTag(WABrush)>>with:
+WAGenericTag(WATagBrush)>>with:
+WAHtmlCanvas>>tbsContainer:
+[ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ html...
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in TBSNavbarTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+TBSNavbarTag(WABrush)>>with:
+TBSNavbarTag(WATagBrush)>>with:
+TBHeaderComponent>>renderContentOn:
+WARenderVisitor>>visitPainter:
+WARenderVisitor(WAPainterVisitor)>>visitPresenter:
+WARenderVisitor(WAPainterVisitor)>>visitComponent:
+TBHeaderComponent(WAComponent)>>accept:
+[0m[31mMessageNotUnderstood: WASession>> #isLogged
+[0mWASession(Object)>>doesNotUnderstand: #isLogged
+TBHeaderComponent>>renderButtonsOn:
+[ self renderBrandOn: html.
+self renderButtonsOn: html ] in [ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ self renderBrandOn: html....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in WAGenericTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+WAGenericTag(WABrush)>>with:
+WAGenericTag(WATagBrush)>>with:
+WAHtmlCanvas>>tbsContainer:
+[ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ html...
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in TBSNavbarTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+TBSNavbarTag(WABrush)>>with:
+TBSNavbarTag(WATagBrush)>>with:
+TBHeaderComponent>>renderContentOn:
+WARenderVisitor>>visitPainter:
+WARenderVisitor(WAPainterVisitor)>>visitPresenter:
+WARenderVisitor(WAPainterVisitor)>>visitComponent:
+TBHeaderComponent(WAComponent)>>accept:
+[0m[31mMessageNotUnderstood: WASession>> #isLogged
+[0mWASession(Object)>>doesNotUnderstand: #isLogged
+TBHeaderComponent>>DoItIn:
+UndefinedObject(ProtoObject)>>mustBeBooleanDeOptimizeIn:
+UndefinedObject(ProtoObject)>>mustBeBoolean
+TBHeaderComponent>>renderButtonsOn:
+[ self renderBrandOn: html.
+self renderButtonsOn: html ] in [ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ self renderBrandOn: html....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in WAGenericTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+WAGenericTag(WABrush)>>with:
+WAGenericTag(WATagBrush)>>with:
+WAHtmlCanvas>>tbsContainer:
+[ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ html...
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in TBSNavbarTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+TBSNavbarTag(WABrush)>>with:
+TBSNavbarTag(WATagBrush)>>with:
+TBHeaderComponent>>renderContentOn:
+WARenderVisitor>>visitPainter:
+[0m[31mMessageNotUnderstood: WASession>> #isLogged
+[0mWASession(Object)>>doesNotUnderstand: #isLogged
+TBHeaderComponent>>DoItIn:
+UndefinedObject(ProtoObject)>>mustBeBooleanDeOptimizeIn:
+UndefinedObject(ProtoObject)>>mustBeBoolean
+TBHeaderComponent>>renderButtonsOn:
+[ self renderBrandOn: html.
+self renderButtonsOn: html ] in [ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ self renderBrandOn: html....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in WAGenericTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+WAGenericTag(WABrush)>>with:
+WAGenericTag(WATagBrush)>>with:
+WAHtmlCanvas>>tbsContainer:
+[ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ html...
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in TBSNavbarTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+TBSNavbarTag(WABrush)>>with:
+TBSNavbarTag(WATagBrush)>>with:
+TBHeaderComponent>>renderContentOn:
+WARenderVisitor>>visitPainter:
+[0m[31mMessageNotUnderstood: receiver of "ifTrue:ifFalse:" is nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #ifTrue:ifFalse:
+UndefinedObject>>doesNotUnderstand: #ifTrue:ifFalse:
+TBHeaderComponent>>DoItIn:
+UndefinedObject(ProtoObject)>>mustBeBooleanDeOptimizeIn:
+UndefinedObject(ProtoObject)>>mustBeBoolean
+TBHeaderComponent>>renderButtonsOn:
+[ self renderBrandOn: html.
+self renderButtonsOn: html ] in [ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ self renderBrandOn: html....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in WAGenericTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+WAGenericTag(WABrush)>>with:
+WAGenericTag(WATagBrush)>>with:
+WAHtmlCanvas>>tbsContainer:
+[ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ html...
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in TBSNavbarTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+TBSNavbarTag(WABrush)>>with:
+TBSNavbarTag(WATagBrush)>>with:
+TBHeaderComponent>>renderContentOn:
+[0m[31mMessageNotUnderstood: receiver of "ifTrue:ifFalse:" is nil
+[0mUndefinedObject(Object)>>doesNotUnderstand: #ifTrue:ifFalse:
+UndefinedObject>>doesNotUnderstand: #ifTrue:ifFalse:
+TBHeaderComponent>>DoItIn:
+UndefinedObject(ProtoObject)>>mustBeBooleanDeOptimizeIn:
+UndefinedObject(ProtoObject)>>mustBeBoolean
+TBHeaderComponent>>renderButtonsOn:
+[ self renderBrandOn: html.
+self renderButtonsOn: html ] in [ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ self renderBrandOn: html....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in WAGenericTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+WAGenericTag(WABrush)>>with:
+WAGenericTag(WATagBrush)>>with:
+WAHtmlCanvas>>tbsContainer:
+[ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ html...
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in TBSNavbarTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+TBSNavbarTag(WABrush)>>with:
+TBSNavbarTag(WATagBrush)>>with:
+TBHeaderComponent>>renderContentOn:
+[0m[31mMessageNotUnderstood: WASession>> #isLogged
+[0mWASession(Object)>>doesNotUnderstand: #isLogged
+TBHeaderComponent>>renderButtonsOn:
+[ self renderBrandOn: html.
+self renderButtonsOn: html ] in [ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ self renderBrandOn: html....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in WAGenericTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+WAGenericTag(WABrush)>>with:
+WAGenericTag(WATagBrush)>>with:
+WAHtmlCanvas>>tbsContainer:
+[ html
+	tbsContainer: [ self renderBrandOn: html.
+		self renderButtonsOn: html ] ] in TBHeaderComponent>>renderContentOn: in Block: [ html...
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+[ self before.
+canvas render: anObject.
+self after ] in TBSNavbarTag(WATagBrush)>>with: in Block: [ self before....
+BlockClosure>>renderOn:
+WAHtmlCanvas(WARenderer)>>render:
+WAHtmlCanvas(WACanvas)>>render:
+WAHtmlCanvas(WACanvas)>>nest:
+TBSNavbarTag(WABrush)>>with:
+TBSNavbarTag(WATagBrush)>>with:
+TBHeaderComponent>>renderContentOn:
+WARenderVisitor>>visitPainter:
+WARenderVisitor(WAPainterVisitor)>>visitPresenter:
+WARenderVisitor(WAPainterVisitor)>>visitComponent:
+TBHeaderComponent(WAComponent)>>accept:
+[0m[31mInstance of TBHeaderComponent class did not understand #session
+[0mTBHeaderComponent class(Object)>>doesNotUnderstand: #session
+TBHeaderComponent class>>DoIt
 OpalCompiler>>evaluate
-[0m[31m#isTemp was sent to nil
-[0mUndefinedObject(Object)>>doesNotUnderstand: #isTemp
-UndefinedObject>>doesNotUnderstand: #isTemp
-OCASTSemanticAnalyzer>>visitVariableNode:
-RBVariableNode>>acceptVisitor:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
-RBMessageNode>>acceptVisitor:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitMessageNode:
-RBMessageNode>>acceptVisitor:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
-[ :each | self visitNode: each ] in OCASTSemanticAnalyzer>>visitSequenceNode: in Block: [ :each | self visitNode: each ]
-OrderedCollection>>do:
-OCASTSemanticAnalyzer>>visitSequenceNode:
-RBSequenceNode>>acceptVisitor:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
-OCASTSemanticAnalyzer>>visitMethodNode:
-RBMethodNode>>acceptVisitor:
-OCASTSemanticAnalyzer(RBProgramNodeVisitor)>>visitNode:
-OCASTSemanticAnalyzer>>analyze:
-RBMethodNode>>doSemanticAnalysis
-[ ast doSemanticAnalysis ] in OpalCompiler>>doSemanticAnalysis in Block: [ ast doSemanticAnalysis ]
-BlockClosure>>on:do:
-OpalCompiler>>doSemanticAnalysis
-[ self parse.
-self transformDoit.
-self doSemanticAnalysis.
-self callPlugins ] in [ [ self parse.
-self transformDoit.
-self doSemanticAnalysis.
-self callPlugins ]
-	on: ReparseAfterSourceEditing
-	do: [ :notification | 
-		self source: notification newSource.
-		notification retry ].
-cm := compilationContext optionEmbeddSources
-	ifTrue: [ ast generateWithSource ]
-	ifFalse: [ ast generate: self compilationContext compiledMethodTrailer ] ] in OpalCompiler>>compile in Block: [ self parse....
-BlockClosure>>on:do:
-[ [ self parse.
-self transformDoit.
-self doSemanticAnalysis.
-self callPlugins ]
-	on: ReparseAfterSourceEditing
-	do: [ :notification | 
-		self source: notification newSource.
-		notification retry ].
-cm := compilationContext optionEmbeddSources
-	ifTrue: [ ast generateWithSource ]
-	ifFalse: [ ast generate: self compilationContext compiledMethodTrailer ] ] in OpalCompiler>>compile in Block: [ [ self parse....
-BlockClosure>>on:do:
-OpalCompiler>>compile
-OpalCompiler>>evaluate
-[0m[31mInstance of TBBlog did not understand #allCategories
-[0mTBBlog(Object)>>doesNotUnderstand: #allCategories
-TBBlogTest>>testAllCategories
-TBBlogTest(TestCase)>>performTest
-[ self setUp.
-self performTest ] in TBBlogTest(TestCase)>>runCase in Block: [ self setUp....
+ClyTextEditor(RubSmalltalkEditor)>>evaluate:andDo:
+ClyTextEditor(RubSmalltalkEditor)>>evaluateSelectionAndDo:
+ClyTextEditor>>printIt
+RubEditingArea(Object)>>perform:orSendTo:
+[ | selArgCount |
+"show cursor in case item opens a new MVC window"
+(selArgCount := selector numArgs) = 0
+	ifTrue: [ target perform: selector ]
+	ifFalse: [ selArgCount = arguments size
+			ifTrue: [ target perform: selector withArguments: arguments ]
+			ifFalse: [ target perform: selector withArguments: (arguments copyWith: evt) ] ].
+self showShortcut.
+self changed ] in ToggleMenuItemMorph(MenuItemMorph)>>invokeWithEvent: in Block: [ | selArgCount |...
 BlockClosure>>ensure:
-TBBlogTest(TestCase)>>runCase
-[ aTestCase runCase ] in [ [ aTestCase runCase ]
-	on: Halt
-	do: [ :halt | 
-		"if test was halted we should resume all background failures 
-			to debug all of them together with test process"
-		failedProcesses keysDo: #resume.
-		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ aTestCase runCase ]
-BlockClosure>>on:do:
-[ [ aTestCase runCase ]
-	on: Halt
-	do: [ :halt | 
-		"if test was halted we should resume all background failures 
-			to debug all of them together with test process"
-		failedProcesses keysDo: #resume.
-		halt pass ] ] in TestExecutionEnvironment>>runTestCaseSafelly: in Block: [ [ aTestCase runCase ]...
-BlockClosure>>on:do:
-TestExecutionEnvironment>>runTestCaseSafelly:
-[ self runTestCaseSafelly: aTestCase ] in [ [ self runTestCaseSafelly: aTestCase ]
-	ensure: [ testCompleted := true.
-		watchDogSemaphore signal ].	"signal that test case completes"
-self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ self runTestCaseSafelly: aTestCase ]
+CursorWithMask(Cursor)>>showWhile:
+ToggleMenuItemMorph(MenuItemMorph)>>invokeWithEvent:
+ToggleMenuItemMorph(MenuItemMorph)>>mouseUp:
+ToggleMenuItemMorph(MenuItemMorph)>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+ToggleMenuItemMorph(Morph)>>handleEvent:
+MorphicEventDispatcher>>dispatchDefault:with:
+MorphicEventDispatcher>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with: in Block: [ ^ anEvent sentTo: self ]
 BlockClosure>>ensure:
-[ [ self runTestCaseSafelly: aTestCase ]
-	ensure: [ testCompleted := true.
-		watchDogSemaphore signal ].	"signal that test case completes"
-self checkForkedProcesses ] in TestExecutionEnvironment>>runTestCase: in Block: [ [ self runTestCaseSafelly: aTestCase ]...
-BlockClosure>>ifCurtailed:
-TestExecutionEnvironment>>runTestCase:
-[ testEnv runTestCase: aTestCase ] in DefaultExecutionEnvironment>>runTestCase: in Block: [ testEnv runTestCase: aTestCase ]
-[ self value: anExecutionEnvironment.
-anExecutionEnvironment activated.
-aBlock value ] in CurrentExecutionEnvironment class>>activate:for: in Block: [ self value: anExecutionEnvironment....
+MorphicEventDispatcher>>dispatchEvent:with:
+ToggleMenuItemMorph(Morph)>>processEvent:using:
+MorphicEventDispatcher>>dispatchDefault:with:
+MorphicEventDispatcher>>handleMouseUp:
+MouseButtonEvent>>sentTo:
+[ ^ anEvent sentTo: self ] in MorphicEventDispatcher>>dispatchEvent:with: in Block: [ ^ anEvent sentTo: self ]
 BlockClosure>>ensure:
-CurrentExecutionEnvironment class>>activate:for:
-TestExecutionEnvironment(ExecutionEnvironment)>>beActiveDuring:
-DefaultExecutionEnvironment>>runTestCase:
-CurrentExecutionEnvironment class>>runTestCase:
-TBBlogTest(TestCase)>>runCaseManaged
-[ aTestCase announce: TestCaseStarted withResult: self.
-aTestCase runCaseManaged.
-aTestCase announce: TestCaseEnded withResult: self.
-"To not affect performance of big test suites following logic is not inside addPass: method"
-errors remove: aTestCase ifAbsent: [  ].
-failures remove: aTestCase ifAbsent: [  ].
-self addPass: aTestCase ] in TestResult>>runCaseForDebug: in Block: [ aTestCase announce: TestCaseStarted withResult: ...etc...
-BlockClosure>>on:do:
-TestResult>>runCaseForDebug:
-[ result runCaseForDebug: self ] in TBBlogTest(TestCase)>>debug in Block: [ result runCaseForDebug: self ]
-BlockClosure>>ensure:
-TBBlogTest(TestCase)>>debug
+MorphicEventDispatcher>>dispatchEvent:with:
+MenuMorph(Morph)>>processEvent:using:
+MenuMorph(Morph)>>processEvent:
 [0m

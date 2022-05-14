@@ -2,3 +2,8 @@
 1bb2bedf017e63399f5834ab034caf6b5a5a3fe4 de9b4c181437bab6df0cad5fd476cbd7035c1f82 Luka <l.momcilovic61@gmail.com> 1651499947 +0200	commit: added tests
 de9b4c181437bab6df0cad5fd476cbd7035c1f82 f56d345b6f2ed6a8d9726a68e414fe5326e6ccff Luka <l.momcilovic61@gmail.com> 1651500232 +0200	commit: Zavrsen 2. deo: core model
 f56d345b6f2ed6a8d9726a68e414fe5326e6ccff 14bc1415d79277174ac80959220f4d695b4f6eec Luka <l.momcilovic61@gmail.com> 1651501304 +0200	commit: Zavrsen 3. deo: testiranje
+14bc1415d79277174ac80959220f4d695b4f6eec 874e41b7ef3fd0035abca52e083524e32677317e Luka <l.momcilovic61@gmail.com> 1652519028 +0200	commit: Zavrsen 4. deo Voyage
+874e41b7ef3fd0035abca52e083524e32677317e 88033fb1ab4a0bc3f9e32b9c05a3c61b92caca95 Luka <l.momcilovic61@gmail.com> 1652520607 +0200	commit: Zavrsen 5. deo Seaside
+88033fb1ab4a0bc3f9e32b9c05a3c61b92caca95 4e83f95fa7f0f926036d9ef85cb8034303978cc4 Luka <l.momcilovic61@gmail.com> 1652523052 +0200	commit: Zavrsen 6. deo web komponente i 7. deo kategorije
+4e83f95fa7f0f926036d9ef85cb8034303978cc4 a707f6cd53549ff5dbf97bd68090dd8bd4132629 Luka <l.momcilovic61@gmail.com> 1652525564 +0200	commit: Zavrsen 8. deo autentikacija i sesija
+a707f6cd53549ff5dbf97bd68090dd8bd4132629 78bd572d81469b679e863d72aff281d55e069b80 Luka <l.momcilovic61@gmail.com> 1652535200 +0200	commit: Zavrsen 9. deo administrativni web interface i automatska generacija form

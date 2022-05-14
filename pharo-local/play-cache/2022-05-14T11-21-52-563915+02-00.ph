@@ -1,0 +1,1 @@
+TBApplicationRootComponent  initialize 

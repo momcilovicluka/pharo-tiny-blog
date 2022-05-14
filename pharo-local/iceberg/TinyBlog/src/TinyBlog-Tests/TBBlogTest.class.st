@@ -4,25 +4,25 @@ Class {
 	#instVars : [
 		'blog',
 		'post',
-		'first'
+		'first',
+		'previousRepository'
 	],
 	#category : #'TinyBlog-Tests'
 }
 
 { #category : #running }
 TBBlogTest >> setUp [
+	previousRepository := VORepository current.
+	VORepository setRepository: VOMemoryRepository new.
 	blog := TBBlog current.
-	blog removeAllPosts.
 	first := TBPost title: 'A title' text: 'A text' category: 'First Category'.
 	blog writeBlogPost: first.
 	post := (TBPost title: 'Another title' text: 'Another text' category: 'Second Category') beVisible
-
 ]
 
 { #category : #running }
 TBBlogTest >> tearDown [
-	TBBlog reset
-
+	VORepository setRepository: previousRepository
 ]
 
 { #category : #running }
@@ -68,6 +68,14 @@ TBBlogTest >> testAllVisibleBlogPostsFromCategory [
 TBBlogTest >> testRemoveAllBlogPosts [
 	blog removeAllPosts.
 	self assert: blog size equals: 0
+]
+
+{ #category : #tests }
+TBBlogTest >> testRemoveBlogPost [
+	self assert: blog size equals: 1.
+	blog removeBlogPost: blog allBlogPosts anyOne.
+	self assert: blog size equals: 0
+
 ]
 
 { #category : #tests }

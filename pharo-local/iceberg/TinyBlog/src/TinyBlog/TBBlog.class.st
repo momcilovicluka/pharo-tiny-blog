@@ -2,7 +2,8 @@ Class {
 	#name : #TBBlog,
 	#superclass : #Object,
 	#instVars : [
-		'posts'
+		'posts',
+		'adminUser'
 	],
 	#classInstVars : [
 		'uniqueInstance'
@@ -22,21 +23,52 @@ self current
 
 ]
 
-{ #category : #accessing }
+{ #category : #testing }
 TBBlog class >> current [
-	"answer the instance of the TBRepository"
-	^ uniqueInstance ifNil: [ uniqueInstance := self new ]
+	^ self selectAll
+	ifNotEmpty: [ :x | x anyOne ]
+	ifEmpty: [ self new save ]
+
 ]
 
-{ #category : #accessing }
+{ #category : #'as yet unclassified' }
+TBBlog class >> defaultAdminLogin [
+	^ 'admin'
+
+]
+
+{ #category : #'as yet unclassified' }
+TBBlog class >> defaultAdminPassword [
+	^ 'topsecret'
+]
+
+{ #category : #testing }
 TBBlog class >> initialize [
 	self reset
 ]
 
-{ #category : #initialization }
-TBBlog class >> reset [
-	uniqueInstance := nil
+{ #category : #testing }
+TBBlog class >> initializeVoyageOnMemoryDB [
+	VOMemoryRepository new enableSingleton
 
+]
+
+{ #category : #testing }
+TBBlog class >> isVoyageRoot [
+	"Indicates that instances of this class are top level documents in noSQL databases"
+	^ true
+
+]
+
+{ #category : #testing }
+TBBlog class >> reset [
+	self initializeVoyageOnMemoryDB
+
+]
+
+{ #category : #'as yet unclassified' }
+TBBlog >> administrator [
+	^ adminUser
 ]
 
 { #category : #'as yet unclassified' }
@@ -67,15 +99,34 @@ TBBlog >> allVisibleBlogPostsFromCategory: aCategory [
 
 ]
 
-{ #category : #initialization }
+{ #category : #'as yet unclassified' }
+TBBlog >> createAdministrator [
+	^ TBAdministrator
+		login: self class defaultAdminLogin
+		password: self class defaultAdminPassword
+
+]
+
+{ #category : #'as yet unclassified' }
 TBBlog >> initialize [
 	super initialize.
-	posts := OrderedCollection new
+	posts := OrderedCollection new.
+	adminUser := self createAdministrator
+
+]
+
+{ #category : #writing }
+TBBlog >> removeAllPosts [
+	posts := OrderedCollection new.
+	self save.
+
 ]
 
 { #category : #removing }
-TBBlog >> removeAllPosts [
-	posts := OrderedCollection new
+TBBlog >> removeBlogPost: aPost [
+	posts remove: aPost ifAbsent: [ ].
+	self save.
+
 ]
 
 { #category : #removing }
@@ -83,8 +134,10 @@ TBBlog >> size [
 	^ posts size
 ]
 
-{ #category : #removing }
+{ #category : #writing }
 TBBlog >> writeBlogPost: aPost [
-	"Add the blog post to the list of posts."
-	posts add: aPost
+	"Write the blog post in database"
+	self allBlogPosts add: aPost.
+	self save
+
 ]
